@@ -1,0 +1,94 @@
+\documentclass[11pt, twocolumn]{article}
+\usepackage[margin=0.75in, columnsep=0.25in]{geometry}
+\usepackage{times}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+% List spacing
+\setlist{itemsep=2pt, topsep=2pt, leftmargin=*}
+\linespread{1.0}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{AI Reading Exercise: Class 3}}
+\rhead{Daniel Hardesty Lewis}
+\lfoot{PLANA6613\_001\_2026\_1}
+\rfoot{February 3, 2026}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \noindent
+    \textbf{\LARGE AI Reading Exercise: Class 3} \hfill \textbf{Daniel Hardesty Lewis} \\
+    \noindent
+    \textit{The Economic Impact of Urban Technologies} \hfill February 3, 2026
+    \vspace{5pt}
+    \hrule
+    \vspace{10pt}
+  \end{@twocolumnfalse}
+]
+
+\section*{Tool \& Process}
+\textbf{AI Tool Used:} Google Gemini.
+
+\noindent
+\textbf{Process:} I used iterative prompting to move beyond generic answers. The most effective strategy was requesting "distinct measurement methodologies" rather than general impacts. The core prompt was: \textit{"What are three specific observational methodologies cities use to measure economic impact, excluding simple GDP metrics?"} This flagged the ISO standard and Big Data approaches quickly.
+
+\section*{Key Findings: Distinct Methodologies}
+\begin{itemize}
+    \item \textbf{Standardized Indicator Frameworks:} Cities rely on the \textbf{ISO 37122} standard ("Indicators for smart cities") to benchmark performance. Unlike general economic stats, this includes specific urban-tech metrics like "percentage of labor force in ICT" and "number of startups per capita," allowing comparison between global smart cities \cite{iso37122}.
+
+    \item \textbf{Life Cycle Cost-Benefit Analysis (LCCBA):} For physical infrastructure, cities use LCCBA to justify high initial costs. This method anticipates long-term savings not just in maintenance, but in indirect "social costs" (e.g., traffic disruption avoided). New York City's analysis of "utilidors" (utility tunnels) is a key example, quantifying the long-term economic value of accessible subsurface infrastructure \cite{nycutilidors}.
+
+    \item \textbf{Big Data \& Digital Footprints:} Moving beyond annual censuses, cities now use "nowcasting" with digital data. Methodologies involve aggregating anonymized private-sector data (cell phone pings, credit card transactions, LinkedIn hiring shifts) to measure diverse economic activities in real-time, particularly for the informal economy \cite{worldbankdata}.
+\end{itemize}
+
+\section*{Verification ("Human-in-the-Loop")}
+\textbf{Real-World Citations:}
+\begin{enumerate}
+    \item \textbf{[ISO 37122]} ISO. (2019). \textit{ISO 37122:2019 Sustainable cities and communities — Indicators for smart cities}. \cite{iso37122}
+    \item \textbf{[LCCBA]} NYC Dept. of Design \& Construction. (n.d.). \textit{Town+Gown:NYC Utilidor Working Group Resources}. \cite{nycutilidors}
+    \item \textbf{[Big Data]} World Bank Group. (2017). \textit{Big Data Innovation Challenge: Measuring Economic Activity}. \cite{worldbankdata}
+\end{enumerate}
+
+\noindent
+\textbf{Hallucination/Accuracy Check:} The AI was generally accurate but lazy with citations. It initially suggested a non-specific "Global Smart City Report 2024" which does not exist as a primary source. I had to manually guide it to the specific \textbf{ISO 37122} standard (distinguishing it from the older 37120) and find the direct \textbf{Town+Gown} PDF, as the AI only provided the agency's landing page.
+
+\section*{Critical Reflection}
+The AI excels as a "methodology map" generator—it quickly identified the three correct analytical "buckets" (Standards, Financial Analysis, Big Data). However, it failed to act as a reliable librarian. Its citations were either generic or landing pages rather than direct documents. For a planner, it is a useful brainstorming tool but requires total verification of every specific claim and source.
+
+% References
+\bibliographystyle{IEEEtran}
+\renewcommand{\refname}{\section*{References}} 
+\begin{thebibliography}{9}
+
+\bibitem{iso37122}
+ISO, ``ISO 37122:2019 Sustainable cities and communities,'' 2019. [Online]. \url{https://www.iso.org/standard/69050.html}
+
+\bibitem{nycutilidors}
+NYC DDC, ``Town+Gown: Utilidor Working Group,'' n.d. [Online]. \url{https://www1.nyc.gov/site/ddc/about/town-gown-working-groups.page}
+
+\bibitem{worldbankdata}
+World Bank, ``Big Data for Sustainable Development,'' 2017. [Online]. \url{https://www.worldbank.org/en/topic/bigdata}
+
+\end{thebibliography}
+
+\end{document}
