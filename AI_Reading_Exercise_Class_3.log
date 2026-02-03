@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 16:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,7 +244,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
-8.
+1.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -256,24 +256,24 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 ) (AI_Reading_Exercise_Class_3.aux)
 \openout1 = `AI_Reading_Exercise_Class_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -309,7 +309,7 @@ LaTeX Font Info:    ... okay on input line 58.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 51.
 (AI_Reading_Exercise_Class_3.out) (AI_Reading_Exercise_Class_3.out)
 \@outlinefile=\write3
 \openout3 = `AI_Reading_Exercise_Class_3.out'.
@@ -329,57 +329,51 @@ Package hyperref Info: Link coloring ON on input line 58.
 \makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-0.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+4.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1596) in paragraph at lines 84--85
+Underfull \hbox (badness 1596) in paragraph at lines 78--79
 \OT1/ptm/m/n/10.95 dig-i-tal data. Method-olo-gies in-volve ag-gre-gat-ing
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-00.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
+9.
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 100.
+(Font)              <9> on input line 99.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 100.
+(Font)              <6> on input line 99.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 100.
+(Font)              <5> on input line 99.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-\OT1/ptm/m/n/9 2019. [On-line]. [][]$\OT1/pcr/m/n/9 https : / / www . iso . org
- / standard /
+Underfull \hbox (badness 6893) in paragraph at lines 102--103
+[]\OT1/ptm/m/n/9 NYC De-part-ment of De-sign and Con-struc-tion (DDC).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-\OT1/ptm/m/n/9 line]. [][]$\OT1/pcr/m/n/9 https : / / www1 . nyc . gov / site /
- ddc / about /
+Underfull \hbox (badness 7869) in paragraph at lines 102--103
+\OT1/ptm/m/n/9 (2018). \OT1/ptm/m/it/9 Town+Gown:NYC Utili-dor Work-ing Group R
+e-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 106--107
-\OT1/ptm/m/n/9 [On-line]. [][]$\OT1/pcr/m/n/9 https : / / www . worldbank . org
- / en / topic /
+Underfull \hbox (badness 7851) in paragraph at lines 102--103
+\OT1/ptm/m/it/9 sources\OT1/ptm/m/n/9 . New York, NY: City of New York. Avail-
  []
 
 
+Underfull \hbox (badness 2478) in paragraph at lines 105--106
+\OT1/ptm/m/it/9 Mea-sur-ing Eco-nomic Ac-tiv-ity\OT1/ptm/m/n/9 . Wash-ing-ton, 
+D.C.: World
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1{C:/Users/dhl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dhl/
 AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -396,20 +390,20 @@ nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10072 strings out of 468081
- 157434 string characters out of 5426756
- 593884 words of memory out of 5000000
- 38645 multiletter control sequences out of 15000+600000
- 640912 words of font info for 63 fonts, out of 8000000 for 9000
+ 10056 strings out of 468081
+ 156965 string characters out of 5426756
+ 594801 words of memory out of 5000000
+ 38628 multiletter control sequences out of 15000+600000
+ 642596 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,484b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,482b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pf
 b><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 70652 bytes).
+Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 74582 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
