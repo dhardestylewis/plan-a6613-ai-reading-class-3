@@ -10,7 +10,7 @@
 % Aggressive compacting
 \setlist{nosep, leftmargin=*} 
 \linespread{0.95} 
-\setlength{\parskip}{2pt} 
+\setlength{\parskip}{3pt} 
 
 % Tight section formatting
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
@@ -65,57 +65,29 @@
 ]
 
 \section*{Tool \& Process: The Iterative "Audit"}
-\textbf{Introduction to Method:} 
-To use Generative AI for urban research effectively, one must move beyond its default "generalist" setting, forcing it to act as a specialized "methodology auditor."
+To use Generative AI for urban research effectively, one must move beyond its default "generalist" settings and force it to act as a specialized "methodology auditor." 
 
-\textbf{Execution Strategy:}
-My central thesis was that generic prompts yield generic "GDP" answers; therefore, strict iterative prompting is required to unearth specific planning methodologies. I executed a multi-step audit:
-\begin{enumerate}
-    \item \textbf{Tool Selection:} I utilized Google Gemini for its integrated web-retrieval capabilities, essential for locating recent policy documents.
-    \item \textbf{Refinement (Thesis):} I rejected initial responses, iterating with the constraint: \textit{"Exclude simple GDP metrics. Identify specific observational methodologies."}
-    \item \textbf{Synthesis:} This forced the model to pivot from abstract economic concepts to concrete data frameworks like ISO standards.
-    \item \textbf{Conclusion:} The process confirmed that AI requires "planner-logic" constraints to be useful.
-\end{enumerate}
+My central thesis for this interaction was that generic prompts yield generic "GDP" answers; therefore, strict iterative prompting is required to unearth specific planning methodologies. I executed a multi-step audit to test this. First, I utilized Google Gemini for its integrated web-retrieval capabilities, essential for locating recent policy documents. I then explicitly rejected initial responses, iterating with the constraint to \textit{"exclude simple GDP metrics and identify specific observational methodologies."} This forced the model to pivot from abstract economic concepts to concrete data frameworks like ISO standards, confirming that AI requires "planner-logic" constraints to be professionally useful.
 
 \section*{Key Findings: From Theory to Methodology}
 The research identified that cities are transitioning from abstract economic theories to three concrete, standardized measurement frameworks.
 
 \textbf{1. Standardization vs. Fragmentation (ISO 37122)}
-\textit{Context:} Historically, cities have struggled to benchmark economic performance due to fragmented data definitions.
-\textit{Thesis:} Adoption of the \textbf{ISO 37122} standard provides the necessary uniform framework for global comparison.
-\textit{Synthesis:} Unlike vague sustainability goals, this standard defines specific urban-tech metrics—such as "percentage of labor force in ICT" and "startups per capita"—creating a precise "common language" for data.
-\textit{Conclusion:} This standardization allows planners to empirically benchmark their city's economic maturity against global peers \cite{iso37122}.
+Historically, cities have struggled to benchmark economic performance due to fragmented data definitions. The adoption of the \textbf{ISO 37122} standard provides the uniform framework necessary for global comparison. Unlike vague sustainability goals, this standard defines specific urban-tech metrics—such as "percentage of labor force in ICT" and "startups per capita"—creating a precise "common language" for data. This standardization allows planners to empirically benchmark their city's economic maturity against global peers \cite{iso37122}.
 
 \textbf{2. Justifying Resilience (LCCBA)}
-\textit{Context:} Innovative infrastructure projects often fail cost-benefit tests due to high upfront capital requirements.
-\textit{Thesis:} Life Cycle Cost-Benefit Analysis (LCCBA) offers a financial model to justify these resilient investments.
-\textit{Synthesis:} By monetizing long-term "social goods"—such as avoided traffic disruption and reduced road opening costs—LCCBA captures the total value of assets like multi-utility tunnels ("utilidors") over 50+ years.
-\textit{Conclusion:} As demonstrated by NYC's DDC, this methodology turns "prohibitively expensive" projects into "fiscally responsible" long-term investments \cite{nycutilidors}.
+Innovative infrastructure projects often fail traditional cost-benefit tests due to high upfront capital requirements. Life Cycle Cost-Benefit Analysis (LCCBA) offers a financial model to justify these resilient investments. By monetizing long-term "social goods"—such as avoided traffic disruption and reduced road opening costs—LCCBA captures the total value of assets like multi-utility tunnels ("utilidors") over 50+ years. As demonstrated by NYC's DDC, this methodology turns "prohibitively expensive" projects into "fiscally responsible" investments \cite{nycutilidors}.
 
 \textbf{3. Real-Time Sensing (Big Data)}
-\textit{Context:} Traditional economic censuses are too slow to capture the rapid shifts of modern urban economies.
-\textit{Thesis:} "Nowcasting" via big data digital footprints provides the solution for real-time economic monitoring.
-\textit{Synthesis:} Planners aggregate anonymized private-sector data—cell phone pings, credit card transactions, and platform hiring trends—to visualize economic flows instantly.
-\textit{Conclusion:} This approach is uniquely capable of measuring the "invisible" informal economy often missed by growing tax methodologies \cite{worldbankdata}.
+Traditional economic censuses are too slow to capture the rapid shifts of modern urban economies. "Nowcasting" via big data digital footprints provides the solution for real-time economic monitoring. Planners aggregate anonymized private-sector data—cell phone pings, credit card transactions, and platform hiring trends—to visualize economic flows instantly. This approach is uniquely capable of measuring the "invisible" informal economy often missed by standard methodologies \cite{worldbankdata}.
 
 \section*{Verification: The "Human-in-the-Loop"}
-\textbf{Introduction:} AI models act as sophisticated "autocomplete" engines, not libraries, necessitating a rigorous verification phase.
-
-\textbf{Verification Process:}
-My audit revealed a mix of accurate conceptual retrieval and "lazy" citation generation.
-\begin{itemize}
-    \item \textit{ISO 37122:} The AI correctly identified the standard but initially confused it with the older 37120. Manual verification confirmed 37122 is the specific "Smart City" extension \cite{iso37122}.
-    \item \textit{Hallucination Check:} The AI hallucinated a "Global Smart City Report 2024" aggregation. I rejected this and manually located the specific NYC DDC Utilidor report to provide a valid primary source \cite{nycutilidors}.
-\end{itemize}
-
-\textbf{Conclusion:} The AI provided the *direction* but the human planner provided the *evidence*.
+AI models act as sophisticated "autocomplete" engines rather than libraries, necessitating a rigorous verification phase. My audit revealed a mix of accurate conceptual retrieval and "lazy" citation generation. For instance, the AI correctly identified the ISO standard but initially confused it with the older 37120; manual verification confirmed 37122 is the specific "Smart City" extension \cite{iso37122}. Crucially, the AI hallucinated a "Global Smart City Report 2024" aggregation. I rejected this and manually located the specific NYC DDC Utilidor report to provide a valid primary source \cite{nycutilidors}. The AI provided the \textit{direction}, but the human planner provided the \textit{evidence}.
 
 \section*{Critical Reflection}
-\textit{Thesis:} Generative AI is a powerful "methodology map" generator for planners but a dangerous and unreliable "librarian."
-\textit{Synthesis:} It successfully synthesized distinct analytical frameworks (Standards, Financial Modeling, Big Data) that would have taken hours to collate manually. However, its tendency to hallucinate specific report titles requires verifying every single claim.
-\textit{Conclusion:} The tool is best used to *structure* an inquiry, leaving the *evidence gathering* to the human professional.
+Generative AI is a powerful "methodology map" generator for planners but a dangerous and unreliable "librarian." It successfully synthesized distinct analytical frameworks (Standards, Financial Modeling, Big Data) that would have taken hours to collate manually. However, its tendency to hallucinate specific report titles requires verifying every single claim. Ultimately, the tool is best used to \textit{structure} an inquiry, leaving the \textit{evidence gathering} to the human professional.
 
-% Citations in Compact Format (Trimmed as requested)
+% Citations in Compact Format
 \begin{thebibliography}{9}
 
 \bibitem{iso37122}

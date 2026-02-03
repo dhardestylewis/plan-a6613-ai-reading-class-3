@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,31 +333,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-07.
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-22.
-
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
+4.
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 122.
+(Font)              <9> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 122.
+(Font)              <6> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 122.
+(Font)              <5> on input line 94.
 
-Underfull \hbox (badness 4647) in paragraph at lines 125--126
+Underfull \hbox (badness 4647) in paragraph at lines 97--98
 []\OT1/ptm/m/n/9 NYC DDC. (2018). \OT1/ptm/m/it/9 Town+Gown:NYC Utili-dor Work-
 ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \OT1/ptm/m/n/9 tion. [][]$\OT1/pcr/m/n/9 https : / / www1 . nyc . gov / site / 
 ddc / about /
  []
@@ -369,12 +363,7 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-
-
-
-[2
-
-] (AI_Reading_Exercise_Class_3.aux)
+(AI_Reading_Exercise_Class_3.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -384,20 +373,20 @@ nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10066 strings out of 468081
- 157284 string characters out of 5426756
- 599812 words of memory out of 5000000
- 38633 multiletter control sequences out of 15000+600000
- 642596 words of font info for 65 fonts, out of 8000000 for 9000
+ 10027 strings out of 468081
+ 156633 string characters out of 5426756
+ 596812 words of memory out of 5000000
+ 38603 multiletter control sequences out of 15000+600000
+ 642282 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,323b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,776b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pf
 b><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AI_Reading_Exercise_Class_3.pdf (2 pages, 76716 bytes).
+Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 74720 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
+ 45 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
