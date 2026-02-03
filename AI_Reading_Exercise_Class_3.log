@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -330,45 +330,68 @@ Package hyperref Info: Link coloring ON on input line 51.
 \everyMPtoPDFconversion=\toks23
 )
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-4.
+2.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1596) in paragraph at lines 78--79
-\OT1/ptm/m/n/10.95 dig-i-tal data. Method-olo-gies in-volve ag-gre-gat-ing
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 72.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 72.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 72.
+
+Underfull \hbox (badness 3690) in paragraph at lines 72--73
+\OT1/ptm/m/it/10.95 gies?" $\OMS/cmsy/m/n/10.95 !$ \OT1/ptm/m/n/10.95 Yielded g
+eneric re-sults (e.g., "GDP
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 89--90
+[]\OT1/ptm/b/n/10.95 ISO 37122: \OT1/ptm/m/n/10.95 Con-firmed stan-dard specif-
+i-cally ad-
  []
 
 
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-9.
+
+Underfull \hbox (badness 3009) in paragraph at lines 98--99
+\OT1/ptm/m/n/10.95 The AI ex-cels as a "method-ol-ogy map" gen-er-a-
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+04.
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 99.
+(Font)              <9> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 99.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 99.
+(Font)              <5> on input line 104.
 
-Underfull \hbox (badness 6893) in paragraph at lines 102--103
+Underfull \hbox (badness 6893) in paragraph at lines 107--108
 []\OT1/ptm/m/n/9 NYC De-part-ment of De-sign and Con-struc-tion (DDC).
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 102--103
+Underfull \hbox (badness 7869) in paragraph at lines 107--108
 \OT1/ptm/m/n/9 (2018). \OT1/ptm/m/it/9 Town+Gown:NYC Utili-dor Work-ing Group R
 e-
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 102--103
-\OT1/ptm/m/it/9 sources\OT1/ptm/m/n/9 . New York, NY: City of New York. Avail-
+Underfull \hbox (badness 3724) in paragraph at lines 107--108
+\OT1/ptm/m/it/9 sources\OT1/ptm/m/n/9 . New York: City of New York. Avail-able 
+at:
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+[][]$\OT1/pcr/m/n/9 https : / / www1 . nyc . gov / site / ddc / about /
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 110--111
 \OT1/ptm/m/it/9 Mea-sur-ing Eco-nomic Ac-tiv-ity\OT1/ptm/m/n/9 . Wash-ing-ton, 
 D.C.: World
  []
@@ -390,20 +413,22 @@ nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10056 strings out of 468081
- 156965 string characters out of 5426756
- 594801 words of memory out of 5000000
- 38628 multiletter control sequences out of 15000+600000
- 642596 words of font info for 65 fonts, out of 8000000 for 9000
+ 10066 strings out of 468081
+ 157088 string characters out of 5426756
+ 595801 words of memory out of 5000000
+ 38635 multiletter control sequences out of 15000+600000
+ 644124 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,482b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pf
-b><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
-<C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
-:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 74582 bytes).
+ 75i,5n,79p,441b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/uc
+rr8a.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb
+8a.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a
+.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 83211 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
