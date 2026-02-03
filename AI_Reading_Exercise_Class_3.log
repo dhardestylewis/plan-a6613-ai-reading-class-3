@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  3 FEB 2026 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,9 +242,9 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip68
 \@temptokenb=\toks21
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 23.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-5.
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+8.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -256,24 +256,24 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 ) (AI_Reading_Exercise_Class_3.aux)
 \openout1 = `AI_Reading_Exercise_Class_3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -309,7 +309,7 @@ LaTeX Font Info:    ... okay on input line 35.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 35.
+Package hyperref Info: Link coloring ON on input line 58.
 (AI_Reading_Exercise_Class_3.out) (AI_Reading_Exercise_Class_3.out)
 \@outlinefile=\write3
 \openout3 = `AI_Reading_Exercise_Class_3.out'.
@@ -329,76 +329,47 @@ Package hyperref Info: Link coloring ON on input line 35.
 \makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-7.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
+0.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-LaTeX Warning: Citation `iso37122' on page 1 undefined on input line 57.
-
-
-LaTeX Warning: Citation `nycutilidors' on page 1 undefined on input line 59.
-
-
-LaTeX Warning: Citation `worldbankdata' on page 1 undefined on input line 61.
-
-
-Underfull \hbox (badness 1596) in paragraph at lines 61--62
+Underfull \hbox (badness 1596) in paragraph at lines 84--85
 \OT1/ptm/m/n/10.95 dig-i-tal data. Method-olo-gies in-volve ag-gre-gat-ing
  []
 
 
-LaTeX Warning: Citation `iso37122' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `nycutilidors' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `worldbankdata' on page 1 undefined on input line 65.
-
-
-Underfull \vbox (badness 1424) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-No file AI_Reading_Exercise_Class_3.bbl.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 9
-6.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+00.
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 96.
+(Font)              <9> on input line 100.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 96.
+(Font)              <6> on input line 100.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 96.
+(Font)              <5> on input line 100.
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-[]\OT1/ptm/m/n/10.95 NYC DDC, ``Town+Gown: Utili-dor
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+\OT1/ptm/m/n/9 2019. [On-line]. [][]$\OT1/pcr/m/n/9 https : / / www . iso . org
+ / standard /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-\OT1/ptm/m/n/10.95 Work-ing Group,'' n.d. [On-line]. [][]$\OT1/pcr/m/n/10.95 ht
-tps :
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+\OT1/ptm/m/n/9 line]. [][]$\OT1/pcr/m/n/9 https : / / www1 . nyc . gov / site /
+ ddc / about /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-\OT1/pcr/m/n/10.95 / / www1 . nyc . gov / site / ddc / about /
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 102--103
-[]\OT1/ptm/m/n/10.95 World Bank, ``Big Data for Sus-tain-able De-
- []
-
-
-Underfull \hbox (badness 6284) in paragraph at lines 102--103
-\OT1/ptm/m/n/10.95 vel-op-ment,'' 2017. [On-line]. [][]$\OT1/pcr/m/n/10.95 http
-s : / / www .
+Underfull \hbox (badness 2503) in paragraph at lines 106--107
+\OT1/ptm/m/n/9 [On-line]. [][]$\OT1/pcr/m/n/9 https : / / www . worldbank . org
+ / en / topic /
  []
 
 
@@ -420,32 +391,25 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `AI_Reading_Exercise_Class_3.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10075 strings out of 468081
- 157551 string characters out of 5426756
- 592794 words of memory out of 5000000
- 38649 multiletter control sequences out of 15000+600000
- 639943 words of font info for 63 fonts, out of 8000000 for 9000
+ 10072 strings out of 468081
+ 157434 string characters out of 5426756
+ 593884 words of memory out of 5000000
+ 38645 multiletter control sequences out of 15000+600000
+ 640912 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,484b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,484b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pf
 b><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb>
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 68466 bytes).
+Output written on AI_Reading_Exercise_Class_3.pdf (1 page, 70652 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

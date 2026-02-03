@@ -7,13 +7,14 @@
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 
-% List spacing
+% Aggressive spacing
 \setlist{itemsep=1pt, topsep=1pt, leftmargin=*}
-\linespread{0.98} % Slight squeeze
+\linespread{0.96}
+\setlength{\parskip}{0pt}
 
 % Section formatting
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
-\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titlespacing*{\section}{0pt}{4pt}{2pt}
 
 \hypersetup{
     colorlinks=true,
@@ -31,6 +32,28 @@
 \rfoot{February 3, 2026}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
+
+% Fix referencing: Define standard manual bibliography
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section*{References}%
+      \footnotesize % Smaller font for references
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
 
 \begin{document}
 
@@ -50,7 +73,7 @@
 \textbf{AI Tool Used:} Google Gemini.
 
 \noindent
-\textbf{Process:} Use of iterative prompting was necessary to move beyond generic answers. The most effective strategy was requesting "distinct measurement methodologies" rather than general impacts, specifically asking for: \textit{"observational methodologies cities use to measure economic impact, excluding simple GDP metrics."} This successfully flagged standards and big data approaches.
+\textbf{Process:} I utilized iterative prompting to move beyond generic answers. The most effective strategy was requesting "distinct measurement methodologies" rather than general impacts. The core prompt was: \textit{"What are three specific observational methodologies cities use to measure economic impact, excluding simple GDP metrics?"} This successfully flagged the ISO standard and Big Data approaches quickly.
 
 \section*{Key Findings: Distinct Methodologies}
 \begin{itemize}
@@ -71,25 +94,6 @@
 The AI excels as a "methodology map" generator—it quickly identified the three correct analytical "buckets" (Standards, Financial Analysis, Big Data). However, it failed to act as a reliable librarian. Its citations were either generic or landing pages rather than direct documents. For a planner, it is a useful brainstorming tool but requires verification of every specific claim and source.
 
 % References
-\bibliographystyle{IEEEtran}
-% refname fix: standard article usually uses \refname, IEEEtran might use different hooks depending on package load order.
-% Just resetting command to empty to let bibtex handle or manually headers if needed, but standard IEEEtran usually adds its own header.
-% We will manually added the header above if needed, but standard IEEEtran usually works. 
-% Actually, standard article class + IEEEtran style:
-\makeatletter
-\renewcommand{\@biblabel}[1]{[#1]}
-\makeatother
-
-% reducing spacing in bibliography
-\let\OLDthebibliography\thebibliography
-\renewcommand\thebibliography[1]{
-  \OLDthebibliography{#1}
-  \setlength{\parskip}{0pt}
-  \setlength{\itemsep}{0pt plus 0.3ex}
-}
-
-\bibliography{references} % We need a bib file or embedded bib. Using embedded for simplicity in this context implies \begin{thebibliography} usually.
-
 \begin{thebibliography}{9}
 
 \bibitem{iso37122}
