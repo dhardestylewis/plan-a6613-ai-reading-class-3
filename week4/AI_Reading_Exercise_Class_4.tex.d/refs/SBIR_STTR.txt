@@ -1,0 +1,25 @@
+Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR)
+
+Source: SBIR.gov (https://www.sbir.gov/about)
+
+Program Definition:
+America's Seed Fund. Provides equity-free funding through federal agencies to American small businesses to develop technology and chart a path toward commercialization.
+
+Key Mechanisms:
+1. Non-dilutive Funding:
+   - Awards funding without taking equity (equity-free).
+   - "Seed Fund" model.
+   - Supports early-stage technology funding.
+
+2. Ecosystem Coordination:
+   - Coordinated by the creation of the Small Business Administration (SBA).
+   - Funded through 11 participating federal agencies.
+   - Involves "Support Organizations" (Accelerators, technical assistance centers).
+
+3. Three-Phase Program (Implicit in "develop... and chart a path toward commercialization"):
+   - Typically involves Phase I (Feasibility), Phase II (R&D), Phase III (Commercialization - though Phase III is non-SBIR funded usually, the path is the key).
+
+4. Impact:
+   - "High-impact, disruptive innovations."
+   - Since 1982, has moved ideas from sparks to transformative technologies.
+   - Focuses on R&D-focused entrepreneurs.
