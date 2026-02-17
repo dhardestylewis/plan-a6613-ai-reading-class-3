@@ -341,7 +341,12 @@ Each user request below is marked: ✅ = done, ⚠️ = partial, ❌ = open.
 - ✅ Maintain planning student persona/voice
 - ✅ Remove AIisms
 - ✅ Scare quotes → italics for emphasis/distancing
-- ⚠️ Inline quote quality per top writing center standards (reviewed; two direct quotes from Moody properly attributed)
+- ✅ Inline quote quality per top writing center standards
+- ✅ Bold/italic consistency audit (parking now bold to match commercial loading; removed spurious italics from factual details)
+- ✅ Each finding closes on its analytical point (restructured for logical flow)
+- ✅ Merged Verification and Critical Reflection into single section (eliminated redundancy)
+- ✅ Deleted spectrum framing sentence (unnecessary)
+- ✅ Trimmed six lines of material through word-level cuts
 
 ### Citations & Bibliography
 - ✅ APA inline citations on every factual claim
@@ -353,6 +358,8 @@ Each user request below is marked: ✅ = done, ⚠️ = partial, ❌ = open.
 - ✅ DOE citation → cited Post-Gazette directly
 - ✅ Checked for DOIs (none applicable — all web sources)
 - ✅ Double-checked citation format for each source type
+- ✅ Consolidated duplicate citations (removed second parenthetical where same source already cited earlier in sentence)
+- ✅ Added citation to SaaS contract claim (Nyczepir, 2024; Flow Labs, 2025)
 
 ### Source Pipeline
 - ✅ Download all 8 primary sources
@@ -370,19 +377,22 @@ Each user request below is marked: ✅ = done, ⚠️ = partial, ❌ = open.
 - ✅ Add student-directed evidence table to audit
 - ✅ Add changelog to audit (not regenerated from scratch)
 - ✅ Update audit without regenerating
+- ✅ Verified Critical Reflection claims against git diff of original TeX (all five claims confirmed)
+- ✅ Nuanced Google COI claim per git diff evidence (AI mentioned energy needs but didn't frame as conflict)
 
 ### Process Documentation
-- ✅ Timestamped verbatim prompt log (all feedback through 12:31:36)
-- ✅ Honest Tool & Process paragraph (30+ corrections, not fabricated "three rounds")
+- ✅ Timestamped verbatim prompt log (all feedback through 13:09)
+- ✅ Honest Tool & Process paragraph (140+ corrections, backed by prompt count)
 - ✅ README documenting directory contents and source pipeline
 - ✅ Footnote in writeup linking to full repo with process evidence
 - ✅ Verification audit with student-directed evidence
+- ✅ Verbatim assignment prompt saved to assignment_prompt.md
 
 ### Compilation & Version Control
 - ✅ Compile PDF with tectonic
 - ✅ Git add, commit, and push regularly
 - ✅ Organized directory structure matching README
 
-### Still Open
-- ❌ Page/line number references in final PDF (LaTeX limitation for single-page doc)
-- ❌ Explicit reference to what user personally read (writeup references "I downloaded... cross-checked" in first person; prompt log shows all directives)
+### Deferred (reviewed, intentionally not addressing)
+- 🔜 Page/line number references in final PDF — single-page doc makes this unnecessary; sources are linked by URL
+- 🔜 Explicit reference to what user personally read — first-person writeup and prompt log together establish this; adding more would be redundant
