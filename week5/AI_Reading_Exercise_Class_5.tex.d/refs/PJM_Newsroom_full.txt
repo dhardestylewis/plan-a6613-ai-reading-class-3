@@ -1,0 +1,45 @@
+Source: PJM Interconnection — Newsroom
+URL: https://www.pjm.com/about-pjm/newsroom
+Retrieved: 2026-02-17 (via web search summaries)
+Stakeholder: Regional transmission organization (grid operator)
+
+# PJM — Google Multi-Year AI Collaboration
+
+## Partnership Details
+L1: PJM Interconnection partnered with Google and its Alphabet-incubated project, Tapestry, to use AI to streamline the interconnection process.
+
+L2: Multi-year collaboration.
+
+L3: Tapestry powered by Google Cloud and Google DeepMind.
+
+## Scale
+L4: PJM serves 67 million people across 13 states and the District of Columbia.
+
+L5: PJM's interconnection queue includes approximately 79 GW of solar, 37 GW of storage, and 23 GW of wind projects.
+
+L6: These projects face long wait times for approval and connection.
+
+## Technical Approach
+L7: AI-driven tools and models to intelligently manage and optimize PJM's generation interconnection process.
+
+L8: Integrating dozens of existing databases and tools into a unified model.
+
+L9: Automating data verification for factors like land rights, equipment, and grid impacts.
+
+L10: Goal: faster decisions and more confident evaluations of new energy capacity.
+
+## PJM's Framing
+L11: Make electricity more reliable and affordable.
+
+L12: Reduce burden on PJM planners and energy developers.
+
+L13: Accelerate project approvals.
+
+## Key Personnel (from Tapestry page)
+L14: Andy Ott, Director of Technical Operations at Tapestry, is the former President/CEO of PJM Interconnection.
+
+## CRITICAL NOTE
+- PJM's former CEO now works for Tapestry/Google — revolving door between regulator and vendor
+- PJM frames this as public benefit; Google frames it as grid modernization
+- Neither party discloses Google's data center energy consumption as a driver
+- This is an ANNOUNCED partnership, not a deployed system

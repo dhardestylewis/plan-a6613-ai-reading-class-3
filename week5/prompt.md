@@ -1,36 +1,41 @@
-# AI Reading Exercise: Class 5 — Prompt File
-## Topic: From Digital to Physical Infrastructure
-
-## Core Question
-"What are three real-world examples of AI being used to 'actively manage' city assets like the curb or the power grid, and how are cities funding these new digital systems?"
-
----
+# Week 5 Prompt Log — AI Reading Exercise: Class 5
+**Topic**: From Digital to Physical Infrastructure
+**Tool**: Claude Opus 4.6 (Thinking) via Antigravity IDE
+**Date**: February 17, 2026
 
 ## Prompt Strategy
+Three-stage iterative process moving from general to specific to operational.
 
-### Prompt v1 — Initial Broad Query
-```
-What are three real-world examples of AI being used to actively manage city assets like the curb or the power grid? For each example, name the specific city, the specific AI system or vendor, and the funding mechanism the city used to pay for it. Do not give generic concepts — I need named programs with verifiable details.
-```
+## Prompt 1 — General Orientation
+> What are three real-world examples of AI being used to "actively manage" city assets like the curb or the power grid, and how are cities funding these new digital systems?
 
-### Prompt v2 — Refinement (if v1 is too vague)
-```
-The previous answer was too generic. I need three specific, named deployments — not categories. For each, provide:
-1. The exact city and agency deploying the AI system.
-2. The name of the AI platform or vendor (e.g., Coord, Automotus, Kevala).
-3. What city asset it manages (curb, grid, water, traffic signals, etc.).
-4. How the city funded or procured it (federal grant, P3, SaaS contract, rate-payer funds, etc.).
-5. A citation I can verify — a news article, press release, or government RFP.
-```
+**Result**: Vague IoT sensor descriptions. No named vendors, cities, or funding details. Unusable.
 
-### Prompt v3 — Mechanism Deep-Dive
-```
-For each of the three examples you provided, explain the *mechanism* of active management. How does the AI system actually work — what data does it ingest, what decisions does it make autonomously vs. recommend to a human operator, and what happens when it fails? I want to understand the operational loop, not just the marketing pitch.
-```
+## Prompt 2 — Named Deployments
+> Give me three specific, named deployments of AI actively managing city infrastructure — with exact cities, vendor names, and how each is funded.
 
----
+**Result**: Three concrete leads: Automotus in Pittsburgh, Flow Labs in North Carolina, Google Tapestry with PJM. Each had city, vendor, and funding info. But Claude treated all three as equally deployed.
 
-## Notes
-- Model used: **Claude 3.5 Sonnet** (via Gemini Code Assist / Antigravity)
-- Strategy: Iterative refinement — reject generic answers, demand named programs, then probe mechanisms.
-- Key pitfall from Week 4: AI conflates similar-sounding programs (e.g., Innovation Districts vs. Opportunity Zones). Watch for similar conflation here (e.g., "smart grid" marketing vs. actual AI-managed grid operations).
+## Prompt 3 — Operational Detail
+> For each of these three systems, tell me exactly how it works operationally: what data does it ingest, what does it decide autonomously, and where does a human remain in the loop?
+
+**Result**: Good operational detail for Automotus (CV cameras, license plates, automated enforcement) and Flow Labs (connected vehicle GPS, signal recommendations). Tapestry description was vague ("AI models grid topology"). Claude still did not distinguish between deployed vs. announced systems.
+
+## Key Observation
+Claude assembled a useful initial inventory but could not assess system maturity. It presented a fully operational system (Automotus), a monitoring-only tool (Flow Labs), and an announced partnership (Tapestry) as equivalent. The verification and source-checking work was entirely manual.
+
+## User Feedback During Drafting
+- Remove em dashes throughout
+- Spell out numbers (e.g., "more than 2,500" not "2,500+")
+- Use APA inline citations, not numbered
+- Show don't tell — remove structural announcements
+- Don't use parenthetical shorthand, write facts into sentences
+- Every sentence must be a full sentence
+- Thesis-evidence-conclusion structure for each paragraph
+- Voice should be planning student, not editorialist
+- Avoid AIisms (illustrates, landscape, revealing, fundamentally)
+- Varied sentence openers — no mechanical "The AI..." repetition
+- Embed source criticism throughout, not just in reflection
+- Surface vendor-vs-city data discrepancies
+- Cite every claim with specific source
+- Download, annotate, and synthesize all sources (matching week 4 standard)

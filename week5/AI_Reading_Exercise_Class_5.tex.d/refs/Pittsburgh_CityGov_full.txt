@@ -1,0 +1,53 @@
+Source: City of Pittsburgh — Department of Mobility and Infrastructure (DOMI)
+URL: https://pittsburghpa.gov/domi/smart-loading-zones
+Retrieved: 2026-02-17 (via web search summary; direct URL returned 404)
+Stakeholder: City government (program operator)
+
+# Smart Loading Zones — City of Pittsburgh Official Program
+
+## Program Overview
+L1: The City of Pittsburgh implemented a Smart Loading Zones curb management program as a collaborative effort between the Department of Mobility and Infrastructure (DOMI) and the Pittsburgh Parking Authority (PPA), partnering with technology company Automotus.
+
+L2: The program began as a one-year pilot in April 2022 and ran through December 2024.
+
+L3: Goals: enhance delivery efficiency, reduce congestion and emissions, improve safety for all curb users.
+
+## Implementation
+L4: The initiative involved replacing existing loading areas with camera-enabled smart loading zones.
+
+L5: The city received a $100,000 grant from Automotus for the initial pilot of 20 smart loading zones.
+
+L6: Later, an additional $3 million in grants to expand the system.
+
+L7: Technology was installed between January and March 2022.
+
+## Technology
+L8: The smart loading zones utilize license plate reading technology to analyze real-time curbside activity and automate payment.
+
+L9: Drivers can identify these zones by their purple curbs and corresponding signs.
+
+L10: Drivers register through a one-time CurbPass system.
+
+L11: A 15-minute grace period is provided, after which drivers are automatically billed.
+
+L12: The cameras capture license plate information solely for payment processing and do not collect other personal identifying information.
+
+## City-Reported Results (January 2022 — December 2024)
+L13: 70% increase in turnover, indicating more vehicles using the zones for short-term loading.
+
+L14: 60% decrease in average park duration.
+
+L15: Up to 85% of parks utilized the 15-minute grace period.
+
+L16: A 40% decrease in double-parking was noted [city figure], which contributes to safer traffic flow.
+
+L17: Carnegie Mellon University researchers found that strategically placed smart loading zones could boost traffic speed by as much as 4.5% in select areas.
+
+## Expansion
+L18: The program has grown from 20 to 75 locations since its launch in 2021.
+
+## CRITICAL DISCREPANCY vs. Vendor Data
+- City reports: 70% turnover increase, 60% park duration drop, 40% double-parking decrease
+- Automotus vendor page reports: 40% turnover increase, 23% stay reduction, 95% double-parking decrease
+- The 95% vs 40% double-parking gap is the most dramatic difference
+- Different measurement methodologies or periods likely explain the discrepancy

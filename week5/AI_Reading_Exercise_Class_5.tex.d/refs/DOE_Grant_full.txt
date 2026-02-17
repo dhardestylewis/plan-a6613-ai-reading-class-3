@@ -1,0 +1,50 @@
+Source: U.S. Department of Energy — Vehicle Technologies Office Grant
+URL: Multiple (Pittsburgh Post-Gazette, CMU Metro21, The Atlas, Harvard Ash Center)
+Retrieved: 2026-02-17 (via web search summaries)
+Stakeholder: Federal funder
+
+# DOE Vehicle Technologies Office Grant — Smart Loading Zones
+
+## Grant Details
+L1: $3.8 million grant awarded August 2021 by DOE Vehicle Technologies Office (VTO).
+
+L2: Three-year grant period.
+
+L3: Led by Los Angeles Cleantech Incubator (LACI), with Automotus as key partner.
+
+## Partners
+L4: Carnegie Mellon University (CMU)
+L5: University of Southern California (USC)
+L6: Southern California Association of Governments (SCAG)
+L7: City of Santa Monica
+L8: City of Los Angeles
+L9: National Renewable Energy Laboratory (NREL)
+L10: Pacific Northwest National Laboratory (PNNL)
+
+## Scope
+L11: At least $1 million of the $3.8 million specifically allocated to Pittsburgh's Smart Loading Zones research and scaling efforts.
+
+L12: Project spans three cities: Pittsburgh, Los Angeles, and Santa Monica.
+
+L13: Installing up to 100 "smart" zones across the three cities.
+
+L14: Automotus planned to expand to 200 smart loading zones across Pittsburgh by 2023.
+
+## Goals
+L15: Decrease emissions from idling and circling vehicles.
+L16: Reduce parking-caused traffic by 20%.
+L17: Cut double-parking incidents by 60%.
+L18: Increase parking turnover for local businesses.
+L19: Improve safety for pedestrians and cyclists.
+L20: Enhance delivery efficiency.
+L21: Create roadmap for using curbside management to accelerate vehicle electrification.
+
+## Significance
+L22: Described as one of the first federal government funding initiatives for curb management.
+
+L23: Pittsburgh Post-Gazette and Harvard Ash Center both covered as significant federal investment in curb tech.
+
+## CRITICAL NOTE
+- This grant establishes FEDERAL backing for Automotus, not just city-level
+- The grant's goals (20% traffic reduction, 60% double-parking cut) differ from BOTH the vendor's and the city's reported outcomes
+- The grant focused on zero-emission vehicle acceleration, not just curb management

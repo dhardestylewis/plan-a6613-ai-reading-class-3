@@ -1,0 +1,46 @@
+Source: Yale Environment 360
+Title: As Use of A.I. Soars, So Does the Energy and Water It Requires
+Author: David Berreby
+Date: February 6, 2024
+URL: https://e360.yale.edu/features/artificial-intelligence-climate-energy-emissions
+Stakeholder: Independent environmental journalism (Yale School of the Environment)
+
+# As Use of A.I. Soars, So Does the Energy and Water It Requires
+
+## Core Argument
+L1: Generative AI uses massive amounts of energy for computation and data storage and millions of gallons of water to cool data center equipment.
+
+L2: Legislators and regulators in the US and EU are starting to demand accountability.
+
+## Key Facts
+L3: ChatGPT reached 100 million active users two months after its November 2022 release.
+
+L4: AI use is directly responsible for carbon emissions from non-renewable electricity and for consumption of millions of gallons of fresh water.
+
+L5: AI indirectly boosts impacts from building and maintaining power-hungry equipment.
+
+## Legislative Response
+L6: Senator Edward Markey (D-MA) introduced legislation requiring federal government to assess AI's environmental footprint and develop standardized reporting.
+
+L7: EU "AI Act" approved by member states, requiring "high-risk AI systems" to report energy consumption, resource use, and other impacts throughout lifecycle.
+
+## Environmental Tensions
+L8: Tech companies cite ways AI could help reduce environmental footprint.
+
+L9: But legislators, regulators, activists, and international organizations want to ensure benefits aren't outweighed by AI's mounting hazards.
+
+L10: AI data centers are creating challenges for the electricity grid.
+
+L11: Can indirectly contribute to keeping aging fossil fuel plants, including coal plants, online to meet soaring demand.
+
+## Relevance to Tapestry Analysis
+L12: Google positions Tapestry as helping integrate renewables into the grid.
+
+L13: But Yale E360 documents that Google's own AI operations are a major driver of the electricity demand creating grid strain.
+
+L14: This creates a conflict of interest: Google is partly solving a problem its own AI infrastructure exacerbates.
+
+## CRITICAL NOTE
+- This is the strongest INDEPENDENT counter-narrative to Google's Tapestry claims
+- Yale School of the Environment is an authoritative, non-industry source
+- Directly contradicts Google's framing of AI as purely beneficial for the grid

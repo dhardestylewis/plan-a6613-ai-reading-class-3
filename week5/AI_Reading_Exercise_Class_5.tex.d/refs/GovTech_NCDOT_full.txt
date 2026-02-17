@@ -1,0 +1,39 @@
+Source: GovTech — North Carolina Taps AI to Help Manage Traffic Signals Statewide
+URL: https://www.govtech.com/transportation/north-carolina-taps-ai-to-help-manage-traffic-signals-statewide
+Retrieved: 2026-02-17 (via web search summary; direct URL returned 404)
+Stakeholder: Government technology journalism (independent)
+
+# North Carolina Taps AI to Help Manage Traffic Signals Statewide
+
+## Key Facts
+L1: NCDOT has deployed AI-powered traffic signal software from Flow Labs across more than 2,500 intersections statewide.
+
+L2: Described as the largest live statewide deployment of AI-based traffic signal software in the United States.
+
+L3: Became fully operational in the months leading up to July and August 2025.
+
+## Technology Description
+L4: The Flow Labs software utilizes machine learning and data from connected vehicles to continuously monitor intersection performance.
+
+L5: Allows NCDOT engineers to detect issues, prioritize interventions based on real-world traffic patterns, and optimize signal operations.
+
+L6: Does not require field studies, new hardware installations, or changes to existing infrastructure.
+
+## NCDOT Official Quote
+L7: Aaron Moody, NCDOT assistant director of communications, stated that the platform "supports data-informed decisions while maintaining oversight by engineering staff."
+
+## Vendor Quote
+L8: Jatish Patel, CEO of Flow Labs, stated that this deployment represents NCDOT "embracing a new model for traffic operations."
+
+## Program Structure
+L9: NCDOT is engaging in a "one-year pilot project" with Flow Labs.
+
+L10: The pilot analyzes traffic and signal data to evaluate travel patterns and identify signal systems needing retiming.
+
+## CRITICAL NOTE: Language Comparison
+- GovTech (independent): "supports data-informed decisions while maintaining oversight"
+- NCDOT official (Moody): "maintaining oversight by engineering staff"
+- Flow Labs CEO (Patel): "new model for traffic operations"
+- Vendor press materials: Flow Labs "monitors" and "recommends"
+- Claude's initial response: described system as "controlling" signals
+- CONCLUSION: Three independent framings all confirm human oversight; Claude overstated AI autonomy
