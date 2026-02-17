@@ -1,0 +1,47 @@
+Source: X, the Moonshot Factory — Tapestry
+URL: https://x.company/projects/tapestry/
+Retrieved: 2026-02-17
+
+# Tapestry
+
+## Bringing the Electric Grid Into the Age of Intelligence
+
+The electric grid is an engineering marvel: a vast and complex machine that connects us all and powers the essential devices we use every day. Designed more than a century ago, the grid functions like a one-way highway, with electricity flowing from power plants to cities and towns — and it's grown increasingly complex.
+
+Today's grid looks more like a multidirectional superhighway, with millions of new devices—from home solar panels to electric vehicles—pushing and pulling energy across it at all times.
+
+Because the grid wasn't built to sustain today's demands, there aren't adequate tools to see, manage or plan it. Information is siloed between dozens of different organizations, and no one has a complete picture of the grid.
+
+To transition to a reliable, affordable and sustainable grid, the world needs a shared understanding of how we make, move, and use electricity.
+
+## Making the Grid Visible
+
+Tapestry's mission is to make the grid visible to everyone who works on it, so it's more reliable, affordable and sustainable for everyone who depends on it.
+
+Tapestry is building the first unified model of the grid, to transform a fragmented and strained network into a grid that generations can count on. The team's AI-powered tools are designed to help everyone who plans, builds, operates, and manages the grid to optimize energy flow, bring more diverse sources of energy online, and secure a reliable, affordable energy future.
+
+## Grid Planning Tool
+
+The Grid Planning Tool is an end-to-end solution that empowers grid operators to do large-scale, long-term grid simulation at hourly resolutions that allows for more efficient planning and reliable interconnection of diverse energy sources.
+
+Before grid operators can make big decisions on energy infrastructure investments—like upgrading transmission lines or approving a new grid connection—they must run hundreds of simulations that model a range of different scenarios, sometimes decades into the future.
+
+Tapestry's Grid Planning Tool transforms this complex process, enabling grid operators to simulate scenarios with unprecedented speed and granularity, accelerating timelines from weeks to days, while identifying the most affordable, reliable, low carbon solutions.
+
+## GridAware
+
+GridAware is a set of intelligence, planning, and operations tools to map and modernize the distribution grid. Tapestry's AI-powered tools automate the inspection process, using image recognition and machine learning to identify potential problems like sagging power lines or damaged equipment before they cause an outage.
+
+## Tapestry Partners
+- The AES Corporation
+- PJM Interconnection
+- Coordinador Eléctrico Nacional (CEN), Chile
+- Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+- Cassava Technologies
+- National Energy System Operator
+- Vector (New Zealand)
+
+## Key Personnel
+- Page Crahan, General Manager (formerly co-CEO of Clarus Power, unicorn founder)
+- Andy Ott, Director of Technical Operations (former President/CEO of PJM Interconnection)
+- Ravi Ramineni, CTO (formerly AI for Meta's Metaverse, ML platform for Amazon Alexa)

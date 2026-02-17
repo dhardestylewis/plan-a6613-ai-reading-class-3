@@ -1,0 +1,25 @@
+# Annotation: About SBIR and STTR (Simulated Print-to-PDF)
+**Source**: [SBIR.gov](https://www.sbir.gov/about)
+**Format**: Webpage printed to PDF equivalent (Pages 1-3)
+**Full Citation**: SBIR.gov. (2024). *About SBIR and STTR: America's Seed Fund*. U.S. Small Business Administration. Retrieved from https://www.sbir.gov/about
+
+## Page 1: Program Basics
+- **Verbatim Quote**: "**SBIR provides equity free funding through federal agencies to American small businesses**" (Header)
+- **Verbatim Quote**: "**America’s Seed Fund awards non-dilutive funding to develop your technology and chart a path toward commercialization**" (Para 1)
+    - *Note*: "Non-dilutive" is the key financial mechanism.
+
+## Page 2: Ecosystem & Agencies
+- **Verbatim Quote**: "**coordinated by the Small Business Administration and funded through 11 participating federal agencies**" (Para 2)
+- **Verbatim Quote**: "**Participating agencies' SBIR/STTR programs select and fund qualified proposals.**" (Para 4)
+- **Verbatim Quote**: "**Since 1982, SBIR funding has moved countless ideas from tiny sparks into transformative technologies.**" (Para 6)
+
+## Page 3: Funding Limits (Phases)
+- **Verbatim Quote**: "**Phase I award... up to $314,363**" (Para 9)
+- **Verbatim Quote**: "**Phase II award... up to $2,095,748**" (Para 9)
+    - *Note*: These caps define the "valley of death" bridge size.
+
+## Outline Construction
+1.  **Core Value**: Equity-free/Non-dilutive funding (Page 1).
+2.  **Goal**: Commercialization path (Page 1).
+3.  **Structure**: 11 Agencies, extensive history since 1982 (Page 2).
+4.  **Mechanism Details**: Phase I/II caps provide specific "seed" amounts (Page 3).

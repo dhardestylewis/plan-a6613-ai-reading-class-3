@@ -1,0 +1,27 @@
+# Annotation: NSF Regional Innovation Engines (Simulated Print-to-PDF)
+**Source**: [NSF Engines Program Page](https://new.nsf.gov/funding/initiatives/regional-innovation-engines)
+**Format**: Webpage printed to PDF equivalent (Pages 1-4)
+**Full Citation**: National Science Foundation. (2024). *Regional Innovation Engines*. U.S. NSF. Retrieved from https://new.nsf.gov/funding/initiatives/regional-innovation-engines
+
+## Page 1: Overview and Mission
+- **Verbatim Quote**: "**The NSF Regional Innovation Engines (NSF Engines) program... envisions supporting multiple flourishing regional innovation ecosystems across the U.S.**" (Para 1)
+- **Verbatim Quote**: "**spurring economic growth in regions that have not fully participated in the technology boom of the past few decades.**" (Para 1)
+    - *Note*: Defines the "missing millions" geographical target.
+
+## Page 2: Key Goals
+- **Verbatim Quote**: "**Advance critical technologies like semiconductors, artificial intelligence, advanced wireless and biotechnology.**" (Bullet 1)
+- **Verbatim Quote**: "**Cultivate partnerships across industry, academia, government, nonprofits, civil society and communities of practice.**" (Bullet 3)
+
+## Page 3: Funding and Timeline
+- **Verbatim Quote**: "**Each awardee team will receive an initial $15 million over the next two years with the potential to receive up to $160 million each over the next decade.**" (Para 2)
+    - *Relevance*: This \$160M/10yr figure is the primary evidence for the "massive, long-term capital" claim.
+
+## Page 4: Organization Structure
+- **Verbatim Quote**: "**Strong, CEO-led organization with accountability to a governance board, regional stakeholders and NSF.**" (Section: Accountable Leadership)
+    - *Relevance*: Key governance distinguishing factor.
+
+## Outline Construction
+1.  **Mission**: Support regional ecosystems in left-behind areas (Page 1).
+2.  **Goals**: Critical tech + partnerships (Page 2).
+3.  **Mechanism 1**: Scale of funding (\$160M) (Page 3).
+4.  **Mechanism 2**: Governance (CEO-led) (Page 4).

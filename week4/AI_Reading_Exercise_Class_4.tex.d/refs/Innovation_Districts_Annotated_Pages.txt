@@ -1,0 +1,41 @@
+# Annotation: Innovation Districts and their Dilemmas with Place (Simulated Print-to-PDF)
+**Source**: [Brookings Institution Article](https://www.brookings.edu/articles/innovation-districts-and-their-dilemmas-with-place/)
+**Author**: Julie Wagner
+**Date**: Feb 21, 2019
+**Format**: Webpage printed to PDF equivalent (Pages 1-6)
+**Full Citation**: Wagner, J. (2019). *Innovation districts and their dilemmas with place*. Brookings Institution. Retrieved from https://www.brookings.edu/articles/innovation-districts-and-their-dilemmas-with-place/
+
+## Page 1: Definition & Context
+- **Verbatim Quote**: "**concentrating a mix of research institutions, mature companies, start-ups and scale-ups, co-working spaces, and supportive intermediaries in close geographic proximity.**" (Para 1)
+    - *Note*: Defines the physical asset mix.
+- **Verbatim Quote**: "**most districts emerge organically... But over time... leaders often become much more intentional about working together to leverage their district assets, applying a 'collaborate to compete' approach.**" (Para 2)
+
+## Page 2: The Physical Challenge
+- **Verbatim Quote**: "**It is much harder to find a consistent quality of place across most districts.**" (Para 4)
+- **Verbatim Quote**: "**place-based dilemmas that are contributing... to the development of underwhelming or downright disappointing districts.**" (Para 4)
+
+## Page 3: The Disconnect Dilemma
+- **Verbatim Quote**: "**An important role of an innovation district’s physical realm is to enable innovation.**" (Para 5)
+- **Verbatim Quote**: "**A clear articulation of this agenda then helps guide and enable the right physical moves.**" (Para 6)
+- **Verbatim Quote**: "**“Disconnected” districts that have not gone through an exercise of developing a shared agenda are far less able to use their physical assets as innovation enablers.**" (Para 6)
+
+## Page 4: The Dead Zone Dilemma
+- **Verbatim Quote**: "**sacrificing authenticity and a sense of identity in the process.**" (Para 7)
+- **Verbatim Quote**: "**historic “gritty” buildings were lost to make space for... “shiny soulless structures.”**" (Para 7)
+- **Verbatim Quote**: "**buildings with large floorplates... have frayed the human-scaled urban fabric.**" (Para 8)
+
+## Page 5: The Divide Dilemma
+- **Verbatim Quote**: "**sterile, segregated institutional buildings.**" (Para 11)
+- **Verbatim Quote**: "**physical line between institutions and other district areas... can feel divisive even without barriers**" (Para 11)
+
+## Page 6: Solutions
+- **Verbatim Quote**: "**strategies to make their edges more porous (e.g., building retail and mixed-use developments on campus edges)**" (Para 12)
+- **Verbatim Quote**: "**created a new innovation district governance entity to tackle these and other challenges.**" (Para 12 - OKC Example)
+
+## Outline Construction
+1.  **Definition**: Geographic concentration of mixed assets (Page 1).
+2.  **Problem**: Physical realm often fails (Page 2).
+3.  **Dilemma 1 (Disconnect)**: Lack of shared agenda prevents innovation enablement (Page 3).
+4.  **Dilemma 2 (Dead Zone)**: Loss of authenticity/human scale (Page 4).
+5.  **Dilemma 3 (Divide)**: Segregation/Sterility (Page 5).
+6.  **Solution**: Porous edges and Governance (Page 6).

@@ -1,0 +1,31 @@
+Source: Flow Labs / StateScoop — NCDOT AI Traffic Signal Deployment
+URL (StateScoop): https://statescoop.com/north-carolina-ai-traffic-signals-flow-labs/
+URL (Flow Labs): https://www.flowlabs.ai
+Retrieved: 2026-02-17
+
+# North Carolina Deploys AI-Powered Traffic Signal Software Statewide
+
+The North Carolina Department of Transportation (NCDOT) has partnered with Flow Labs to implement a statewide deployment of AI-powered traffic signal software across more than 2,500 intersections.
+
+## Key Facts
+- Largest statewide deployment of AI-based traffic signal software in the US
+- Covers 2,500+ intersections across North Carolina
+- Uses machine learning and high-penetration connected vehicle GPS data
+- Continuously monitors intersection performance
+- Identifies signal timing issues without field studies, hardware deployments, or infrastructure changes
+- Deployment took weeks, not years
+- Traffic engineers receive prioritized intervention recommendations
+- System RECOMMENDS changes — human engineer makes final decision on signal timing
+- Provides network-wide insights and reporting immediately upon installation
+
+## Funding
+- Procured as a SaaS (Software as a Service) contract
+- Embedded in existing NCDOT operations budgets
+- No separate capital appropriation or federal grant required
+
+## Quotes
+- Jatish Patel, CEO of Flow Labs: North Carolina's approach is "not just an investment in a new tool, but an embrace of a new model for traffic operations"
+- The system helps state agencies understand "vehicle delays, queue lengths, and wasted emissions from idling vehicles"
+
+## Critical Distinction
+Flow Labs is a MONITORING AND RECOMMENDATION platform, not an autonomous control system. The AI identifies problems and prioritizes interventions, but a human traffic engineer makes the final decision to change signal timing. This human-in-the-loop distinction is crucial.

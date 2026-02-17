@@ -1,0 +1,36 @@
+Source: Automotus — Smart Loading Zones: Pittsburgh
+URL: https://automotus.co/pittsburgh
+Retrieved: 2026-02-17
+
+# Smart Loading Zone Program
+
+We're helping Pittsburgh manage the rapid rise in commercial vehicle activity at the curb.
+
+## More Efficient and Productive Curbs for All
+
+### Zone Locations
+Smart Loading Zones are marked by purple signs and curbs and located in Downtown, Squirrel Hill, Shadyside, South Side Flats, Oakland, Lawrenceville, Bloomfield, and other neighborhoods.
+
+### Parking Rates
+- Local parking rates reflected
+- First 15 mins are FREE
+- Max Parking 2 hours
+- Max Cost $12 for 2 hours
+- Rates posted in each zone
+
+## CurbPass Registration
+Drivers register once for a CurbPass to access all Smart Loading Zones.
+Registration: https://www.curbpass.io/pittsburgh
+Support: https://curbpasshelp.zendesk.com/hc/en-us
+
+## Key Statistics (from search verification)
+- 75 Smart Loading Zones deployed (scaling to 200)
+- 40% increase in loading zone turnover
+- 23% reduction in average stay duration
+- 95% decrease in double-parking
+- Cameras mounted on existing streetlight poles
+- Cellular-connected cameras with proprietary CV algorithms
+- Automated license plate reading and payment collection
+- $100K hardware grant from Automotus for initial pilot (2020)
+- $3.8M U.S. Department of Energy grant for three-year scale-up
+- Pittsburgh Parking Authority (PPA) and DOMI collaboration
