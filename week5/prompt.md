@@ -280,6 +280,26 @@ Claude assembled a useful initial inventory but could not assess system maturity
 
 **12:53:57** --- "are there any others with citations that appear twice?"
 
+**12:55:24** --- "did you save the pasted assignment prompt verbatim into its own file? [pasted full Canvas page verbatim]"
+
+**12:55:36** --- "recompile again"
+
+**12:56:39** --- "does this 50 iterative detail need to appear twice once in the intro once at the end?"
+
+**12:57:45** --- "your first finding ends in a but your next one does not?"
+
+**12:58:03** --- "or does it in a different way?"
+
+**12:58:18** --- "ok to still do the same thing in a different grammatical way"
+
+**12:58:42** --- "should these be combined? [quoted Verification and Critical Reflection sections]"
+
+**12:59:15** --- "is the special meaning of these quotes meaningful or nah? [system as 'controlling' signals]"
+
+**12:59:55** --- "just delete [quoted spectrum framing sentence]"
+
+**13:00:01** --- "still recording all prompts.md?"
+
 ---
 
 ## Request Status Tracking
