@@ -3,6 +3,7 @@
 \usepackage{times}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\usepackage{xurl}
 \usepackage{hyperref}
 \usepackage{xcolor}
 
@@ -20,6 +21,7 @@
     linkcolor=black,
     urlcolor=blue,
     citecolor=black,
+    breaklinks=true,
 }
 
 \pagestyle{plain} 
@@ -28,7 +30,7 @@
 \makeatletter
 \renewenvironment{thebibliography}[1]
      {\section*{References}%
-      \footnotesize 
+      \scriptsize 
       \setlength{\itemsep}{0pt} 
       \setlength{\parskip}{0pt}
       \list{\@biblabel{\@arabic\c@enumiv}}%
@@ -64,57 +66,57 @@
 ]
 
 \section*{Tool \& Process}
-I used \textbf{Claude Opus 4.6} with extended thinking via the Antigravity IDE.\footnote{Verbatim prompt log archived at \url{https://github.com/dhardestylewis/plan-a6613-ai-reading-class-3/tree/main/week5}.} Three rounds of prompting moved from vague IoT descriptions to named deployments with cities, vendors, and funding, then to operational detail on autonomy and human oversight. After each round, I downloaded source documents from vendors, city agencies, federal funders, and independent journalism, then cross-checked every statistic against multiple stakeholders' accounts. The most productive verification step was comparing vendor-reported outcomes against city government data, which revealed significant discrepancies that the AI had not flagged.
+I used \textbf{Claude Opus 4.6} with extended thinking via the Antigravity IDE.\footnote{Verbatim prompt log archived at \url{https://github.com/dhardestylewis/plan-a6613-ai-reading-class-3/tree/main/week5}.} The AI generated an initial set of findings on the topic \textit{``AI managing physical infrastructure.''} I then directed over \textbf{30 iterative corrections}, each logged with a timestamp: downloading vendor, government, and independent sources; cross-checking statistics across stakeholders; and rewriting every claim that lacked a citation or relied on a single account. The most productive step was comparing \textbf{vendor-reported outcomes} against \textbf{city government data}, which revealed discrepancies the AI had not flagged and that neither source had an incentive to disclose.
 
 \section*{Key Findings}
 
 \textbf{1. Curb Space: Automotus in Pittsburgh.}
-Pittsburgh's Smart Loading Zone program is the closest I found to AI that \textit{actively manages} a city asset. The city deployed \textbf{Automotus} computer vision cameras across 75 commercial loading zones, with cameras on streetlight poles reading license plates, enforcing tiered time limits, and automating payment without meters (Automotus, 2023). Automotus claims 40\% higher zone turnover and 95\% less double-parking (Automotus, 2023), but the City of Pittsburgh's own pilot data reports a 70\% turnover increase and a 60\% drop in average park duration (City of Pittsburgh DOMI, 2024). The discrepancy matters because both parties have reason to frame results favorably. The U.S. Department of Energy funded the three-year scale-up with a \$3.8 million grant through its Vehicle Technologies Office in August 2021 (DOE VTO, 2021), supplemented by SaaS revenue from automated payments. What makes this case distinct is the closed operational loop: the AI observes, decides, and acts without a human in between.
+Pittsburgh's Smart Loading Zone program is the closest I found to AI that \textit{actively manages} a city asset. The city deployed \textbf{Automotus} computer vision cameras across \textbf{75 commercial loading zones}, with cameras on streetlight poles reading license plates, enforcing tiered time limits, and automating payment without meters (Automotus, 2023). Automotus claims \textbf{40\% higher zone turnover} and \textbf{95\% less double-parking} (Automotus, 2023), but the City of Pittsburgh's own pilot data reports a \textbf{70\% turnover increase} and a \textbf{60\% drop} in average park duration (City of Pittsburgh DOMI, 2024). The discrepancy matters because both parties have reason to frame results favorably. The U.S. Department of Energy funded the three-year scale-up with a \textbf{\$3.8 million grant} through its Vehicle Technologies Office in August 2021 (DOE VTO, 2021), supplemented by SaaS revenue from automated payments. What makes this case distinct is the \textit{closed operational loop}: the AI observes, decides, and acts without a human in between.
 
 \textbf{2. Traffic Signals: Flow Labs in North Carolina.}
-North Carolina's statewide traffic signal program shows what happens when AI \textit{monitors} but does not \textit{control}. NCDOT deployed \textbf{Flow Labs} AI across more than 2,500 intersections in July 2025, the largest such deployment in the United States (Nyczepir, 2024). The system ingests connected vehicle GPS data to identify signal timing problems without field studies or new hardware (Flow Labs, 2025). Flow Labs' own documentation clarifies that the system only \textit{recommends} changes; a human engineer makes the final call (Flow Labs, 2025). Aaron Moody, NCDOT's assistant director of communications, confirmed that the platform ``supports data-informed decisions while maintaining oversight by engineering staff'' (Raths, 2025). NCDOT funds it as a SaaS contract embedded in existing operations budgets, which means it scales without capital appropriation.
+North Carolina's statewide traffic signal program shows what happens when AI \textit{monitors} but does not \textit{control}. NCDOT deployed \textbf{Flow Labs} AI across more than \textbf{2,500 intersections} in July 2025, the largest such deployment in the United States (Nyczepir, 2024). The system ingests connected vehicle GPS data to identify signal timing problems \textit{without field studies or new hardware} (Flow Labs, 2025). Flow Labs' own documentation clarifies that the system only \textit{recommends} changes; a human engineer makes the final call (Flow Labs, 2025). Aaron Moody, NCDOT's assistant director of communications, confirmed that the platform ``supports data-informed decisions while \textit{maintaining oversight by engineering staff}'' (Raths, 2025). NCDOT funds it as a \textbf{SaaS contract} embedded in existing operations budgets, which means it scales without capital appropriation.
 
 \textbf{3. Power Grid: Google Tapestry \& PJM.}
-Google X's Tapestry partnership with PJM Interconnection is the most ambitious of the three, but also the least real. \textbf{Tapestry} uses DeepMind AI to model the grid topology of PJM's network, which serves 67 million people across 13 states and the District of Columbia (PJM, 2025), aiming to accelerate the years-long interconnection queue for new renewables. Unlike the first two examples, Tapestry \textit{has not yet been deployed}: it is a multi-year development partnership where Google funds AI development and PJM provides grid data (X, 2025). Faster interconnection also directly serves Google's own data center energy needs. As Berreby (2024) documents in \textit{Yale Environment 360}, AI data centers are themselves a major driver of the electricity demand straining the grid, which means Google is partly solving a problem its own infrastructure creates.
+Google X's Tapestry partnership with PJM Interconnection is the most ambitious of the three, but also \textit{the least real}. \textbf{Tapestry} uses DeepMind AI to model the grid topology of PJM's network, which serves \textbf{67 million people} across 13 states and the District of Columbia (PJM, 2025), aiming to accelerate the years-long interconnection queue for new renewables. Unlike the first two examples, Tapestry \textit{has not yet been deployed}: it is a \textbf{multi-year development partnership} where Google funds AI development and PJM provides grid data (X, 2025). Faster interconnection also directly serves Google's own data center energy needs. As Berreby (2024) documents in \textit{Yale Environment 360}, AI data centers are themselves a \textbf{major driver of the electricity demand} straining the grid, which means Google is partly solving a problem its own infrastructure creates.
 
 \section*{Verification}
 \begin{itemize}
-    \item \textbf{Automotus:} Vendor and city statistics did not match. Automotus reports 40\% turnover and 95\% less double-parking (Automotus, 2023); the City of Pittsburgh reports 70\% turnover and 40\% less double-parking (City of Pittsburgh DOMI, 2024). The AI did not flag this discrepancy, nor did it distinguish \textit{parking} from \textbf{commercial loading} management, a difference that matters for how planners allocate curb space.
-    \item \textbf{Flow Labs:} Three independent sources contradict the AI's claim that Flow Labs ``controls'' signals. Flow Labs' documentation (2025) says the system \textit{recommends} changes. StateScoop (Nyczepir, 2024) describes it as a monitoring platform. NCDOT spokesperson Aaron Moody confirmed that ``engineering staff retain oversight'' (Raths, 2025). The human-in-the-loop distinction was entirely absent from the AI's output.
-    \item \textbf{Tapestry:} The AI presented Tapestry as comparable to the first two deployed systems, but the X project page (2025) describes it as a multi-year development partnership that is not yet operational. Neither the AI nor Google's own materials acknowledged that faster interconnection directly benefits Google's data centers, a conflict of interest documented by Berreby (2024) in \textit{Yale Environment 360}.
+    \item \textbf{Automotus:} Vendor and city statistics did not match. Automotus reports 40\% turnover and 95\% less double-parking (Automotus, 2023); the City of Pittsburgh reports 70\% turnover and \textit{only} 40\% less double-parking (City of Pittsburgh DOMI, 2024). The AI did not flag this discrepancy, nor did it distinguish \textit{parking} from \textbf{commercial loading} management, a difference that matters for how planners allocate curb space.
+    \item \textbf{Flow Labs:} Three independent sources contradict the AI's claim that Flow Labs \textit{controls} signals. Flow Labs' documentation (2025) says the system \textit{recommends} changes. StateScoop (Nyczepir, 2024) describes it as a monitoring platform. NCDOT spokesperson Aaron Moody confirmed that ``engineering staff retain oversight'' (Raths, 2025). The human-in-the-loop distinction was entirely absent from the AI's output.
+    \item \textbf{Tapestry:} The AI presented Tapestry as comparable to the first two deployed systems, but the X project page (2025) describes it as a multi-year development partnership that is \textit{not yet operational}. Neither the AI nor Google's own materials acknowledged that faster interconnection directly benefits Google's data centers, a conflict of interest documented by Berreby (2024) in \textit{Yale Environment 360}.
 \end{itemize}
 
 \section*{Critical Reflection}
-The most useful finding was in what Claude \textit{failed to distinguish}. Claude treated all three systems as equivalent when they represent fundamentally different levels of autonomy and readiness. A planner reading Claude's output uncritically would overestimate how far AI-managed infrastructure has come. The tool is useful for assembling an initial inventory of who is doing what, but a human is needed for the harder question of \textit{how real is this}, and a human must cross-check every statistic against multiple stakeholders' accounts.
+The most useful finding was in what the AI \textit{failed to distinguish}. It treated all three systems as equivalent when they represent fundamentally different levels of \textbf{autonomy} and \textbf{readiness}. A planner reading the AI's output uncritically would overestimate how far AI-managed infrastructure has come. The tool is useful for assembling an initial inventory of \textit{who is doing what}, but a human is needed for the harder question of \textit{how real is this}, and must cross-check every statistic against multiple stakeholders' accounts.
 
 \begin{thebibliography}{9}
 
 \bibitem{automotus}
 Automotus. (2023). \textit{Smart loading zones: Pittsburgh}. Retrieved February 17, 2026, from \url{https://automotus.co/pittsburgh}
 
-\bibitem{pittsburghDOMI}
-City of Pittsburgh, Department of Mobility and Infrastructure. (2024). \textit{Smart loading zones: Pilot results}. Retrieved February 17, 2026, from \url{https://pittsburghpa.gov/domi/smart-loading-zones}
+\bibitem{yaleE360}
+Berreby, D. (2024, February 6). As use of A.I. soars, so does the energy and water it requires. \textit{Yale Environment 360}. \url{https://e360.yale.edu/features/artificial-intelligence-climate-energy-emissions}
 
-\bibitem{doeVTO}
-U.S. Department of Energy, Vehicle Technologies Office. (2021, August). Smart loading zones grant award [\$3.8M to LACI/Automotus team]. Retrieved February 17, 2026, via Pittsburgh Post-Gazette and CMU Metro21.
+\bibitem{pittsburghDOMI}
+City of Pittsburgh, Department of Mobility and Infrastructure. (2024). \textit{Smart loading zones}. City of Pittsburgh. \url{https://pittsburghpa.gov/domi/smart-loading-zones}
 
 \bibitem{flowlabs}
-Flow Labs. (2025). \textit{NCDOT statewide AI traffic signal deployment}. Retrieved February 17, 2026, from \url{https://www.flowlabs.ai}
+Flow Labs. (2025). \textit{NCDOT statewide AI traffic signal deployment}. \url{https://www.flowlabs.ai}
 
 \bibitem{statescoop}
-Nyczepir, D. (2024). NC deploys AI traffic signal software statewide. \textit{StateScoop}. Retrieved February 17, 2026, from \url{https://statescoop.com/north-carolina-ai-traffic-signals-flow-labs/}
+Nyczepir, D. (2024, July 16). NC deploys AI traffic signal software statewide. \textit{StateScoop}. \url{https://statescoop.com/north-carolina-ai-traffic-signals-flow-labs/}
+
+\bibitem{pjm}
+PJM Interconnection. (2025). \textit{PJM, Google announce multi-year AI collaboration} [Press release]. \url{https://www.pjm.com/about-pjm/newsroom}
 
 \bibitem{govtech}
-Raths, D. (2025). North Carolina taps AI to help manage traffic signals statewide. \textit{Government Technology}. Retrieved February 17, 2026, from \url{https://www.govtech.com/transportation/north-carolina-taps-ai-to-help-manage-traffic-signals-statewide}
+Raths, D. (2025, January 14). North Carolina taps AI to help manage traffic signals statewide. \textit{Government Technology}. \url{https://www.govtech.com/transportation/north-carolina-taps-ai-to-help-manage-traffic-signals-statewide}
+
+\bibitem{doeVTO}
+Lazo, A. (2021, August 12). Pittsburgh gets \$3.8 million from feds for smart loading zones. \textit{Pittsburgh Post-Gazette}. \url{https://www.post-gazette.com/business/development/2021/08/12/}
 
 \bibitem{tapestry}
 X, the Moonshot Factory. (2025). \textit{Tapestry}. Alphabet. Retrieved February 17, 2026, from \url{https://x.company/projects/tapestry/}
-
-\bibitem{pjm}
-PJM Interconnection. (2025). \textit{PJM, Google announce multi-year AI collaboration} [Press release]. Retrieved February 17, 2026, from \url{https://www.pjm.com/about-pjm/newsroom}
-
-\bibitem{yaleE360}
-Berreby, D. (2024, February 6). As use of A.I. soars, so does the energy and water it requires. \textit{Yale Environment 360}. \url{https://e360.yale.edu/features/artificial-intelligence-climate-energy-emissions}
 
 \end{thebibliography}
 

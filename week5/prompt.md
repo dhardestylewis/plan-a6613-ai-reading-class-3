@@ -4,7 +4,7 @@
 **Date**: February 17, 2026
 
 ## Prompt Strategy
-Three-stage iterative process moving from general to specific to operational.
+Iterative process: AI generated initial findings, then 30+ user-directed corrections drove source verification, cross-checking, and rewriting.
 
 ## Prompt 1 — General Orientation
 > What are three real-world examples of AI being used to "actively manage" city assets like the curb or the power grid, and how are cities funding these new digital systems?
@@ -101,3 +101,52 @@ Claude assembled a useful initial inventory but could not assess system maturity
 **12:15:32** — "'earlier' is vague"
 
 **12:16:13** — "have you been timestamp appending all these requests verbatim to a week-specific prompts log?"
+
+**12:16:22** — "everything ive stated?"
+
+**12:16:34** — "does your opening paragraph reflect that reality?"
+
+**12:16:45** — "of how we actually engaged in this assignment?"
+
+**12:16:51** — "do you have a complete record to go off of for that?"
+
+**12:17:04** — "have you been committing with every prompt in order to do so?"
+
+**12:17:17** — "by review your git diffs relevant to the files in this assignment?"
+
+**12:17:53** — "are each of the verification bullet points of equal depth?"
+
+**12:17:57** — "or equivalent?"
+
+**12:18:28** — "Claude... Claude... if you intend to speak in a parallel way and open each verification the same way do so intentionally otherwise vary"
+
+**12:18:56** — "last commit a long time ago? no readme on this page?"
+
+**12:21:12** — "kept a list or outline of all facts claims etc currently written into the writeup? and checked off every single one with a table of the pipeline engaged in to confirm each? such as searched, search sources within search independent sources downloaded downloaded secondary downloaded independent read read read annotated annotated annotated with page number or line number synthesized into new doc etc"
+
+**12:21:27** — "reduce font size of references"
+
+**12:21:42** — "one references weblink goes over the end of column"
+
+**12:22:12** — "Did we actually engage in such rounds of prompting? is there evidence of that anywhere?"
+
+**12:22:22** — "wheres the bolding? wheres the italics?"
+
+**12:22:42** — "are the references correctly ordered?"
+
+**12:23:05** — "is use of quotes around 'controls' appropriate?"
+
+**12:23:11** — "or elsewhere?"
+
+**12:23:36** — "do any of these sources have DOIs?"
+
+**12:23:48** — "or formal citations recommended way of writing them up?"
+
+**12:24:10** — "have you continued appending timestamped to prompt.md"
+
+**12:24:15** — "verbatim"
+
+**12:25:02** — "have you continued updating without completely regenerating the verification audit and kept a changelog of such updates? or is it complete?"
+
+**12:25:16** — "is everything stated there actually reflected in the writeup?"
+
