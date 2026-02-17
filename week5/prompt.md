@@ -300,6 +300,24 @@ Claude assembled a useful initial inventory but could not assess system maturity
 
 **13:00:01** --- "still recording all prompts.md?"
 
+**13:00:37** --- "is this supported by the git diff of the writeup of this tex? [quoted Critical Reflection paragraph]"
+
+**13:01:02** --- "still havent read the inchat discussion of this use of quotes? [system as 'controlling' signals]"
+
+**13:01:39** --- "is this detail supported by the source cross checked or claimed to be in the verification audit [SaaS contract in existing operations budgets]"
+
+**13:02:40** --- "have you gone thru a bolding and italics review"
+
+**13:03:04** --- "what did the git diff reveal on [quoted Critical Reflection paragraph]"
+
+**13:03:26** --- "everything still logged to prompts?"
+
+**13:03:37** --- "is this up to date? [quoted Tool & Process section]"
+
+**13:03:47** --- "does this need to be quoted? [AI managing physical infrastructure]"
+
+**13:04:16** --- "what was the ultimate conclusion on whether to finish off this finding in this way? [quoted Finding 2 ending]"
+
 ---
 
 ## Request Status Tracking
