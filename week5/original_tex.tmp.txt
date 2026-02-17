@@ -1,0 +1,112 @@
+﻿\documentclass[11pt, twocolumn]{article}
+\usepackage[margin=0.7in, columnsep=0.25in, bottom=0.5in]{geometry}
+\usepackage{times}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Tight compacting
+\setlist{nosep, leftmargin=*} 
+\linespread{0.92} 
+\setlength{\parskip}{2pt} 
+
+% Tight section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{4pt}{1pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+}
+
+\pagestyle{plain} 
+
+% Compact Bibliography
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section*{References}%
+      \footnotesize 
+      \setlength{\itemsep}{0pt} 
+      \setlength{\parskip}{0pt}
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+\begin{document}
+
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \noindent
+    \textbf{\LARGE AI Reading Exercise: Class 5} \hfill \textbf{Daniel Hardesty Lewis} \\
+    \noindent
+    \textit{From Digital to Physical Infrastructure} \hfill February 17, 2026 \\
+    \textbf{PLAN A6613: AI and the Future of Cities} \hfill Spring 2026
+    \vspace{3pt}
+    \hrule
+    \vspace{6pt}
+  \end{@twocolumnfalse}
+]
+
+\section*{Tool \& Process}
+I used \textbf{Claude Opus 4.6} with extended thinking via the Antigravity IDE.\footnote{Verbatim prompt log archived at \url{https://github.com/dhardestylewis/plan-a6613-ai-reading-class-3/tree/main/week5}.} My first prompt returned vague IoT sensor descriptions. I refined it to demand three \textit{named deployments} with exact cities, vendors, and funding mechanisms. A third prompt asked how each system \textit{operationally} works: what data it ingests, what it decides autonomously, and where a human remains in the loop.
+
+\section*{Key Findings}
+
+\textbf{1. Curb Space: Automotus in Pittsburgh.}
+Pittsburgh deployed \textbf{Automotus} computer vision cameras across 75 Smart Loading Zones. Cameras on streetlight poles read license plates, enforce tiered commercial loading limits, and automate payment without meters. According to Automotus, the city has seen 40\% higher zone turnover and 95\% less double-parking since launch. A \$3.8M DOE grant funds the three-year scale-up, supplemented by SaaS revenue from automated payments.
+
+\textbf{2. Traffic Signals: Flow Labs in North Carolina.}
+NCDOT deployed \textbf{Flow Labs} AI across more than 2,500 intersections, the largest statewide AI traffic deployment in the US. It ingests connected vehicle GPS data to identify signal timing problems without field studies. But as Flow Labs' own documentation clarifies, the system only \textit{recommends}; a human engineer makes the final call. Funded as SaaS embedded in existing NCDOT operations budgets.
+
+\textbf{3. Power Grid: Google Tapestry \& PJM.}
+Google X launched \textbf{Tapestry} with PJM Interconnection, which serves 67 million people across 13 states, using DeepMind AI to simulate grid topology and accelerate the years-long interconnection queue for renewables. Unlike the first two, Tapestry \textit{has not been deployed}: it is a development partnership where Google funds the AI and PJM provides grid data. Faster interconnection also serves Google's own data center energy needs.
+
+\section*{Verification}
+\begin{itemize}
+    \item \textbf{Automotus:} Statistics checked out. The telling gap was framing: the AI called it \textit{parking} tech when it is specifically \textbf{commercial loading} management, a key distinction for curb policy.
+    \item \textbf{Flow Labs:} The AI described the system as \textit{controlling} signals. Documentation clarifies it only recommends. The human-in-the-loop distinction was entirely absent.
+    \item \textbf{Tapestry:} The AI listed it alongside deployed systems without flagging that it remains a multi-year development effort, not yet operational at scale.
+\end{itemize}
+
+\section*{Critical Reflection}
+The most useful finding was in what the AI \textit{failed to distinguish}. It treated all three as equivalent when they represent fundamentally different levels of readiness. A planner reading uncritically would overestimate how far AI-managed infrastructure has come. The tool is useful for assembling an initial landscape of who is doing what, but a human is essential for the harder question: \textit{how real is this?}
+
+\begin{thebibliography}{9}
+
+\bibitem{automotus}
+Automotus. (2023). \textit{Smart Loading Zones: Pittsburgh}. \url{https://automotus.co/pittsburgh}
+
+\bibitem{citiesToday}
+Marotti, A. (2022). Pittsburgh pilots smart loading zones. \textit{Cities Today}. \url{https://cities-today.com/pittsburgh-pilots-smart-loading-zones/}
+
+\bibitem{flowlabs}
+Flow Labs. (2025). \textit{NCDOT statewide AI traffic signal deployment}. \url{https://www.flowlabs.ai}
+
+\bibitem{statescoop}
+Nyczepir, D. (2024). NC deploys AI traffic signal software statewide. \textit{StateScoop}. \url{https://statescoop.com/north-carolina-ai-traffic-signals-flow-labs/}
+
+\bibitem{tapestry}
+X, the Moonshot Factory. (2025). \textit{Tapestry}. Alphabet. \url{https://x.company/projects/tapestry/}
+
+\bibitem{pjm}
+PJM. (2025). PJM, Google multi-year AI collaboration. \url{https://www.pjm.com/about-pjm/newsroom}
+
+\end{thebibliography}
+
+\end{document}
