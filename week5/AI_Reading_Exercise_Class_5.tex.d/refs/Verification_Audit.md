@@ -82,8 +82,8 @@ Every factual claim in `AI_Reading_Exercise_Class_5.tex` is listed below with it
 - **Total claims**: 41
 - **Claims with full pipeline (searched → downloaded → read → annotated → synthesized)**: 37 / 41
 - **Claims based on direct experience only**: 4 / 41 (tool use, prompting process)
-- **Claims verified against 2+ independent sources**: 36 / 37 pipeline claims (97%)
-- **Single-source claims**: 1 (Aaron Moody direct quote — appropriate for quoted speech)
+- **Claims verified against 2+ independent sources**: 35 / 37 pipeline claims (95%)
+- **Single-source claims**: 2 table rows (#23, #36), both the same Aaron Moody direct quote — appropriate for quoted speech
 - **Downloaded source files**: 8
 - **Annotation files with line references**: 3 + synthesis matrix
 
@@ -109,3 +109,5 @@ All verification was directed by the student through 30+ timestamped iterative c
 | 12:28 | Corroboration searches run; 2+ source count updated from 15 → 36/37; claim #3 corrected from "three rounds" to "30+ iterative corrections"; added student-directed evidence table |
 | 12:33 | README updated with verification audit link and "How to Review the Process" section; TeX footnote updated to reference full process evidence |
 | 12:35 | Fixed 2+ sources column consistency in Critical Reflection section (listed all 8 specific sources instead of vague "all 8"); prompt.md header updated with timestamp, current status, and properly nested prompt headings |
+| 12:37 | Replaced all numeric source counts ("3 sources", "4+ sources") with named sources throughout; fixed parenthetical consistency in Tool & Process section |
+| 12:45 | Re-counted all claims: corrected 2+ sources from 36/37 to 35/37 (both #23 and #36 are ⚠️ same Moody quote); updated TeX "30 corrections" to "50+ corrections" to match actual prompt log; directory reorganized into sources/ and annotations/ subdirs |
