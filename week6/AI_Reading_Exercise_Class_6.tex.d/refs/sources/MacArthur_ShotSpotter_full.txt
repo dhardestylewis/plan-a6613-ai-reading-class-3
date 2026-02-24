@@ -1,0 +1,23 @@
+Source: MacArthur Justice Center, Northwestern Pritzker School of Law
+Title: Williams v. City of Chicago — Complaint
+Date: July 27, 2022
+URL: https://www.macarthurjustice.org/case/shotspotter/
+Retrieved: February 24, 2026
+
+Key points from MacArthur Justice Center lawsuit:
+
+[Line 1] Federal lawsuit filed July 2022 alleging Chicago police misused "unreliable" gunshot detection technology.
+
+[Line 2] The suit alleges ShotSpotter sensor placement in primarily Black and Latino neighborhoods constitutes racially discriminatory policing.
+
+[Line 3] The MacArthur Justice Center found that 86% of ShotSpotter dispatches in Chicago did not result in a case report of any crime.
+
+[Line 4] 89% of ShotSpotter alerts did not result in police finding evidence of a gun-related crime (citing Northwestern Law School study).
+
+[Line 5] The suit seeks damages and a court order barring the technology's continued use in the city.
+
+[Line 6] ShotSpotter deploys acoustic sensors across 117 square miles of Chicago, covering 12 police districts.
+
+[Line 7] Machine-learning algorithms classify and geolocate sounds, then human analysts review before alerts are dispatched, typically within 60 seconds.
+
+[Line 8] The complaint documents specific cases where ShotSpotter alerts led to wrongful stops and detention of individuals in the sensor coverage area.

@@ -1,0 +1,23 @@
+Source: Sidewalk Labs
+Title: Toronto Tomorrow: Master Innovation and Development Plan
+Date: June 2019
+URL: https://www.sidewalklabs.com/toronto
+Retrieved: February 24, 2026
+
+Key points from the MIDP:
+
+[Line 1] Sidewalk Labs proposed Quayside, a 12-acre site on Toronto's eastern waterfront, as a testbed for sensor-driven urban management.
+
+[Line 2] The plan envisioned adaptive traffic signals, automated waste collection via underground pneumatic tubes, and real-time energy optimization.
+
+[Line 3] Data collection infrastructure included cameras, environmental sensors, weather stations, and mobile device tracking.
+
+[Line 4] The governance model proposed a "Civic Data Trust" — an independent entity that would set rules for the collection, use, and sharing of "urban data."
+
+[Line 5] Sidewalk Labs committed that it would not sell personal information or use it for advertising.
+
+[Line 6] The 1,524-page Master Innovation and Development Plan was released in June 2019 in three volumes.
+
+[Line 7] The plan proposed expanding the development from the original 12-acre Quayside site to a broader 190-acre area called the "IDEA District."
+
+[Line 8] Sidewalk Labs, a subsidiary of Alphabet Inc. (Google's parent company), was selected by Waterfront Toronto in October 2017 through an RFP process.

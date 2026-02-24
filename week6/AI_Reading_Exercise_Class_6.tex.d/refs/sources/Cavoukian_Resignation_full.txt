@@ -1,0 +1,29 @@
+Source: Various (The Guardian, Global News, Financial Post, Gizmodo)
+Title: Ann Cavoukian Resignation from Sidewalk Labs Advisory Role
+Date: October 2018
+Retrieved: February 24, 2026
+
+Compiled from multiple reports:
+
+[Line 1] Ann Cavoukian, Ontario's former Information and Privacy Commissioner, resigned from her advisory role with Sidewalk Labs' Quayside project in October 2018.
+
+[Line 2] Cavoukian was the creator of the "Privacy by Design" framework, a globally recognized approach to embedding privacy into system architecture from the outset.
+
+[Line 3] She was hired to integrate Privacy by Design principles into the Quayside project.
+
+[Line 4] During an October 2018 meeting, Cavoukian learned that while Sidewalk Labs committed to her guidelines for its own operations, it could not mandate the same for third-party companies operating within Quayside.
+
+[Line 5] This meant de-identification of personal data at the point of collection would be voluntary, not enforceable — a direct contradiction of Privacy by Design's core principle.
+
+[Line 6] Cavoukian described her resignation as "a strong statement" intended to pressure for stricter privacy commitments.
+
+[Line 7] Entrepreneur Saadia Muzaffar also resigned from the advisory panel, citing a lack of transparency from Waterfront Toronto and a "deepening crisis of public trust."
+
+[Line 8] Sidewalk Labs withdrew from Quayside entirely in May 2020, officially citing COVID-19 economic uncertainty, though privacy and governance controversies were widely understood as contributing factors.
+
+Sources consulted:
+- The Guardian (Oct 2018, Josh O'Kane coverage)
+- Global News (Oct 2018)
+- Financial Post (Oct 2018)
+- Gizmodo (Oct 2018, Kate O'Flaherty)
+- CBC News (May 2020, project cancellation)

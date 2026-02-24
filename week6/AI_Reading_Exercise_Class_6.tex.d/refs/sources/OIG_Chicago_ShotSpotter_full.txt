@@ -1,0 +1,25 @@
+Source: Chicago Office of Inspector General
+Title: The Chicago Police Department's Use of ShotSpotter Technology
+Date: August 24, 2021
+URL: https://igchicago.org/publications/the-chicago-police-departments-use-of-shotspotter-technology/
+Retrieved: February 24, 2026
+
+Key findings from the OIG report:
+
+[Line 1] The OIG analyzed over 50,000 ShotSpotter alerts occurring between January 1, 2020 and May 31, 2021.
+
+[Line 2] CPD responses to ShotSpotter alerts rarely produced evidence of a gun-related crime.
+
+[Line 3] Only 9.1% of responses (4,556 out of 41,830 alerts with reported dispositions) indicated evidence of a gun-related criminal offense was found.
+
+[Line 4] Out of 50,176 confirmed and dispatched ShotSpotter alerts, only 1,056 (2.1%) led to a documented investigatory stop.
+
+[Line 5] Police responses to ShotSpotter alerts seldom led to the recovery of a firearm.
+
+[Line 6] Deputy Inspector General Deborah Witzburg stated the study was "not about technological accuracy, it's about operational value" and that the data "plainly doesn't" demonstrate significant law enforcement benefit.
+
+[Line 7] The OIG identified that ShotSpotter technology had changed how some CPD members perceived and interacted with individuals in areas where alerts were frequent.
+
+[Line 8] SoundThinking (then ShotSpotter) responded that its technology's accuracy had been independently audited at 97% based on customer feedback.
+
+[Line 9] The OIG report cited a MacArthur Justice Center finding that 86% of incidents where CPD officers responded to a ShotSpotter alert did not result in the completion of a case report.

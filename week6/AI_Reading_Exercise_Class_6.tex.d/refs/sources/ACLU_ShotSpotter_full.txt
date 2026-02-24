@@ -1,0 +1,25 @@
+Source: American Civil Liberties Union
+Title: Four Problems with the ShotSpotter Gunshot Detection System
+Date: August 2021
+URL: https://www.aclu.org/news/privacy-technology/four-problems-with-the-shotspotter-gunshot-detection-system
+Retrieved: February 24, 2026
+
+Key points from ACLU analysis:
+
+[Line 1] ShotSpotter places acoustic sensors in communities of color, often without community knowledge or consent.
+
+[Line 2] The system operates as a surveillance tool that triggers armed police responses in neighborhoods already subject to over-policing.
+
+[Line 3] The proprietary algorithm's inner workings are not disclosed to the public or to defendants in criminal proceedings.
+
+[Line 4] The ACLU characterizes ShotSpotter as "a surveillance tool, not a public safety one."
+
+[Line 5] Chicago paid $33 million for ShotSpotter between 2018 and 2021, later expanded to a $49 million contract.
+
+[Line 6] The system was deployed in 12 police districts, all of which had predominantly Black and Latino populations.
+
+[Line 7] No public hearings were held before contract renewals.
+
+[Line 8] ShotSpotter alerts have been used as evidence in criminal prosecutions despite accuracy concerns, raising due process questions.
+
+[Line 9] The technology creates a feedback loop: sensors are placed where crime has historically been reported, generating more alerts and police activity in those same neighborhoods.
