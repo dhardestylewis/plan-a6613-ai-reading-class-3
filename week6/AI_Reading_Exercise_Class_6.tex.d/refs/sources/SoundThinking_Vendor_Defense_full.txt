@@ -1,0 +1,38 @@
+Source: SoundThinking (vendor)
+Title: ShotSpotter Gunshot Detection Technology — Vendor Position
+Date: Various (2021-2024)
+URL: https://www.soundthinking.com (various pages)
+Retrieved: February 24, 2026 (via web search; direct URLs returned 404 — site may have been restructured)
+Verified: February 24, 2026 — cross-checked against ACLU response, OIG report, Edgeworth Economics audit
+
+Note: This source represents the vendor perspective, which is missing from the main writeup's
+citations but informs the critical analysis. Included here for source variety and credibility assessment.
+
+Key points from SoundThinking's public defense:
+
+[Line 1] SoundThinking claims 97% accuracy for real-time ShotSpotter detections across all deployments.
+
+[Line 2] This accuracy figure was audited by Edgeworth Economics (a data analytics firm), which found 97.69% for 2019-2021 and 97.63% for 2022.
+
+[Line 3] SoundThinking reports a false positive rate of 0.5% (alerts issued when no gunshot occurred).
+
+[Line 4] The company argues that "nothing to report" police dispositions do not necessarily mean no gunfire occurred — physical evidence (shell casings) can be hard to locate.
+
+[Line 5] SoundThinking's system uses a two-step process: machine classification followed by human analyst review at Incident Review Centers, aiming for alert dispatch within 60 seconds.
+
+[Line 6] The company claims the system enables faster emergency response, potentially saving lives in cases where gunfire goes unreported to 911.
+
+[Line 7] ACLU reported that SoundThinking CEO Ralph Clarke disputed their analysis and filed a defamation lawsuit against Vice News over critical reporting.
+
+[Line 8] The ACLU also noted that SoundThinking turned down a request by the independent security technology research publication IPVM to carry out independent tests of its methodology.
+
+[Line 9] A ShotSpotter expert admitted in a 2016 trial that the company reclassified sounds from a helicopter to a bullet at the request of a police department, saying such changes occur "all the time" (ACLU, citing court testimony).
+
+CREDIBILITY ASSESSMENT:
+- The 97% accuracy metric measures whether a sensor-detected sound is correctly classified as a gunshot.
+  It does NOT measure whether police arrive and find evidence of a crime (the OIG's 9.1% metric).
+  These are fundamentally different metrics measuring different things.
+- The Edgeworth Economics audit was commissioned by SoundThinking — not an independent, arms-length review.
+- The vendor refused IPVM's request for independent testing (ACLU reporting).
+- Court testimony about reclassifying sounds at police request raises questions about evidence integrity.
+- The "nothing to report doesn't mean no gunshot" argument is unfalsifiable — it cannot be verified or disproven.
