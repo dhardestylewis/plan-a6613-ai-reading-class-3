@@ -31,15 +31,13 @@
 \makeatletter
 \renewenvironment{thebibliography}[1]
      {\section*{References}%
-      \tiny 
-      \setlength{\itemsep}{0pt} 
-      \setlength{\parskip}{0pt}
-      \setlength{\parsep}{0pt}
+      \tiny
       \setlength{\topsep}{0pt}
       \list{\@biblabel{\@arabic\c@enumiv}}%
            {\settowidth\labelwidth{\@biblabel{#1}}%
             \leftmargin\labelwidth
             \advance\leftmargin\labelsep
+            \itemsep0pt\parsep0pt\parskip0pt
             \usecounter{enumiv}%
             \let\p@enumiv\@empty
             \renewcommand\theenumiv{\@arabic\c@enumiv}}%
