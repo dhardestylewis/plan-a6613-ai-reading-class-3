@@ -1,0 +1,135 @@
+\documentclass[10pt, twocolumn]{article}
+\usepackage[margin=0.75in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage{newtxtext}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Spacing
+\setlist{nosep, leftmargin=*} 
+\linespread{1.05} 
+\setlength{\parskip}{3pt} 
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\renewcommand{\footnotesize}{\scriptsize}
+
+% Section formatting with visual distinction
+\titleformat{\section}{\normalsize\bfseries\scshape}{\thesection}{0.5em}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titleformat{\subsection}{\small\bfseries\itshape}{\thesubsection}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    breaklinks=true,
+}
+
+\pagestyle{plain} 
+
+% Compact Bibliography
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section*{References}%
+      \scriptsize
+      \setlength{\topsep}{0pt}
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \itemsep1pt\parsep0pt\parskip0pt
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+\begin{document}
+
+\twocolumn[{%
+\noindent
+\textbf{\Large Memo \#1: Infrastructure for the AI Era} \hfill \textbf{Daniel Hardesty Lewis} \\
+\noindent
+\textit{Energy Infrastructure: Grid Resilience and Data Center Power Demand} \hfill March 3, 2026 \\
+\textbf{PLAN A6613: AI and the Future of Cities} \hfill Spring 2026
+\vspace{3pt}
+\hrule
+\vspace{8pt}
+}]
+
+\section*{I. Infrastructure Selection \& The Physical Layer}
+
+The infrastructure type examined in this memo is \textbf{energy}, specifically the electrical grid capacity and resilience required to power AI-driven computation at urban scale. The central argument is that AI energy infrastructure creates a \textit{concentration paradox}: the same geographic clustering of data centers that generates enormous fiscal windfalls for host communities simultaneously inflicts rising electricity costs, water depletion, and grid fragility on those same residents, and cities currently lack the governance tools to impose conditions on one without forfeiting the other. The tangible hardware includes high-voltage transmission lines, distribution substations, transformers, backup generators, battery energy storage systems, and the power plants themselves. Within data centers, the physical layer extends to uninterruptible power supplies, power distribution units, and cooling systems that consume a significant share of total facility energy. Cooling accounts for roughly 7\% of electricity at efficient hyperscale facilities but exceeds 30\% at less efficient enterprise data centers, and mid-sized facilities can consume up to 300,000 gallons of water daily for this purpose alone (Leppert, 2025; NLC, 2024).
+
+These assets are physically located along two axes. \textit{Generation} occurs at power plants, increasingly supplemented by on-site solar arrays and, prospectively, small modular nuclear reactors, often sited tens or hundreds of miles from the cities they serve. Several tech companies have announced purchasing agreements with nuclear power startups, and plans are underway to revive retired nuclear plants like Three Mile Island in Pennsylvania specifically to meet data center demand (Leppert, 2025). \textit{Distribution} infrastructure threads through urban rights-of-way, with substations occupying industrial parcels adjacent to data center campuses. Northern Virginia's Data Center Alley along Route 28 in Loudoun County concentrates over 300 data centers within a single corridor, creating localized demand that exceeds the capacity originally engineered for a suburban residential load profile (Northern Virginia Magazine, 2024). Nearly half of all U.S.\ data center capacity sits in just five regional clusters, and 50\% of facilities under development are being built within these same pre-existing concentrations, raising risks of local grid bottlenecks (IEA, 2025).
+
+This infrastructure is necessary because every AI workload, from a municipal traffic optimization model to a real-time language translation service, ultimately resolves to electricity consumed by GPUs in a rack. A typical AI-focused data center consumes as much electricity as 100,000 households; the largest facilities under construction today will consume twenty times that amount (IEA, 2025). The International Energy Agency estimates that global data center electricity consumption reached 415 terawatt-hours in 2024, approximately 1.5\% of total global electricity consumption, and projects this figure will more than double to 945 TWh by 2030, slightly more than Japan consumes today (IEA, 2025). In the United States alone, data centers consumed 183 TWh in 2024, over 4\% of national electricity use, and accounted for roughly 26\% of Virginia's total electricity supply in 2023 (Leppert, 2025). Data centers now account for nearly half of projected U.S.\ electricity demand growth between now and 2030, meaning the country will soon consume more electricity for data centers than for the production of aluminium, steel, cement, chemicals, and all other energy-intensive goods combined (IEA, 2025). Without sufficient grid capacity, AI-dependent city services such as emergency dispatch optimization, predictive infrastructure maintenance, and automated permit review cannot function reliably. The scale of this infrastructure challenge raises a governance question: who decides where these facilities are built, who pays for the grid upgrades they require, and who bears the environmental costs?
+
+\section*{II. The Stakeholder Matrix: Objectives and Tensions}
+
+The concentration paradox becomes concrete when examined through each stakeholder's experience of the same infrastructure.
+
+\subsection*{Local Government}
+
+Cities face a fundamental tension between \textbf{AI for Optimization} and \textbf{AI for Equity}. On the optimization side, local governments want data centers and the AI workloads they host to drive economic development: Loudoun County, Virginia, collected over \$600 million in data center tax revenue in fiscal year 2023, funding schools and public services without raising residential property tax rates (Cardinal News, 2024). In Mecklenburg County, data center taxes account for more than a third of the county's general revenue and helped pay for a \$154 million school renovation project (Cardinal News, 2026). On the equity side, the same concentration of energy demand threatens to raise electricity prices for low-income residents who derive no direct benefit from AI services. A Carnegie Mellon University study estimates that data center growth could increase average U.S.\ electricity bills by 8\% by 2030, with increases exceeding 25\% in heavily concentrated markets like Northern Virginia (Leppert, 2025). Cities must therefore balance the fiscal windfall of hosting AI infrastructure against the regressive energy cost burden it creates.
+
+Denver illustrates one response: in 2024, the city considered a moratorium on new data center construction to give policymakers time to update zoning and environmental review processes before approving additional facilities (Kiowa County Press, 2024). The National League of Cities has held joint committee sessions on data center impacts and emphasizes the need for coordinated planning for power grid expansions and water distribution, and for public education about the energy and water demands of AI and cloud services (NLC, 2024). Several states, including California, Illinois, Minnesota, New Jersey, and Virginia, have weighed bills requiring or incentivizing data centers to draw power from renewable sources and to report their electricity and water usage (Leppert, 2025).
+
+\subsection*{Businesses}
+
+Data center operators and cloud providers (Amazon Web Services, Microsoft Azure, Google Cloud) make money by selling compute capacity on a consumption or subscription basis. Their business model requires massive upfront capital expenditure on land, power interconnection, and server hardware, amortized over 15--20 year facility lifespans. This creates a structural misalignment with the \textbf{Speed vs.\ Incremental Evolution} tension in AI technology: a GPU generation is obsolete within 2--3 years, but the electrical and cooling infrastructure built to serve it must last decades. Operators manage this tension through modular facility designs that allow incremental GPU upgrades without rebuilding the power envelope (Kiran \& Wu, 2025). Virginia's new GS-5 rate class, which requires 14-year contracts with minimum demand commitments of 85\% of contracted capacity, further locks operators into long-term grid commitments that must outlast multiple hardware generations (American Action Forum, 2025).
+
+A second tension exists between operators' renewable energy commitments and the speed of deployment. Microsoft, Google, and Amazon have each pledged carbon neutrality or 100\% renewable matching, yet natural gas supplied over 40\% of U.S.\ data center electricity in 2024, with renewables accounting for only about 24\%, nuclear about 20\%, and coal about 15\% (Leppert, 2025; IEA, 2025). The gap between corporate sustainability pledges and actual grid-mix reality is a persistent source of reputational and regulatory risk. Local pushback has already delayed or blocked billions of dollars in data center projects across the United States, demonstrating that community opposition can impose real costs on operators who fail to address local concerns (Kiran \& Wu, 2025). The federal government has identified data center development as a national priority, committing land and funds to support their growth, but this top-down support does not override local resistance when it materializes (Leppert, 2025).
+
+\subsection*{Residents}
+
+Residents interact with energy infrastructure for AI in three distinct roles. As \textit{ratepayers}, they absorb electricity price increases driven by utility investments in transmission and distribution upgrades to serve data centers. In the PJM electricity market stretching from Illinois to North Carolina, data centers accounted for an estimated \$9.3 billion price increase in the 2025--26 capacity market, with average residential bills expected to rise by \$18 a month in western Maryland and \$16 a month in Ohio (Leppert, 2025). The Virginia State Corporation Commission approved Dominion Energy rate increases of approximately \$16 per month for typical residential customers beginning in 2026, a 9\% increase over two years (Inside Climate News, 2025). Northern Virginia residents have reported dramatic bill spikes during 2024 as grid infrastructure costs accelerated (ARLnow, 2024). Nationally, the typical U.S.\ household was billed \$142 per month for electricity in 2024, up 25\% from \$114 in 2014, with data center demand compounding already-rising infrastructure costs from extreme weather hardening and cybersecurity upgrades (Leppert, 2025).
+
+As \textit{neighbors}, residents near data center campuses experience noise from industrial cooling fans, light pollution from 24/7 operations, and increased truck traffic during construction. The Coalition to Protect Prince William County and the Virginia Data Center Reform Coalition have emerged as organized opposition groups channeling these concerns into political pressure (Northern Virginia Magazine, 2024). Water consumption is a particular flashpoint: U.S.\ data centers directly consumed about 17 billion gallons of water in 2023, with hyperscale facilities alone projected to consume 16--33 billion gallons annually by 2028 (Leppert, 2025). In Botetourt County, Virginia, documents show that a planned Google data center could use two to eight million gallons of water per day (Cardinal News, 2026).
+
+As \textit{environmental stakeholders}, residents bear the grid reliability risks that accompany concentrated demand. A Department of Energy analysis found that the Northern Virginia region could face over 430 hours of power outages annually by 2030, compared to 2.4 hours currently, if grid capacity fails to keep pace with data center load growth (Northern Virginia Magazine, 2024). These risks determine whether a family's air conditioning works during a heat wave or whether a hospital's backup systems are sufficient during a grid stress event. Residents are not merely end-users of AI services; they are involuntary subsidizers of the infrastructure that makes those services possible. Across all three roles, the pattern is consistent: residents absorb costs generated by decisions made at jurisdictional levels where they have no direct representation.
+
+\section*{III. The Digital Layer \& Governance}
+
+The stakeholder analysis reveals the concentration paradox in full: the communities that benefit most from data center tax revenue are the same ones absorbing the highest electricity costs, water competition, and grid reliability risks. This section examines the data and regulatory structures that prevent cities from resolving this tension.
+
+\subsection*{Data Ownership}
+
+The digital layer of energy infrastructure encompasses grid telemetry data (real-time load, voltage, frequency), building energy management system data, and the operational metrics that data center operators monitor continuously. Ownership is fragmented. Utilities like Dominion Energy own grid-level data and share limited aggregates with regulators; data center operators treat facility-level consumption, cooling efficiency measured as Power Usage Effectiveness, and workload distribution as proprietary trade secrets. Residents who generate solar power or participate in demand-response programs produce data that utilities collect but rarely make accessible in usable form. This is largely a proprietary silo model: no single entity has a comprehensive view of how much energy AI workloads actually consume at the urban scale, which makes evidence-based planning nearly impossible. The IEA itself notes that policy makers and markets have lacked the tools to assess implications of AI's deepening connection to the energy sector, in part because of this data fragmentation (IEA, 2025).
+
+\subsection*{Regulatory Powers}
+
+Energy infrastructure governance is jurisdictionally fragmented in ways that systematically disadvantage cities. \textit{State public utility commissions}, not city governments, set electricity rates, approve new generation capacity, and regulate transmission siting. Virginia's State Corporation Commission, for instance, approved the new GS-5 rate class for large electricity consumers like data centers in 2025, requiring 14-year contracts and minimum demand commitments of 85\% of contracted distribution and transmission capacity (American Action Forum, 2025). \textit{Federal agencies} such as FERC and the Department of Energy govern interstate transmission and wholesale electricity markets, and the White House has issued executive orders to accelerate federal permitting of data center infrastructure (Leppert, 2025). Cities are left with \textit{local zoning and land use} authority: they can determine where data centers are built, impose setback and noise requirements, and negotiate community benefit agreements, but they cannot directly control the price of electricity or mandate renewable sourcing. An Iowa county recently adopted extensive zoning rules specifically in response to its third data center, illustrating how local governments use the limited tools available to them (Inside Climate News, 2026). This jurisdictional mismatch means that the level of government closest to affected residents, the city, has the least power over the infrastructure's most consequential impacts.
+
+\subsection*{Looking Ahead}
+
+Cities could play a greater role through three mechanisms. First, \textbf{municipal energy data trusts} could aggregate anonymized grid and facility data to enable transparent planning without revealing proprietary operator information, directly addressing the data ownership fragmentation that currently prevents evidence-based infrastructure decisions. Second, \textbf{AI-specific procurement standards} could require that municipal contracts for AI-powered services specify minimum renewable energy percentages, Power Usage Effectiveness thresholds, and local hiring commitments for facility construction and operation. Third, cities could advocate for \textbf{state-level cost allocation reforms} like Virginia's SB 253, which would require data centers to pay for their own electrical substations and capacity costs, saving residential customers an estimated \$65 annually (13NewsNow, 2025), and that shift infrastructure costs from ratepayers to the commercial users driving demand. Each mechanism extends the city's governance reach beyond zoning into the economic and environmental dimensions of AI infrastructure that currently fall outside municipal authority, offering tools to resolve the concentration paradox by letting cities capture the fiscal benefits of hosting data centers while protecting residents from bearing its uncompensated costs.\footnote{Full process documentation, including source downloads, annotations, synthesis matrix, verification audit, and prompt log, is available in the project repository at \texttt{memo1/}.}
+
+\begin{thebibliography}{15}
+\bibitem{aaf} American Action Forum. (2025, January). Virginia's new data center rate class: Policy brief. \url{https://www.americanactionforum.org/}
+\bibitem{aipb} Kiran, M. M. \& Wu, C. (2025, September 17). U.S. states and cities are shaping the future of AI infrastructure. \textit{AI Policy Bulletin}. \url{https://aipolicybulletin.org/articles/us-states-and-cities-are-shaping-the-future-of-ai-infrastructure}
+\bibitem{arlnow} ARLnow. (2024). Northern Virginia residents report skyrocketing electricity bills amid data center boom. \textit{ARLnow}. \url{https://www.arlnow.com/}
+\bibitem{cardinal1} Cardinal News. (2024). Data center tax revenue and Virginia's energy future. \textit{Cardinal News}. \url{https://cardinalnews.org/}
+\bibitem{cardinal2} Cardinal News. (2026, February 25). Data center complex with gas power plant planned for Wise County. \textit{Cardinal News}. \url{https://cardinalnews.org/2026/02/25/data-center-complex-with-gas-power-plant-planned-for-wise-county/}
+\bibitem{icn1} Inside Climate News. (2025, November). SCC approves Dominion Energy rate increase for 2026. \textit{Inside Climate News}. \url{https://insideclimatenews.org/}
+\bibitem{icn2} Inside Climate News. (2026, March). Facing its third data center, an Iowa county rolls out extensive zoning rules. \textit{Inside Climate News}. \url{https://insideclimatenews.org/}
+\bibitem{iea} International Energy Agency. (2025). \textit{Energy and AI}. IEA, Paris. \url{https://www.iea.org/reports/energy-and-ai}
+\bibitem{kcp} Kiowa County Press. (2024). Denver considers moratorium on new data centers. \textit{Kiowa County Press}. \url{https://kiowacountypress.net/}
+\bibitem{pew} Leppert, R. (2025, October 24). What we know about energy use at U.S. data centers amid the AI boom. \textit{Pew Research Center}. \url{https://www.pewresearch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-the-ai-boom/}
+\bibitem{news13} 13NewsNow. (2025). Virginia bill would shift data center electrical costs from residential ratepayers. \textit{13NewsNow}. \url{https://www.13newsnow.com/}
+\bibitem{nlc} National League of Cities. (2024). Data centers and local environmental considerations. \textit{NLC Research}. \url{https://www.nlc.org/}
+\bibitem{novamag} Northern Virginia Magazine. (2024). Data centers: The flashpoint over power demand and infrastructure strain. \textit{Northern Virginia Magazine}. \url{https://northernvirginiamag.com/}
+\end{thebibliography}
+
+\end{document}
