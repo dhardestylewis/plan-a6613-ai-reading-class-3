@@ -97,9 +97,46 @@
 
 3. **Claim 31** (33x per-prompt energy reduction): Google 2025 report claim with no independent verification. Additionally, this per-unit metric does not account for the growth in total query volume, which could offset per-unit gains. Noted in the writeup as a caveat.
 
+## Verbatim Quote Tracing (Week 4 Practice)
+
+Each factual claim in Key Findings is traced to a verbatim extraction in the per-source annotation files:
+
+### Finding 1: Emissions
+
+| Writeup Text | Verbatim Source Quote | Annotation File |
+|-------------|----------------------|-----------------|
+| "14.3 million metric tons of CO2 equivalent in 2023" | "In 2023, our total GHG emissions increased 13% year-over-year" | `01_Annotation_Google_2024_Report.md` |
+| "a 13% year-over-year increase" | (same quote as above) | `01_Annotation_Google_2024_Report.md` |
+| "48% above its 2019 baseline" | Google blog position 25 (emissions section) | `01_Annotation_Google_2024_Report.md` |
+| "cumulative 51% increase since 2019" | 2025 report summary: "51% increase since 2019 baseline (market-based)" | `02_Annotation_Google_2025_Report.md` |
+| "27% jump in data center electricity consumption" | "Data center electricity consumption increased 27% in 2024" | `02_Annotation_Google_2025_Report.md` |
+| "a 65% increase over the same period" | "Google's carbon emissions increased by 65% between 2019 and 2024 using location-based accounting" | `04_Annotation_Guardian_Milman.md` |
+
+### Finding 2: Mitigation
+
+| Writeup Text | Verbatim Source Quote | Annotation File |
+|-------------|----------------------|-----------------|
+| "67% more energy-efficient than its predecessor" | "Trillium... which is over 67% more energy-efficient than TPU v5e." (Blog pos. 22, fn1) | `01_Annotation_Google_2024_Report.md` |
+| "reduce AI training energy by 100 times and associated emissions by 1,000 times" | "reduce the energy required to train an AI model by up to 100 times and reduce associated emissions by up to 1,000 times" (Blog pos. 22, fn2) | `01_Annotation_Google_2024_Report.md` |
+| "explicitly conditional on applying all practices simultaneously" | "when used together" (Blog pos. 22) + 4 Ms framework (Patterson arXiv) | `01_Annotation_Google_2024_Report.md`, `05_Annotation_Patterson_2022.md` |
+| "power usage effectiveness of 1.10" | "the average annual power usage effectiveness for our data centers was 1.10" (Blog pos. 22, fn4) | `01_Annotation_Google_2024_Report.md` |
+| "industry average of 1.58" | "Global average PUE of respondents' data centers: approximately 1.58 (2023)" | `06_Annotation_Uptime_Institute.md` |
+| "median energy consumption per Gemini text prompt fell 33-fold" | "Median energy consumption per Gemini text prompt decreased 33x over 12 months" | `02_Annotation_Google_2025_Report.md` |
+| "combined electricity use... more than doubled between 2017 and 2021, reaching approximately 72 terawatt-hours" | "Combined electricity use by Amazon, Microsoft, Google, and Meta more than doubled between 2017 and 2021, rising to around 72 TWh in 2021." (Position 11) | `03_Annotation_IEA.md` |
+| "grows 20 to 40 percent annually" | "growing by 20-40% annually" (Position 11) | `03_Annotation_IEA.md` |
+
+### Verification Section
+
+| Writeup Text | Verbatim Source Quote | Annotation File |
+|-------------|----------------------|-----------------|
+| "IEA's requirement that data center emissions must halve by 2030" | "to get on track with the NZE Scenario, emissions must halve by 2030" (Position 11) | `03_Annotation_IEA.md` |
+
+---
+
 ## Changelog
 
 | Timestamp | Change |
 |-----------|--------|
 | 9:05 AM | Initial audit (18 claims) |
 | 9:18 AM | Expanded to exhaustive 43-claim audit with quality ratings, source counts, and caveats |
+| 9:25 AM | Added verbatim quote tracing (Week 4 practice); created 6 per-source annotation files |
