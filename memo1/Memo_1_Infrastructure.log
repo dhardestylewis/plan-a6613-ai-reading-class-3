@@ -620,12 +620,6 @@ s than
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 cannot function reliably. The scale of this infras
-tructure
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -992,4 +986,4 @@ Underfull \hbox (badness 1789) in paragraph at lines 134--135
 Package rerunfilecheck Info: File `Memo_1_Infrastructure.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on Memo_1_Infrastructure.xdv (3 pages, 202068 bytes).
+Output written on Memo_1_Infrastructure.xdv (3 pages, 202120 bytes).
