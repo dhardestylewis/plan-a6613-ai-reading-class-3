@@ -530,9 +530,33 @@ Underfull \hbox (badness 4543) in paragraph at lines 73--74
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 73--74
-\TU/TeXGyreTermesX(0)/m/n/10 and cities currently lack the governance tools to 
-impose
+Underfull \hbox (badness 1406) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 demand for power capacity, locking cities into lon
+g-term
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 reduce municipal leverage over the infrastructure’
+s most
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 consequential impacts. The tangible hardware inclu
+des
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 high-voltage transmission lines, distribution subs
+tations,
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 transformers, backup generators, battery energy st
+orage
  []
 
 
@@ -610,14 +634,14 @@ e, and
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-\TU/TeXGyreTermesX(0)/m/n/10 The concentration paradox becomes concrete when
+Underfull \hbox (badness 2951) in paragraph at lines 81--82
+\TU/TeXGyreTermesX(0)/m/n/10 This temporal lock-in becomes concrete when examin
+ed
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 81--82
-\TU/TeXGyreTermesX(0)/m/n/10 examined through each stakeholder’s experience of 
-the
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+\TU/TeXGyreTermesX(0)/m/n/10 through each stakeholder’s experience of the same
  []
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
@@ -750,6 +774,12 @@ ern
 Underfull \hbox (badness 1259) in paragraph at lines 101--102
 \TU/TeXGyreTermesX(0)/m/n/10 capacity fails to keep pace with data center load 
 growth
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 105--106
+\TU/TeXGyreTermesX(0)/m/n/10 cities from intervening before each commitment bec
+omes
  []
 
 
@@ -964,18 +994,6 @@ ents
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 and that shift infrastructure costs from ratepayer
-s to the
- []
-
-
-Underfull \hbox (badness 5022) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 and environmental dimensions of AI infrastructure 
-that
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
@@ -1002,4 +1020,4 @@ nd local environmental
 Package rerunfilecheck Info: File `Memo_1_Infrastructure.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on Memo_1_Infrastructure.xdv (3 pages, 187556 bytes).
+Output written on Memo_1_Infrastructure.xdv (3 pages, 186640 bytes).
