@@ -38,6 +38,10 @@ Claude assembled accurate numbers from Google's reports but defaulted to Google'
 
 **08:48:12** --- "copy 6 to 7 read over prompt to see how 6 was produced then plan and improve over that process for 7"
 
+**09:11:16** --- "have you downloaded every ref?"
+
+**09:15:59** --- "is every claim supported by a reference? are you keeping track of all claims/facts/details/etc absolutely every single on in a table, with what kind of support how much support what kind of references how many references quality of those references, etc"
+
 ---
 
 ## Corrections Made During Verification (Mar 3, 2026)
