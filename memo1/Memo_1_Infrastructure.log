@@ -608,44 +608,21 @@ data
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 consumed by GPUs in a rack. A typical AI-focused
+Underfull \hbox (badness 1648) in paragraph at lines 77--78
+\TU/TeXGyreTermesX(0)/m/n/10 now account for nearly half of projected U.S. elec
+tricity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 data center consumes as much electricity as 100,00
-0
+Underfull \hbox (badness 1337) in paragraph at lines 77--78
+\TU/TeXGyreTermesX(0)/m/n/10 will soon consume more electricity for data center
+s than
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 households; the largest facilities under construct
-ion today
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 cement, chemicals, and all other energy-intensive 
-goods
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 combined (IEA, 2025). Without sufficient grid capa
-city,
- []
-
-
-Underfull \hbox (badness 4859) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 AI-dependent city services such as emergency dispa
-tch
- []
-
-
-Underfull \hbox (badness 7613) in paragraph at lines 77--78
-\TU/TeXGyreTermesX(0)/m/n/10 optimization, predictive infrastructure maintenanc
-e, and
+Underfull \hbox (badness 1137) in paragraph at lines 77--78
+\TU/TeXGyreTermesX(0)/m/n/10 cannot function reliably. The scale of this infras
+tructure
  []
 
 
@@ -940,62 +917,45 @@ Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05
 Requested font "[lmmono8-regular]:" at 7.0pt
  -> lmmono8-regular
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 First, \TU/TeXGyreTermesX(0)/b/n/10 municipal ener
-gy data trusts \TU/TeXGyreTermesX(0)/m/n/10 could aggregate
+Underfull \hbox (badness 1033) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 locks in. A Brookings Institution symposium found 
+that
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 anonymized grid and facility data to enable transp
-arent
+Underfull \hbox (badness 2285) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 communities face “compressed timelines and asymmet
+ric
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 directly addressing the data ownership fragmentati
-on that
+Underfull \hbox (badness 4391) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 negotiations” that leave local leaders unable to “
+weigh
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 currently prevents evidence-based infrastructure d
-ecisions.
+Underfull \hbox (badness 1845) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 directly decompresses these timelines. Second, \TU
+/TeXGyreTermesX(0)/b/n/10 revenue
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 that municipal contracts for AI-powered services s
-pecify
+Underfull \hbox (badness 3281) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/b/n/10 diversification requirements \TU/TeXGyreTermesX(0)
+/m/n/10 would cap data center tax
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 minimum renewable energy percentages, Power Usage
+Underfull \hbox (badness 1533) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 infrastructure costs across all four timescales (t
+echnology
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 Effectiveness thresholds, and local hiring commitm
-ents
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 and that shift infrastructure costs from ratepayer
-s to the
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 “compressed timelines and asymmetric negotiations”
- that
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 117--118
-\TU/TeXGyreTermesX(0)/m/n/10 long-term infrastructure and public service obliga
-tions”
+Underfull \hbox (badness 1168) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 operators and save households an estimated $65 ann
+ually
  []
 
 
@@ -1032,4 +992,4 @@ Underfull \hbox (badness 1789) in paragraph at lines 134--135
 Package rerunfilecheck Info: File `Memo_1_Infrastructure.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on Memo_1_Infrastructure.xdv (3 pages, 197268 bytes).
+Output written on Memo_1_Infrastructure.xdv (3 pages, 199128 bytes).
