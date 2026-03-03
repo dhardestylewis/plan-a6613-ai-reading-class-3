@@ -626,27 +626,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Requested font "cmr6" at 6.0pt
  -> cmr6
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/it' will be
-(Font)              scaled to size 10.95pt on input line 74.
+(Font)              scaled to size 10.95pt on input line 75.
 Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;-s
 s05;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> TeXGyreTermesX-BoldItalic.otf
-
-Underfull \hbox (badness 1325) in paragraph at lines 74--76
-\TU/TeXGyreTermesX(0)/m/n/10.95 lion metric tons of CO2 equivalent in 2023, a 1
-3%
- []
-
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 85.
 Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;
 +tnum;+lnum;mapping=tex-text;" at 6.0pt
  -> TeXGyreTermesX-Italic.otf
-[1
+ [1
 
 
-] (AI_Reading_Exercise_Class_7.aux)
+]
+(AI_Reading_Exercise_Class_7.aux)
 Package rerunfilecheck Info: File `AI_Reading_Exercise_Class_7.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on AI_Reading_Exercise_Class_7.xdv (1 page, 61760 bytes).
+Output written on AI_Reading_Exercise_Class_7.xdv (1 page, 63208 bytes).
