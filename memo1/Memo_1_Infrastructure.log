@@ -661,12 +661,6 @@ nd of
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 87--88
-\TU/TeXGyreTermesX(0)/m/n/10 center impacts and emphasizes the need for coordin
-ated
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -709,15 +703,21 @@ less of
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 93--94
-\TU/TeXGyreTermesX(0)/m/n/10 across the United States, demonstrating that commu
-nity
+Underfull \hbox (badness 1231) in paragraph at lines 93--94
+\TU/TeXGyreTermesX(0)/m/n/10 the already-narrow window in which cities might im
+pose
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 93--94
-\TU/TeXGyreTermesX(0)/m/n/10 government has identified data center development 
-as a
+Underfull \hbox (badness 1845) in paragraph at lines 93--94
+\TU/TeXGyreTermesX(0)/m/n/10 communities have mobilized early enough, pushback 
+has
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 93--94
+\TU/TeXGyreTermesX(0)/m/n/10 after commitments have advanced far enough to beco
+me
  []
 
 
@@ -747,15 +747,15 @@ g and
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-[]\TU/TeXGyreTermesX(0)/m/n/10 As \TU/TeXGyreTermesX(0)/m/it/10 neighbors\TU/Te
-XGyreTermesX(0)/m/n/10 , residents near data center campuses
+Underfull \hbox (badness 2495) in paragraph at lines 99--100
+\TU/TeXGyreTermesX(0)/m/n/10 the temporal gap between commitment and consequenc
+e
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 99--100
-\TU/TeXGyreTermesX(0)/m/n/10 from 24/7 operations, and increased truck traffic 
-during
+Underfull \hbox (badness 1147) in paragraph at lines 99--100
+\TU/TeXGyreTermesX(0)/m/n/10 2026), locking the region into long-term water all
+ocation
  []
 
 
@@ -992,4 +992,4 @@ Underfull \hbox (badness 1789) in paragraph at lines 134--135
 Package rerunfilecheck Info: File `Memo_1_Infrastructure.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on Memo_1_Infrastructure.xdv (3 pages, 199128 bytes).
+Output written on Memo_1_Infrastructure.xdv (3 pages, 202068 bytes).
