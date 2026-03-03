@@ -1,0 +1,32 @@
+Source: Milman, O. (2025, July 2). Google's carbon emissions have risen 65% since 2019, analysis finds.
+Publication: The Guardian
+URL: https://www.theguardian.com/technology/2025/feb/12/google-carbon-emissions-rise-ai
+NOTE: URL returned 404 when accessed directly; content confirmed via web search synthesis
+Accessed: March 3, 2026
+Type: Independent journalism (citing Kairos Fellowship report)
+
+KEY DATA EXTRACTED (from search synthesis — direct URL inaccessible):
+
+Core Finding:
+- Google's carbon emissions increased by 65% between 2019 and 2024
+- This uses LOCATION-BASED accounting methodology
+- Compare with Google's self-reported 51% increase (MARKET-BASED)
+- The 14-percentage-point gap reflects the difference between accounting methods
+
+Methodology:
+- Based on report by Kairos Fellowship (non-profit advocacy group)
+- Location-based emissions: average emissions from the local power grids where company operates
+- Market-based emissions: includes energy purchased to offset total emissions
+- Location-based considered to represent a company's "real" grid emissions
+- Market-based can "obscure a polluter's actual impact"
+
+Additional Data:
+- Emissions from electricity purchases jumped 121% between 2019 and 2024
+- Data center energy requirements saw 820% increase since 2010
+
+AUDIT NOTES:
+- Guardian is a credible independent source
+- Kairos Fellowship is an advocacy group — has an advocacy position, though analysis methodology appears sound
+- The 65% vs. 51% gap is the central analytical contribution of this article
+- The 820% increase since 2010 figure adds important long-term context
+- URL returned 404 on March 3, 2026 — may have been updated or restructured

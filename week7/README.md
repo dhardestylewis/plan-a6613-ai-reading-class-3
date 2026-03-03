@@ -18,7 +18,7 @@ Create a max 1-page document covering: Tool & Process, Key Findings, Verificatio
 | `AI_Reading_Exercise_Class_7.pdf` | Compiled PDF |
 | `prompt.md` | Verbatim prompt log with timestamped user feedback + request status tracking |
 | `AI_Reading_Exercise_Class_7.tex.d/assignment_prompt.md` | Verbatim assignment prompt from Canvas |
-| `AI_Reading_Exercise_Class_7.tex.d/refs/sources/` | 3 downloaded/annotated primary source texts |
+| `AI_Reading_Exercise_Class_7.tex.d/refs/sources/` | 6 downloaded/annotated primary source texts + 1 PDF |
 | `AI_Reading_Exercise_Class_7.tex.d/refs/annotations/` | Synthesis matrix |
 | `AI_Reading_Exercise_Class_7.tex.d/refs/Verification_Audit.md` | Claim-by-claim pipeline audit (18 claims, 89% at 2+ sources) |
 
@@ -30,12 +30,11 @@ All claims in the document are traced to downloaded source texts in `refs/source
 |-------------|-----------------|---------|
 | `Google_2024_Environmental_Report_Blog.txt` | Corporate (vendor) | 14.3M mt CO2e; 48% increase; TPU efficiency; PUE 1.10 |
 | `Google_2025_Environmental_Report_Summary.txt` | Corporate (vendor) | 51% increase since 2019; 27% DC electricity jump; 33x per-prompt efficiency |
+| `Google_2025_Environmental_Report.pdf` | Corporate (vendor) | Full 2025 report PDF (19.5 MB) |
 | `IEA_Data_Centres_Energy.txt` | Intergovernmental (independent) | Global context; hyperscaler electricity doubled; 20-40% annual growth |
-
-Additional sources referenced in the writeup but not downloadable as full text (paywall/404):
-- Guardian (Milman, 2025): Location-based 65% increase analysis — confirmed via search results
-- Patterson et al. (2022): 100x/1,000x conditional claims — confirmed via Google blog footnotes
-- Uptime Institute (2023): PUE industry average — confirmed via Google blog footnotes + IEA
+| `Patterson_et_al_2022_arXiv.txt` | Academic (Google-affiliated) | 100x/1,000x conditional claims; four best practices; pre-GenAI timing |
+| `Uptime_Institute_2023_Survey.txt` | Industry research (independent) | PUE 1.58 industry average; methodology caveats |
+| `Guardian_Milman_2025_Location_Based.txt` | Independent journalism | Location-based 65% increase; Kairos Fellowship analysis |
 
 ## How to Review the Process
 

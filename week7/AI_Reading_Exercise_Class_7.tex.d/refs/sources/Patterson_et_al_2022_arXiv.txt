@@ -1,0 +1,28 @@
+Source: Patterson, D., Gonzalez, J., Hölzle, U., et al. (2022)
+Title: The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink
+Published in: Computer, vol. 55, no. 7, pp. 18-28, July 2022
+arXiv: https://arxiv.org/abs/2204.05149
+Accessed: March 3, 2026
+Type: Academic (Google-affiliated researchers)
+
+KEY DATA EXTRACTED:
+
+Core Argument:
+- Four best practices can reduce ML training energy by up to 100x and CO2 emissions by up to 1,000x
+- These are CONDITIONAL on applying all four simultaneously:
+  1. Model: Select efficient ML model architectures (5-10x computation reduction)
+  2. Machine: Use processors optimized for ML training (TPUs, recent GPUs) (2-5x performance/watt)
+  3. Mechanization: Compute in the cloud vs. on-premise (1.4-2x energy efficiency)
+  4. Map: Choose DC locations with cleaner energy sources (5-10x carbon footprint reduction)
+
+Additional Claims:
+- Overall ML energy use held steady at <15% of Google's total energy use for 3 years
+- Previous estimates of ML emissions have been off by 100x-100,000x
+- Recommends ML papers include emissions explicitly
+
+CRITICAL AUDIT NOTES:
+- All authors are Google affiliates — conflict of interest
+- The 100x/1,000x figure is a theoretical MAXIMUM when ALL four practices combine multiplicatively
+- Paper published July 2022 — pre-dates the explosive growth of generative AI (ChatGPT Nov 2022)
+- The "held steady at <15%" claim is from pre-GenAI era and likely no longer accurate
+- Google's own 2024/2025 reports show emissions RISING, contradicting the "plateau, then shrink" thesis

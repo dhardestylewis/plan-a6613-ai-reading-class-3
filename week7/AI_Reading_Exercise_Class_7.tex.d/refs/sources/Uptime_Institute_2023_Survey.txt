@@ -1,0 +1,26 @@
+Source: Uptime Institute — 2023 Global Data Center Survey
+URL: https://uptimeinstitute.com/resources/research-and-reports/uptime-institute-global-data-center-survey-results-2023
+Accessed: March 3, 2026
+Type: Industry research (independent, non-vendor)
+NOTE: Full report is behind membership paywall; executive summary available free
+
+KEY DATA EXTRACTED:
+
+PUE Data:
+- Global average PUE of respondents' data centers: ~1.58 (2023)
+- PUE has been "flatlining" in recent years
+- Primary contributor to flatlining: richer geographical mix of surveyed DCs
+  - More DCs in Asia, Middle East, Africa, Latin America
+  - These regions: smaller capacity, warmer climates → higher energy consumption
+- This is the source Google cites when claiming 1.10 PUE vs. 1.58 industry average
+
+Survey Details:
+- 13th year of the survey (longest-running study of its kind)
+- Authors: Douglas Donnellan, Daniel Bizo, Jacqueline Davis, Andy Lawrence, Owen Rogers, Lenny Simon, Max Smolaks
+
+AUDIT NOTES:
+- The 1.58 industry average includes small, inefficient enterprise DCs in warmer climates
+- Comparing Google's hyperscale PUE (1.10) against this average flatters hyperscalers
+- A fairer comparison would be against other hyperscalers (AWS, Microsoft, Meta)
+- The Uptime Institute is a respected independent source, but PUE is a limited metric:
+  it measures infrastructure efficiency, not absolute energy consumption or emissions
