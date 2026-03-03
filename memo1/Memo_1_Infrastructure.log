@@ -530,6 +530,24 @@ Underfull \hbox (badness 4543) in paragraph at lines 73--74
  []
 
 
+Underfull \hbox (badness 2229) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 central argument is that AI energy infrastructure 
+creates
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 a \TU/TeXGyreTermesX(0)/m/it/10 temporal lock-in\T
+U/TeXGyreTermesX(0)/m/n/10 , a concept rooted in Unruh’s (2000)
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 73--74
+\TU/TeXGyreTermesX(0)/m/n/10 analysis of how large-scale infrastructure investm
+ents in
+ []
+
+
 Underfull \hbox (badness 1406) in paragraph at lines 73--74
 \TU/TeXGyreTermesX(0)/m/n/10 demand for power capacity, locking cities into lon
 g-term
@@ -963,6 +981,24 @@ ents
  []
 
 
+Underfull \hbox (badness 1983) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 and that shift infrastructure costs from ratepayer
+s to the
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 “compressed timelines and asymmetric negotiations”
+ that
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 117--118
+\TU/TeXGyreTermesX(0)/m/n/10 long-term infrastructure and public service obliga
+tions”
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
@@ -980,13 +1016,20 @@ Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;
 +tnum;+lnum;mapping=tex-text;" at 7.0pt
  -> TeXGyreTermesX-Italic.otf
 
-Underfull \hbox (badness 5345) in paragraph at lines 131--132
+Underfull \hbox (badness 5345) in paragraph at lines 130--131
 []\TU/TeXGyreTermesX(0)/m/n/7 National League of Cities. (2024). Data centers a
 nd local environmental
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 134--135
+[]\TU/TeXGyreTermesX(0)/m/n/7 Unruh, G. C. (2000). Understanding carbon lock-in
+. \TU/TeXGyreTermesX(0)/m/it/7 Energy Policy\TU/TeXGyreTermesX(0)/m/n/7 , 28(12
+),
  []
 
 [3] (Memo_1_Infrastructure.aux)
 Package rerunfilecheck Info: File `Memo_1_Infrastructure.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on Memo_1_Infrastructure.xdv (3 pages, 188108 bytes).
+Output written on Memo_1_Infrastructure.xdv (3 pages, 197268 bytes).
