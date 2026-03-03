@@ -1,0 +1,35 @@
+Source: Google Blog — Our 2024 Environmental Report
+URL: https://blog.google/outreach-initiatives/sustainability/2024-environmental-report/
+Accessed: March 3, 2026
+Type: Corporate (vendor/self-report)
+
+KEY DATA EXTRACTED:
+
+Emissions:
+- Total GHG emissions increased 13% year-over-year in 2023
+- Total GHG emissions: 14.3 million metric tons CO2e (2023)
+- 48% increase over 2019 baseline
+- Primary drivers: increased data center energy consumption and supply chain emissions
+- Google acknowledges AI integration poses challenges to emission reduction goals
+
+Mitigation Technologies:
+- Trillium (6th-gen TPU): over 67% more energy-efficient than TPU v5e [fn1: internal data, May 2024]
+- Tested practices can reduce energy to train AI model by up to 100x and emissions by up to 1,000x [fn2: "Carbon Footprint of ML Training Will Plateau, Then Shrink," Computer, vol. 55, July 2022]
+- Google data centers ~1.8x as energy efficient as typical enterprise data center [fn3: internal analysis, 2023 data]
+- Average annual PUE of 1.10 vs industry average of 1.58 [fn4: Uptime Institute 2023 Global Data Center Survey]
+- Water risk framework introduced for climate-conscious cooling
+- 10 grid regions achieved 90%+ CFE; global average 64% CFE
+- Signed contracts for ~4 GW clean energy generation capacity
+- First-of-kind enhanced geothermal project (Fervo partnership)
+
+AI for Sustainability Claims:
+- AI could help mitigate 5-10% of global GHG by 2030 [fn5: BCG, Jan 2021]
+- Fuel-efficient routing: estimated 2.9M metric tons GHG reductions (late 2021 to end 2023)
+- Flood prediction: AI model predicts floods up to 7 days in advance in 80+ countries
+- Green Light: AI for traffic signal optimization, potential 30% reduction in stops, 10% in emissions
+
+Caveats for audit:
+- "100x energy reduction" and "1,000x emissions reduction" are CONDITIONAL: "when used together" and cite a 2022 paper
+- 1.8x efficiency comparison is Google's OWN analysis against industry averages
+- BCG 5-10% claim is from 2021 and generic (not Google-specific)
+- PUE 1.10 is impressive but Uptime Institute notes industry average reflects warmer/smaller emerging market DCs

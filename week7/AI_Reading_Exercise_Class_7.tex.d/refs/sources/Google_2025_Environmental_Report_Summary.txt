@@ -1,0 +1,29 @@
+Source: Google 2025 Environmental Report (covering FY2024 + early 2025)
+URL: https://www.gstatic.com/gumdrop/sustainability/google-2025-environmental-report.pdf
+Landing page: https://sustainability.google/reports/google-2024-environmental-report/
+Accessed: March 3, 2026
+Type: Corporate (vendor/self-report) — LATEST AVAILABLE
+
+KEY DATA EXTRACTED (from web search synthesis — must verify against PDF):
+
+Emissions:
+- Total GHG emissions: 11.5 million metric tons (2024)
+  NOTE: This is LOWER than 14.3M in 2023. Need to verify if this is market-based vs location-based.
+- 51% increase since 2019 baseline (per Google's own reporting)
+- Independent analysis (Guardian, Feb 2025) suggests 65% increase using location-based method
+- 11% increase year-over-year (2023 to 2024)
+- Data center electricity consumption increased 27% in 2024
+
+Mitigation:
+- 12% reduction in data center energy emissions in 2024 (despite 27% electricity increase — efficiency gains)
+- Carbon-intelligent computing platform: shifts tasks to times/locations where grid is cleaner
+- New methodology released for measuring energy, water, and carbon of AI models
+- Gemini Apps text prompt: median energy consumption decreased 33x and carbon footprint 44x over 12 months
+- Goal: 24/7 carbon-free energy on every grid by 2030
+- Scope 3 emissions driven by hardware manufacturing in Asia Pacific (fossil-heavy grids)
+
+CRITICAL VERIFICATION NOTE:
+- The 11.5M metric tons figure vs. 14.3M needs careful accounting methodology check
+- Location-based (65% increase) vs. market-based (51% increase) is a KEY distinction
+- Google's "efficiency improvements" narrative may mask absolute growth
+- The 33x/44x per-prompt efficiency gains need context: total query volume also growing rapidly

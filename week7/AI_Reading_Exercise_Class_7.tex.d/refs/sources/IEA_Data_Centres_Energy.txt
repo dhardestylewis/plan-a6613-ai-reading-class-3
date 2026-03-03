@@ -1,0 +1,25 @@
+Source: IEA — Data Centres and Data Transmission Networks
+URL: https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks
+Accessed: March 3, 2026
+Type: Independent/intergovernmental (policy authority)
+
+KEY DATA EXTRACTED:
+
+Global Context:
+- Data centres + data transmission networks: ~1% of energy-related GHG emissions
+- 330 Mt CO2e in 2020 (incl. embodied emissions) = 0.9% of energy-related GHG
+- Since 2010, emissions have grown modestly despite rapidly growing demand (efficiency gains)
+- Global DC electricity consumption in 2022: 240-340 TWh (~1-1.3% of global final electricity demand)
+- Excludes crypto mining (~110 TWh in 2022, 0.4% of global electricity demand)
+
+Hyperscaler Trend:
+- Combined electricity use of Amazon, Microsoft, Google, and Meta more than doubled 2017-2021
+- Rose to ~72 TWh in 2021
+- Large data centres growing 20-40% annually in energy use
+- Overall DC energy use likely to continue growing moderately near-term; long-term highly uncertain
+
+Context for Google Analysis:
+- Hyperscaler growth is outpacing efficiency gains at the aggregate level
+- Country-level impacts: Ireland DCs = 18% of total electricity (2022)
+- NZE Scenario requires emissions to HALVE by 2030 — sets benchmark against Google's net-zero goal
+- Efficiency gains at facility level being overwhelmed by volume growth — a pattern Google exhibits
