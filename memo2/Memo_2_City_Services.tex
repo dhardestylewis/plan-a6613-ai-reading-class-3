@@ -1,0 +1,122 @@
+\documentclass[10pt, twocolumn]{article}
+\usepackage[margin=0.75in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage{newtxtext}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Spacing
+\setlist{nosep, leftmargin=*} 
+\linespread{1.05} 
+\setlength{\parskip}{3pt} 
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\renewcommand{\footnotesize}{\scriptsize}
+
+% Section formatting with visual distinction
+\titleformat{\section}{\normalsize\bfseries\scshape}{\thesection}{0.5em}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titleformat{\subsection}{\small\bfseries\itshape}{\thesubsection}{0.5em}{}
+\titlespacing*{\subsection}{0pt}{4pt}{2pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    breaklinks=true,
+}
+
+\pagestyle{plain} 
+
+% Compact Bibliography
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section*{References}%
+      \scriptsize
+      \setlength{\topsep}{0pt}
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \itemsep1pt\parsep0pt\parskip0pt
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+\begin{document}
+
+\twocolumn[{%
+\noindent
+\textbf{\Large Memo \#2: AI in City Services} \hfill \textbf{Daniel Hardesty Lewis} \\
+\noindent
+\textit{NYC's MyCity Chatbot: From Launch to Shutdown} \hfill March 27, 2026 \\
+\textbf{PLAN A6613: AI and the Future of Cities} \hfill Spring 2026
+\vspace{3pt}
+\hrule
+\vspace{8pt}
+}]
+
+\section*{I. Service Selection \& How It Works}
+
+The AI-powered service examined in this memo is New York City's \textbf{MyCity chatbot}, a generative AI assistant launched in October 2023 as the centerpiece of Mayor Eric Adams' AI Action Plan, described as ``the first of its kind for a major U.S. city'' (NYC Office of the Mayor, 2023). Powered by Microsoft Azure AI, the chatbot was designed to let business owners ``access trusted information from more than 2,000 NYC Business web pages'' covering ``compliance with codes and regulations, available business incentives, and best practices to avoid violations and fines'' (Lecher, 2024). The system used a retrieval-augmented generation architecture: a large language model, built on the same Microsoft infrastructure that underpins OpenAI's ChatGPT, synthesized responses from a corpus of NYC Department of Small Business Services web pages (Lecher, 2024). The interface presented these outputs as ``official NYC Business information,'' trained to provide authoritative guidance. Microsoft had previously partnered with Los Angeles to develop a similar business-assistance chatbot in 2017, though that earlier system's website is no longer available (Lecher, 2024). The MyCity chatbot built on the first phase of the MyCity portal, launched in March 2023 to help families check eligibility for child care programs, extending the same AI-driven approach to the far more consequential domain of regulatory compliance (NYC Office of the Mayor, 2023).
+
+My firsthand testing of the chatbot, conducted before its February 2026 shutdown, revealed the core tension of the product. When asked straightforward navigational questions, such as how to register a business or find permit applications, the bot produced plausible, well-structured responses that linked to relevant city resources. The interface felt authoritative: city branding, official language, and a design that conveyed institutional trustworthiness. But when asked nuanced regulatory questions involving tenant rights, labor law, or zoning compliance, the bot generated confident answers that could not be distinguished from accurate guidance. A small disclaimer noted the system ``may occasionally produce incorrect, harmful or biased content,'' but the interface provided no mechanism for users to identify which responses were reliable and which were fabricated (Lecher, 2024). Users were encouraged to report inaccuracies through a feedback form that also asked them to rate their experience from one to five stars, a design choice that treated regulatory misinformation as a customer satisfaction issue (Lecher, 2024). The city stated on the chatbot's page that it would review submitted questions to improve answers and address ``harmful, illegal, or otherwise inappropriate'' content, but would otherwise delete user data within 30 days (Lecher, 2024). The experience exposed a fundamental design flaw: the tool was most dangerous precisely when it appeared most helpful, because the hallucinations were structurally indistinguishable from accurate advice.
+
+Investigative testing by The Markup confirmed this observation at scale. The chatbot told business owners that employers could take workers' tips, violating New York Labor Law Section 196-d; that landlords could refuse tenants with Section 8 vouchers, despite source-of-income discrimination being illegal in New York City since 2008; and that cashless stores were permitted, contradicting a 2020 city law banning cashless businesses to prevent discrimination against unbanked customers (Lecher, 2024). The bot also claimed there were no regulations requiring businesses to inform employees about scheduling changes, contradicting the state Attorney General's published guidance on worker protections, and suggested it was acceptable for funeral homes to conceal service prices, violating the Federal Trade Commission's Funeral Rule (Lecher, 2024). When ten separate Markup reporters independently asked the same Section 8 question, the bot told all ten that landlords did not have to accept housing vouchers; at one point, it gave one reporter the correct answer, but this inconsistency itself illustrates the non-deterministic nature of the system (Lecher, 2024). These were not ambiguous interpretations but confident inversions of settled statute. Rosalind Black, Citywide Housing Director at Legal Services NYC, tested the bot herself after being alerted to The Markup's findings and found additional false information on housing, including that tenant lockouts were legal and that ``there are no restrictions on the amount of rent that you can charge a residential tenant,'' despite the extensive rent stabilization laws governing the city's housing stock (Lecher, 2024). Black warned that ``if this chatbot is not being done in a way that is responsible and accurate, it should be taken down'' (Lecher, 2024). Julia Stoyanovich, computer science professor and director of NYU's Center for Responsible AI, called the deployment ``reckless and irresponsible,'' arguing the city was ``rolling out software that is unproven without oversight'' (Offenhartz, 2024). Andrew Rigie, Executive Director of the NYC Hospitality Alliance, confirmed that a business owner had alerted him to inaccuracies, noting that while ``AI can be a powerful tool to support small business,'' it is ``a massive liability if it's providing the wrong legal information'' (Lecher, 2024).
+
+\section*{II. Service Delivery: Benefits and Risks}
+
+\subsection*{Effectiveness}
+
+The chatbot's proponents argued it delivered a genuine benefit: 24/7 availability, instant responses, and accessibility in multiple languages, replacing the need for business owners to navigate 2,000 pages of municipal code or wait for human assistance during business hours. By the time of its shutdown, the city's Office of Technology and Innovation claimed the bot had answered over 58,000 questions with a 95 percent accuracy rate (Vice, 2026). At face value, this suggests the tool improved speed and accessibility over the status quo.
+
+The 95 percent figure, however, obscures a critical problem of domain fitness. In most consumer applications, a 5 percent error rate is tolerable: a music recommendation engine that misfires one in twenty suggestions causes mild inconvenience. In regulatory compliance, a 5 percent error rate is catastrophic. Five percent of 58,000 queries implies approximately 2,900 instances of potentially harmful guidance delivered to business owners who had no way to distinguish incorrect answers from correct ones. Internal audits and independent investigations continued to find persistent inconsistencies throughout 2024 and 2025, undermining the claimed accuracy rate (Vice, 2026). The comparison to a traditional approach is instructive: a human city employee might be slower and less available, but when that employee provides guidance on tenant rights or tip law, the answer is either correct or the employee knows to escalate. The chatbot produced the appearance of certainty without the substance of reliability.
+
+\subsection*{Equity}
+
+The chatbot's equity implications cut in both directions. On one hand, a free, multilingual, 24/7 tool could reduce barriers for small business owners who lack the resources to hire attorneys or consultants for regulatory navigation, particularly in a city where roughly 3.2 million residents speak a language other than English at home. On the other hand, The Markup found that similar errors appeared when questions were asked in languages other than English (Lecher, 2024), meaning the tool's multilingual capacity extended its failures to non-English-speaking communities rather than insulating them. The populations most likely to rely on a free government chatbot rather than paid professional advice are precisely those least equipped to independently verify its outputs: immigrant entrepreneurs navigating unfamiliar regulatory systems, first-time business owners without existing legal counsel, and residents with limited familiarity with American labor and tenant law. The cashless-stores hallucination is illustrative: the 2020 law banning cashless businesses was enacted specifically to protect unbanked New Yorkers, disproportionately low-income residents and communities of color, from being excluded from commercial transactions. A chatbot that tells a business owner this law does not exist actively undermines a policy designed to protect the city's most vulnerable residents.
+
+The interface compounded this problem by simultaneously branding itself as ``official NYC Business information'' while including a small disclaimer that responses should not be treated as professional or legal advice (Lecher, 2024; Fast Company, 2024). This contradiction required users to simultaneously trust the tool's authority and distrust its outputs, a cognitive task that correlates with digital literacy and legal sophistication. Users with higher education and existing legal knowledge could parse this contradiction; those without could not. The result was a tool that offered the most help to those who needed it least and posed the greatest risk to those who needed it most.
+
+\subsection*{City Workers}
+
+The chatbot was designed to augment, and potentially reduce, the human labor required to deliver business compliance guidance. The broader literature on municipal AI chatbots suggests the prevailing model is to handle routine, high-volume inquiries so that human staff can focus on complex cases, a framework of augmentation rather than displacement. In practice, the MyCity chatbot inverted this model. Rather than reducing the burden on city workers, it created new, unfunded labor for civil society. Rosalind Black at Legal Services NYC had to divert time from her primary responsibilities to test and correct the bot's misinformation after being alerted by journalists (Lecher, 2024). Andrew Rigie, Executive Director of the NYC Hospitality Alliance, reported that a business owner had contacted him about inaccuracies (Lecher, 2024). Community organizations and legal aid providers became involuntary quality assurance teams for a tool that was supposed to make their work unnecessary. The city's own workers at OTI spent two years attempting to improve the system before its shutdown, representing an ongoing resource drain on a tool that never achieved fitness for purpose (Fast Company, 2024; Vice, 2026).
+
+\section*{III. Viability \& Governance}
+
+\subsection*{Financial Sustainability}
+
+The MyCity chatbot cost the city over \$600,000 to develop and deploy over its 28-month lifespan from October 2023 to February 2026 (Vice, 2026). Dividing this cost by the 58,000 questions the city claimed the bot answered yields a cost of approximately \$10.34 per query. This figure excludes the ongoing costs borne by OTI staff who spent two years attempting to improve the system, the reputational damage to the city's AI credibility, and the unmeasured costs absorbed by civil society organizations that diverted staff time to correct the bot's misinformation. For comparison, New York City's 311 system handles roughly 25 million contacts per year across phone, text, web, and app channels. While 311's per-contact cost is difficult to isolate from the city's broader operational budget, the chatbot's per-query cost, even accepting the city's optimistic question count, is not obviously cheaper than the human-staffed alternative when quality-adjusted for the liability exposure of delivering thousands of potentially illegal answers. Mayor Mamdani cited the chatbot's cost as one justification for its termination during a January 28, 2026 press conference addressing the city's \$12 billion budget gap, describing the tool as ``functionally unusable'' (Vice, 2026). By early February, the chatbot's webpage was updated to read: ``The Chatbot beta test has ended. Please go to NYC.gov to find NYC government information'' (Vice, 2026). Scaling this approach citywide, across housing, health, environmental, and labor services, would multiply both costs and liability surfaces without evidence that the underlying technology can achieve the deterministic accuracy that regulatory guidance demands.
+
+\subsection*{Accountability}
+
+The MyCity chatbot exposed a governance vacuum. When the chatbot advised a business owner to violate Labor Law 196-d, no individual or office could be held responsible for the consequence. The liability chain fractured across multiple actors: Microsoft built the underlying Azure AI platform but declined to comment on its role (Lecher, 2024); OTI configured and deployed the system; the Department of Small Business Services owned the source corpus; and Mayor Adams championed the initiative politically. No single entity bore accountability for the accuracy of the outputs. The Adams administration's defense was that the tool was a ``pilot program'' requiring real-world testing to ``iron out the kinks'' (Offenhartz, 2024; Fast Company, 2024). Leslie Brown, a spokesperson for OTI, stated that the city had been ``clear the chatbot is a pilot program'' that ``has already provided thousands of people with timely, accurate answers'' (Lecher, 2024). This framing placed citizens in the role of unconsenting beta testers of regulatory advice for 28 months. A Microsoft vice president, defending the company's own troubled Bing chatbot, had previously articulated the same logic: ``You have to actually go out and start to test it with customers to find these kind of scenarios'' (Lecher, 2024). The city's AI Action Plan, under which the chatbot launched, relied on voluntary principles rather than enforceable standards (GovTech, 2025). Existing oversight mechanisms were inadequate: Local Law 144 (2021) required bias audits only for automated hiring tools, and Local Law 35 (2022) required only that city agencies report their use of automated decision systems, not that those systems meet accuracy or safety standards (GovTech, 2025). Neither law would have prevented or detected the chatbot's failures.
+
+\subsection*{Looking Ahead}
+
+The MyCity chatbot's lifecycle, from launch through controversy to shutdown, has already catalyzed significant governance reform. In November 2025, the NYC City Council passed the Guaranteeing Unbiased AI Regulation and Disclosure Act, establishing an independent Office of Algorithmic Data Accountability with authority to audit and regulate AI tools used by city agencies, conduct pre-deployment assessments, investigate public complaints, and publish a public directory of all evaluated AI systems (GovTech, 2025). This legislation moves from voluntary principles to mandatory standards for fairness, privacy, transparency, and independent evaluation. At the state level, New York Senate Bill 7263 would create liability for chatbot operators, including government entities, that provide substantive advice equivalent to unauthorized practice of licensed professions, with a private right of action for damages (GovTech, 2025). If enacted, it would directly apply to future MyCity-style deployments.
+
+Three policy guardrails would maximize the benefits of municipal AI while mitigating the risks this case illustrates. First, \textbf{mandatory pre-deployment assessment} should apply to any AI system that delivers regulatory, legal, or compliance advice, requiring independent accuracy testing against a curated set of known statutory questions before public release. Second, \textbf{domain-specific accuracy thresholds} should distinguish between advisory AI, where a 95 percent accuracy rate may be acceptable, and compliance AI, where the threshold must approach 100 percent because every incorrect answer carries legal consequences for the user. Third, \textbf{structured escalation pathways} should ensure that every AI-generated response in a compliance context includes a clear, prominent mechanism to connect the user with a human expert, transforming the chatbot from an authoritative advisor into a triage tool that routes complex questions to qualified staff.\footnote{Full process documentation, including source downloads, line-by-line annotations, a cross-source synthesis matrix, and a claims verification audit, is available in the project repository at \texttt{memo2/}.}
+
+\begin{thebibliography}{9}
+\bibitem{fastco} Fast Company. (2024, April). NYC's AI chatbot is telling businesses to break the law. The city won't pull the plug. \textit{Fast Company}. \url{https://www.fastcompany.com/}
+\bibitem{govtech} GovTech. (2025, November). New York City passes AI oversight legislation. \textit{Government Technology}. \url{https://www.govtech.com/artificial-intelligence/new-york-city-passes-ai-oversight-legislation}
+\bibitem{markup} Lecher, C. (2024, March 29). NYC's AI Chatbot Tells Businesses to Break the Law. \textit{The Markup}. \url{https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law}
+\bibitem{nyc2023} NYC Office of the Mayor. (2023, October 16). Mayor Adams Releases First-of-Its-Kind Plan for Responsible Artificial Intelligence Use in NYC Government. \url{https://www.nyc.gov/office-of-the-mayor/news/777-23/}
+\bibitem{ap} Offenhartz, J. (2024, April 3). NYC's AI chatbot was caught telling businesses to break the law. The city isn't taking it down. \textit{AP News}. \url{https://apnews.com/article/new-york-city-chatbot-misinformation-6ebc71db5b770b9969c906a7ee4fae21}
+\bibitem{vice} Vice. (2026, February). New York City kills AI chatbot after it kept telling people to break the law. \textit{Vice}. \url{https://www.vice.com/article/nyc-kills-ai-chatbot-mycity/}
+\end{thebibliography}
+
+\end{document}
