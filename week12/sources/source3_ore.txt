@@ -1,0 +1,8 @@
+Title: Mapping the adoption of artificial intelligence in urban mobility (2022)
+URL: https://open-research-europe.ec.europa.eu/articles/6-70/v1
+
+"Urban mobility in Europe stands at the cusp of a transformative era as artificial intelligence (AI) and data infrastructures are reshaping transport services. A review of academic literature indicates that transportation and mobility are among the sectors most significantly influenced by AI. The confluence of large-scale data availability, pressing urban challenges, and policy agendas has paved the way for AI applications..."
+
+"Yet despite a growing number of AI initiatives, the empirical landscape of AI adoption in urban mobility remains under-documented. Existing studies on smart cities and mobility often treat AI as one component of broader digital transformation and focus on its technical potential. The literature tends to describe what AI could do rather than what it actually does in real-world deployment."
+
+"Research has also evaluated AI usage in road vehicle automation and smart traffic control, and noted challenges of trust, explainability, governance capacity, and data availability in real-world deployments. An evaluation of 12 shared automated vehicle pilots in Europe found that shared robotaxis appear safe in closed environments but have more incidents in mixed traffic."

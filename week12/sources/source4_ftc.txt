@@ -1,0 +1,6 @@
+Title: FTC Policy Statement on Enforcement Related to Gig Work
+URL: https://www.ftc.gov/legal-library/browse/policy-statement-enforcement-related-gig-work
+
+"Algorithms are increasingly used to manage, assign, and evaluate gig workers. These opaque algorithmic systems have the potential to engage in unfair or deceptive practices. For example, algorithmic assignment and dynamic pricing mechanisms may impose a 'flexibility penalty' on workers. In ride-hailing and delivery services, algorithms optimizing for maximum platform profit often dynamically shift compensation, masking the true rate from drivers until after assignment."
+
+"The Commission points out that proprietary pricing algorithms prioritize market-clearing volumes and platform take-rates over stable or fair compensation structures. While platforms defend these as neutral 'law of demand' mathematics, the opacity of the algorithm prevents workers from understanding how their compensation is calculated. Furthermore, riders in certain urban corridors face surge pricing that correlates heavily with demographic lines, an outcome driven purely by algorithmic profit maximization, not technical errors."

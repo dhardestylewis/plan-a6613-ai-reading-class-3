@@ -1,0 +1,8 @@
+Title: Urban Artificial Intelligence in Mobility Infrastructure: Lessons for Just and Inclusive Cities (2026)
+URL: https://oajournals.fupress.net/index.php/contesti/article/view/16690
+
+"Today’s cities are increasingly governed by invisible computational frameworks—layered systems that shape not only the movement of people and goods but also the everyday operations that make urban life possible. These digital layers do more than orchestrate urban functions; they actively reshape how cities are managed, experienced, and understood."
+
+"Urban Artificial Intelligence (Urban AI) has given rise to what is increasingly described in the literature as Urban AI. Urban AI represents a substantive shift beyond earlier smart city paradigms, which primarily emphasized sensor deployment, data aggregation, and rule-based system optimization. While early smart city initiatives often relied on descriptive analytics and pre-programmed automation, Urban AI leverages predictive and prescriptive models to autonomously or semi-autonomously govern urban processes."
+
+"The paper develops a theoretical framework that distinguishes among cognitive, data-driven, and hybrid Urban AI models, highlighting how each approach shapes urban knowledge production, operational performance, and accountability. This framework is grounded through three U.S.-based case studies: AI-enabled emergency vehicle preemption in Fremont, California; AI-assisted subway infrastructure monitoring in New York City; and AI-driven signal coordination for emergency routing in Seattle."

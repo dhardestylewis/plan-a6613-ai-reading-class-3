@@ -1,0 +1,10 @@
+Title: FairST: Equitable Spatial and Temporal Demand Prediction for New Mobility Systems
+URL: https://ar5iv.labs.arxiv.org/html/1907.03827
+
+"New mobility services such as car-sharing, bike-sharing, and ride-hailing have been deployed in many cities as affordable and on-demand transportation options for citizens... Supply and demand in new mobility systems are often unbalanced due to complex and dynamic factors such as traffic conditions and weather. Accurate and high-resolution demand estimates are therefore important to guide resource optimization and maximize system utility."
+
+"Beyond accuracy, incorporating equity into demand prediction is crucial for delivering a transportation system that benefits all citizens, particularly for historically underrepresented groups. An individual’s access to resources allocated or predicted by algorithms should not be dependent on sensitive attributes such as race and age. However, recent studies show that algorithms that distribute app-based mobility services may discriminate against people of color."
+
+"Underestimation of mobility resource demand for these groups may result in insufficient supply to these areas, which can produce a feedback loop: racial and income disparities are misinterpreted in the model as lack of demand, reinforcing reduced access to services."
+
+"In this paper, we introduced FairST, a fairness-aware spatio-temporal model for predicting new mobility resource demand. ... Experiments on two real-world new mobility datasets demonstrate that FairST is able to close more than 80% of fairness gap for a single sensitive attribute and at the same time achieve better accuracy than state-of-the-art but fairness-oblivious baseline methods."

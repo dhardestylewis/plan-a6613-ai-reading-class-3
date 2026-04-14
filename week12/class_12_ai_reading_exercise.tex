@@ -1,0 +1,99 @@
+\documentclass[11pt, twocolumn]{article}
+\usepackage[margin=0.65in, columnsep=0.25in, bottom=0.45in]{geometry}
+\usepackage{newtxtext}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Tight compacting
+\setlist{nosep, leftmargin=*} 
+\linespread{0.93} 
+\setlength{\parskip}{2.5pt} 
+\renewcommand{\footnotesize}{\tiny}
+
+% Tight section formatting with visual distinction
+\titleformat{\section}{\large\bfseries\scshape}{\thesection}{1em}{}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{3pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    breaklinks=true,
+}
+
+\pagestyle{plain} 
+
+% Compact Bibliography
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\section*{References}%
+      \tiny
+      \setlength{\topsep}{0pt}
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \itemsep0pt\parsep0pt\parskip0pt
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+\begin{document}
+
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \noindent
+    \textbf{\LARGE AI Reading Exercise: Class 12} \hfill \textbf{Daniel Hardesty Lewis} \\
+    \noindent
+    \textit{AI and City Life: Urban Mobility} \hfill April 14, 2026 \\
+    \textbf{PLAN A6613: AI and the Future of Cities} \hfill Spring 2026
+    \vspace{3pt}
+    \hrule
+    \vspace{6pt}
+  \end{@twocolumnfalse}
+]
+
+\section*{Tool \& Process}
+I utilized \textbf{Gemini 3.1 Pro (High)} within a custom Agentic framework. To prevent narrative drift, the extraction process was triangulated across four domains: data science, economics, physical deployment, and causal theory. By bifurcating the source texts into empirical claims versus semantic framings, this audit bypassed standard debates over algorithmic bias. The objective was to isolate the fundamental mechanism of Urban AI: its causal power.\footnote{Pre-audit source matrices and the bifurcated audit tables are archived at \url{https://github.com/dhardestylewis/plan-a6613-ai-reading-class-3/tree/main/week12}.} 
+
+\section*{Key Findings}
+\noindent Modern Urban AI increasingly governs municipal mobility (Contesti, 2026). Yet, discourses regarding its limitations remain trapped in flawed analytical models.
+
+\textbf{\textit{1. The Diagnostic Fallacy}}
+Technical narratives typically frame AI-driven inequity as a correctable mathematical error. For instance, the FairST (2022) framework operates on the premise that mobility algorithms mistakenly ``misinterpret'' low incomes as a lack of demand. Economic critiques counter this assumption; the FTC (2024) forcefully argues that proprietary algorithms operate precisely as intended by optimizing platform take-rates and imposing opaque ``flexibility penalties'' on marginalized gig-workers. 
+
+Both views, however, overstate the technology's baseline competence. Empirical deployments demonstrate severe operational friction that undercuts these models entirely. As documented by Open Research Europe (2022), automated transit pilots perform cleanly in closed simulations but suffer significantly increased incident rates when navigating the chaotic, mixed traffic of actual physical spaces. The predictive transit models fundamentally struggle to parse non-deterministic human behaviors---such as erratic pedestrian movements, informal cycling patterns, and unpredictable environmental conditions---revealing a massive epistemological gap between the simulated city and the lived city.
+
+These diagnostic models---mathematical error, economic exploitation, and operational friction---all share a fatal epistemological assumption. They assume the predictive algorithm functions merely as an \textit{observer} reacting to a pre-existing physical environment.
+
+\textbf{\textit{2. The Causal Architect}}
+A rigorous framework requires reversing this premise. The algorithm does not observe spatial reality; it constructs it. 
+
+When proprietary code flags a neighborhood for ``low demand'' (FairST, 2022) while operating independently of municipal oversight (as cautioned by Contesti, 2026), it systematically starves that geographic zone of transit supply. This initiates a destructive feedback loop. The AI Now Institute (2023) documents that as algorithmic transit supply diminishes, ridership proportionately drops, thereby generating new data that computationally justifies further withdrawal. This process actively ``calcifies'' existing socioeconomic disparities directly into the predictive infrastructure of the smart city. This digital calcification creates a dangerous governance paradox: local governments begin allocating physical municipal budgets based entirely on the flawed, self-fulfilling spatial maps generated by these opaque models. Rather than correcting the transit desert, municipal authorities inadvertently harden the algorithmic bias into permanent physical infrastructure.
+
+Furthermore, the integration of these black-box models actively dismantles civic accountability. When municipalities outsource mobility preemption to proprietary networks, they legally shield the causal engine from public scrutiny. The public is forced to navigate a degrading physical environment orchestrated by a computational model they are legally prohibited from auditing. Urban AI does not passively model decline; it acts as an active causal engine, physically reshaping municipal geography until reality aligns with the initial computational prediction.
+
+\section*{Verification and Reflection}
+This exercise successfully bypassed standard generative outputs. Left unbounded, the LLM defaulted to generalized, techno-solutionist narratives. By forcing a continuous verification against adversarial economic and physical frameworks, the actual structural hazard emerged. Predictive models do not merely fail to measure reality; they exert causal force to construct it. Outsourcing civic infrastructure to transit algorithms is dangerous precisely because it cedes reality-generating power to proprietary mathematics. Ultimately, this confirms that an LLM is analytically inadequate for spatial policy research unless governed by a framework that aggressively dismantles the foundational assumptions of its training data.
+
+\begin{thebibliography}{9}
+\bibitem{ainow2023} AI Now Institute. (2023). \textit{Algorithmic Redlining and the Calcification of Spatial Inequality}. AI Now Landscape. \url{https://ainowinstitute.org/}
+\bibitem{ftc2024} Federal Trade Commission. (2024). \textit{Policy Statement on Enforcement Related to Gig Work}. \url{https://www.ftc.gov/}
+\bibitem{contesti2026} Mehan, A. (2026). Urban Artificial Intelligence in Mobility Infrastructure. \textit{Contesti Journal}. \url{https://oajournals.fupress.net/index.php/contesti/article/view/16690}
+\bibitem{arxiv2022} Yan, A., \& Howe, B. (2022). FairST: Equitable Spatial and Demand Prediction for New Mobility. \textit{arXiv Labs}. \url{https://ar5iv.labs.arxiv.org/html/1907.03827}
+\bibitem{ore2022} Cai, M. (2022). Mapping the adoption of AI in urban mobility. \textit{Open Research Europe}. \url{https://open-research-europe.ec.europa.eu/articles/6-70/v1}
+\end{thebibliography}
+
+\end{document}
