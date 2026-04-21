@@ -1,0 +1,5 @@
+Title: A Digital Twin Framework for Decision-Support and Optimization of EV Charging Infrastructure in Localized Urban Systems
+Author: Bui Khanh Linh Do (2025)
+URL: http://arxiv.org/abs/2510.24758v2
+
+"As Electric Vehicle (EV) adoption accelerates in urban environments, optimizing charging infrastructure is vital for balancing user satisfaction, energy efficiency, and financial viability. This study advances beyond static models by proposing a digital twin framework that integrates agent-based decision support with embedded optimization to dynamically simulate EV charging behaviors, infrastructure layouts, and policy responses across scenarios. Applied to a localized urban site (a university campus) in Hanoi, Vietnam, the model evaluates operational policies, EV station configurations, and renewable energy sources... This digital twin provides a flexible, computation-driven platform for EV infrastructure planning, with a transferable, modular design that enables seamless scaling from localized to city-wide urban contexts."

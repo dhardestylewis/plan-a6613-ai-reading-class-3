@@ -1,0 +1,5 @@
+Title: A City Is Not a Computer: Other Urban Intelligences (2021)
+Author: Shannon Mattern
+URL: https://press.princeton.edu/books/hardcover/9780691208053/a-city-is-not-a-computer
+
+"The digital twin model presupposes that the city can be perfectly captured through its measurable externalities—traffic flows, energy use, building dimensions. Yet, by reducing urban lived experience to a dashboard of modifiable parameters, the digital twin privileges metrics of efficiency over qualitative civic engagement. Building regulation thus shifts from a democratic negotiation of space to an algorithmic optimization problem, functionally disenfranchising residents who possess non-computable local knowledge. When urban planning relies on dashboard interfaces, what cannot be quantified simply ceases to exist in the eyes of the planner."

@@ -1,0 +1,5 @@
+Title: Is local opposition taking the wind out of the energy transition?
+Author: Federica Daniele (2024)
+URL: http://arxiv.org/abs/2406.03022v1
+
+"Local opposition to the installation of renewable energy sources is a potential threat to the energy transition. Local communities tend to oppose the construction of energy plants due to the associated negative externalities (the so-called 'not in my backyard' or NIMBY phenomenon) according to widespread belief, mostly based on anecdotal evidence... Based on our analysis, the hypothesis of an electoral effect of NIMBY type of behavior in connection with the development of wind turbines appears not to be supported by the data."

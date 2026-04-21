@@ -1,0 +1,6 @@
+Title: Digital twins (2018)
+Author: Michael Batty
+Journal: Environment and Planning B: Urban Analytics and City Science, 45(5), 817-820.
+URL: https://journals.sagepub.com/doi/10.1177/2399808318796416
+
+"We must be careful not to confuse the model with the reality. Digital twins of cities, unlike digital twins of jet engines or manufacturing plants, contend with profound complexity and non-deterministic human behavior. When used for land-use planning, these models risk projecting historical biases into the future. A twin is not an objective replica; it is a highly selective abstraction determined by what data is deemed worth collecting and what is ignored. To assume that a singular digital model can perfectly simulate the urban condition is to misunderstand the fundamental, irreducible nature of city systems."

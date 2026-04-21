@@ -1,0 +1,5 @@
+Title: Virtual Singapore (2024)
+Author: National Research Foundation (NRF) Singapore
+URL: https://www.nrf.gov.sg/programmes/virtual-singapore
+
+"Virtual Singapore is a dynamic three-dimensional (3D) city model and collaborative data platform, infused with semantic data. It is developed as a tool capable of resolving complex urban planning issues. For instance, simulating the shadow casting of proposed high-rises on adjacent neighborhoods, analyzing the solar potential of rooftops, and testing the visual impact of new building developments. However, the system requires continuous, vast ingests of granular topological and citizen data to maintain its 'twin' status, requiring integrated government frameworks for managing surveillance, data privacy, and the governance of the built environment."

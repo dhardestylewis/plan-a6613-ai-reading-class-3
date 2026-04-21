@@ -1,0 +1,5 @@
+Title: Digital Twin Applications in Urban Logistics: An Overview
+Author: Abdo Abouelrous (2023)
+URL: http://arxiv.org/abs/2302.00484v1
+
+"Urban traffic attributed to commercial and industrial transportation is observed to largely affect living standards in cities due to external effects pertaining to pollution and congestion. In order to counter this, smart cities deploy technological tools to achieve sustainability. Such tools include Digital Twins (DT)s which are virtual replicas of real-life physical systems. Research suggests that DTs can be very beneficial in how they control a physical system by constantly optimizing its performance... Using this knowledge in combination with the characterization, we produce a conceptual model that describes the ontology, learning capabilities and optimization prowess of an urban logistics digital twin through its quantitative models."
