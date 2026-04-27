@@ -1,0 +1,10 @@
+# Annotation: Mehan, A. / Contesti Journal (2026) — Urban Artificial Intelligence in Mobility Infrastructure
+
+| Line / Quote | Annotation & Verification Note | Synthesis Tag |
+|---|---|---|
+| "AI is increasingly embedded in urban mobility and emergency response systems, where real-time decision-making, infrastructure coordination, and public safety converge" | Verified from fetched abstract. Establishes that Urban AI is already deployed in operational (not merely experimental) contexts in U.S. cities. | Empirical Grounding |
+| Framework: cognitive, data-driven, and hybrid Urban AI models | Mehan's three-way typology maps cleanly onto the memo's transit argument: the MTA's off-peak service allocation is a data-driven model that will systematically fail to respond to newly distributed hybrid-worker demand because it classifies low-current-ridership routes as low-priority. | Governance Typology |
+| Case study: AI-assisted subway infrastructure monitoring in NYC (MTA + Google TrackInspect) | Verified: MTA announced TrackInspect pilot February/March 2025. Real-world NYC deployment confirms Mehan's framework is grounded in active local systems, not hypothetical scenarios. | NYC Empirical Anchor |
+| "long-term legitimacy depends on integrating principles of equity, transparency, environmental responsibility, and participatory governance" | Core normative conclusion. Applied in memo's Section III as the standard the Neighborhood Time Infrastructure Fund must meet: equity and participatory governance in allocation logic. | Policy Normative Standard |
+| "integrated Urban AI models that balance technical effectiveness with democratic oversight" | Directly supports the memo's counter-cyclical fund allocation argument — purely technical (data-driven) allocation cannot achieve equity; democratic override is necessary. | Democratic Oversight |
+| Published in special issue: Plan AIr — Urban Artificial Intelligence: Approaches, Tools, Opportunities and Challenges | Peer-reviewed, current (2026), urban planning domain. Highest-quality source type available for this argument. | Source Quality |

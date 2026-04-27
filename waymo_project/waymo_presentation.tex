@@ -1,0 +1,182 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\title{Waymo: Autonomous Mobility \& Urban Impact}
+\subtitle{Product Evaluation \& Policy Recommendations}
+\author{Jiayi \and Daniel \and June}
+\date{Urban Tech Seminar}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Agenda}
+\begin{itemize}
+    \item \textbf{Product \& Context (Jiayi)}
+    \begin{itemize}
+        \item Technology \& Functionality
+        \item Existing Deployments \& Market Trend
+    \end{itemize}
+    \vspace{0.2cm}
+    \item \textbf{Impact Analysis (Daniel)}
+    \begin{itemize}
+        \item Physical Planning, Workforce Development, Data \& Privacy
+    \end{itemize}
+    \vspace{0.2cm}
+    \item \textbf{Policy \& Design Recommendations (June)}
+    \begin{itemize}
+        \item Infrastructure Equity, AV-Transit Hubs, Grid Strategies
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Part 1: Product \& Context (Jiayi)}
+
+\begin{frame}{What is Waymo?}
+\textbf{Mission:} To make it safe and easy for people and things to get where they're going.
+\vspace{0.5cm}
+
+\textbf{Technology Stack (Level 4 Autonomy):}
+\begin{itemize}
+    \item \textbf{LiDAR:} 3D spatial mapping.
+    \item \textbf{Radar:} Distance and speed tracking in all weather conditions.
+    \item \textbf{Cameras:} Visual context (e.g., stoplights, signs).
+    \item Relies heavily on high-fidelity, pre-mapped environments rather than vision alone.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Current Deployments \& Market}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+\textbf{Commercial Zones}
+\begin{itemize}
+    \item Phoenix (Waymo One)
+    \item San Francisco
+    \item Los Angeles
+    \item Austin
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\textbf{Market Position}
+\begin{itemize}
+    \item Clear market leader in the US robotaxi sector.
+    \item Transitioning from R\&D to scaled public utility.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{User Experience \& Critiques}
+The human-machine interaction introduces new friction points.
+
+\vspace{0.5cm}
+\textbf{The ``Empty Driver's Seat'' Dilemma}
+\begin{itemize}
+    \item Users often report feeling awkward or anxious without a human presence.
+    \item \textbf{Proposal:} Implement a chatbot agent/avatar in the driver's seat screen to humanize the experience.
+    \item \textbf{Edge Cases:} Managing passenger capacity limits (e.g., 5 people in a 4-person ride using the driver's seat) requires better warning systems and UI guidance during emergencies.
+\end{itemize}
+\end{frame}
+
+\section{Part 2: Impact Analysis (Daniel)}
+
+\begin{frame}{Physical Planning \& Infrastructure}
+\begin{itemize}
+    \item \textbf{Equity:} Waymo service zones often mirror historical disparities; better roads get AVs first, risking a ``two-tiered'' mobility system (UC Berkeley, 2025).
+    \item \textbf{Energy Paradox:} ``Data centers on wheels.'' While the fleet avoids tailpipe emissions, compute power for autonomy requires massive grid energy (MIT, 2025).
+    \item \textbf{Safety:} 92\% fewer pedestrian injuries compared to human drivers (Waymo, 2026).
+    \item \textbf{Transit:} Potential to fill ``transit mobility gaps'' for seniors and paratransit riders (Valley Metro pilot).
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Workforce Development}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+\textbf{Job Creation}
+\begin{itemize}
+    \item \textbf{+114k:} Projected new jobs in AV production, maintenance, and remote operations over 15 years (Chamber of Progress, 2024).
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}
+\textbf{Labor Displacement}
+\begin{itemize}
+    \item 85\% of surveyed adults fear significant job losses for ride-hailing/delivery drivers (UCSD, 2026).
+    \item Direct exposure to AV tech correlates with declines in commercial driver licensing.
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Data \& Privacy}
+\begin{itemize}
+    \item \textbf{Surveillance Concerns:} Vehicles capture vast amounts of ``urban spatial data,'' raising concerns about increased street-level surveillance of neighborhoods.
+    \item \textbf{Regulatory Confidentiality:} Waymo frequently requests keeping operational data confidential from regulators, citing trade secrets (SF Examiner).
+    \item \textbf{Data Transparency:} Maintains an Open Dataset to share sensor data with researchers to improve safety perception models.
+\end{itemize}
+\end{frame}
+
+\section{Part 3: Policy \& Design Recommendations (June)}
+
+\begin{frame}{The Core Challenge}
+\textbf{Domain Focus: Physical Planning}
+\vspace{0.5cm}
+
+How do we integrate AVs into the urban fabric to maximize safety and accessibility, without:
+\begin{itemize}
+    \item Exacerbating spatial inequities?
+    \item Stressing the local power grid?
+    \item Cannibalizing existing public transit networks?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{1. Equitable Service Zones}
+\textbf{Mandate a ``Mobility Equity Framework'' for operators:}
+\begin{itemize}
+    \item Link expansion in high-income/high-demand areas with proportional service deployment in underserved neighborhoods.
+    \item Condition operating permits on serving transit-challenged areas.
+\end{itemize}
+\vspace{0.5cm}
+\textbf{Infrastructure Support:}
+\begin{itemize}
+    \item Municipalities should provide targeted infrastructure upgrades (e.g., road markings, signage) in lower-income areas to facilitate safe AV operation.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{2. AV-Transit Hubs}
+\textbf{Design for First/Last Mile connectivity, not direct transit competition.}
+\begin{itemize}
+    \item \textbf{Physical Design:} Redesign infrastructure around major transit stations to include dedicated, geofenced AV pick-up/drop-off zones, repurposing curbside parking.
+    \item \textbf{Pricing Policy:} Implement geofencing regulations that mandate lower pricing for AV trips that originate or terminate at high-capacity transit stations.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{3. Grid Integration \& V2I}
+\textbf{Energy Management:}
+\begin{itemize}
+    \item Address the ``data center on wheels'' demand by zoning AV depots in industrial areas with robust electrical capacity.
+    \item Mandate off-peak charging schedules or local renewable energy generation at fleet hubs.
+\end{itemize}
+\vspace{0.5cm}
+\textbf{Vehicle-to-Infrastructure (V2I):}
+\begin{itemize}
+    \item Allocate infrastructure funds to upgrade traffic signals to communicate directly with the AV fleet.
+    \item Standardize data sharing to continuously monitor intersection safety.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusion}
+\begin{center}
+\Large{\textbf{The Future of Urban Mobility}}
+\vspace{0.5cm}
+
+If regulated correctly, Waymo isn't just a technology product; it becomes a piece of public-private transit infrastructure that makes cities safer, more connected, and more accessible.
+\vspace{1cm}
+
+\textbf{Questions?}
+\end{center}
+\end{frame}
+
+\end{document}

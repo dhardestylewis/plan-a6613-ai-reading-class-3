@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waymo: Autonomous Mobility & Urban Impact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0e1a;
+            --text-main: #e8eaf0;
+            --text-muted: #b0b8d0;
+            --accent-teal: #00c9b1;
+            --accent-amber: #ffb347;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(0, 201, 177, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .deck {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .slide {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px 10%;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            transform: translateX(50px);
+        }
+
+        .slide.active {
+            opacity: 1;
+            pointer-events: all;
+            transform: translateX(0);
+        }
+
+        .slide.prev {
+            transform: translateX(-50px);
+        }
+
+        .tag {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-teal);
+            margin-bottom: 20px;
+            align-self: flex-start;
+            width: 100%;
+        }
+
+        .title-slide {
+            text-align: center;
+            align-items: center;
+        }
+
+        .title-slide .tag {
+            text-align: center;
+            align-self: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #fff;
+            margin-bottom: 20px;
+            align-self: flex-start;
+            width: 100%;
+        }
+
+        .title-slide h1 {
+            align-self: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--accent-teal);
+            margin-bottom: 10px;
+        }
+
+        p, li {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            width: 100%;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 12px;
+        }
+
+        ul li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent-teal);
+            font-weight: bold;
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .highlight {
+            color: var(--accent-amber);
+            font-weight: 700;
+        }
+
+        .teal-text {
+            color: var(--accent-teal);
+        }
+
+        .stat-large {
+            font-size: 4rem;
+            font-weight: 900;
+            color: var(--accent-teal);
+            margin-bottom: 10px;
+            line-height: 1;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            right: 40px;
+            display: flex;
+            gap: 15px;
+            z-index: 100;
+        }
+
+        button {
+            background: rgba(0, 201, 177, 0.1);
+            border: 1px solid var(--accent-teal);
+            color: var(--accent-teal);
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        button:hover {
+            background: var(--accent-teal);
+            color: var(--bg-color);
+        }
+
+        .progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-teal), var(--accent-amber));
+            width: 0%;
+            transition: width 0.3s ease;
+            z-index: 100;
+        }
+
+        .slide-counter {
+            position: fixed;
+            bottom: 30px;
+            left: 40px;
+            color: var(--text-muted);
+            font-size: 1rem;
+            font-family: monospace;
+            z-index: 100;
+        }
+
+        .presenter-badge {
+            display: inline-block;
+            background: rgba(255, 179, 71, 0.2);
+            color: var(--accent-amber);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="progress-bar" id="progress"></div>
+    <div class="slide-counter" id="counter">1 / 14</div>
+
+    <div class="deck">
+        <!-- Slide 1: Title -->
+        <div class="slide title-slide active">
+            <div class="tag">Urban Tech Seminar Presentation</div>
+            <h1 style="text-align: center;">Waymo: Autonomous Mobility<br>& Urban Impact</h1>
+            <p style="text-align: center; font-size: 1.5rem; margin-top: 20px;">Product Evaluation & Policy Recommendations</p>
+            <p style="text-align: center; margin-top: 40px;">Jiayi | Daniel | June</p>
+        </div>
+
+        <!-- Slide 2: Agenda -->
+        <div class="slide">
+            <div class="content-container">
+                <h1>Agenda</h1>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>1. Product & Context</h3>
+                        <p class="presenter-badge">Jiayi</p>
+                        <ul>
+                            <li>Technology & Functionality</li>
+                            <li>Existing Deployments</li>
+                            <li>Market Trend & UX</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>2. Impact Analysis</h3>
+                        <p class="presenter-badge">Daniel</p>
+                        <ul>
+                            <li>Physical Planning</li>
+                            <li>Workforce Development</li>
+                            <li>Data & Privacy</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="grid-column: span 2;">
+                        <h3>3. Policy & Design Recommendations</h3>
+                        <p class="presenter-badge">June</p>
+                        <ul>
+                            <li>Addressing Infrastructure Equity</li>
+                            <li>AV-Transit Hub Integration</li>
+                            <li>Grid Management Strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Product Intro -->
+        <div class="slide">
+            <div class="tag">Part 1: Product — Jiayi</div>
+            <div class="content-container">
+                <h1>What is Waymo?</h1>
+                <p>Formerly the Google Self-Driving Car Project, Waymo operates a fully autonomous (Level 4) ride-hailing service.</p>
+                <div class="grid-2">
+                    <div>
+                        <h3>The Mission</h3>
+                        <p>To make it safe and easy for people and things to get where they're going, eliminating human driving errors (responsible for 94% of crashes).</p>
+                    </div>
+                    <div class="card">
+                        <h3>Technology Stack</h3>
+                        <ul>
+                            <li><span class="teal-text">LiDAR:</span> 3D spatial mapping</li>
+                            <li><span class="teal-text">Radar:</span> Distance/speed in all weather</li>
+                            <li><span class="teal-text">Cameras:</span> Visual context (signs, lights)</li>
+                            <li>Heavy reliance on high-fidelity, pre-mapped environments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Current Context -->
+        <div class="slide">
+            <div class="tag">Part 1: Existing Context — Jiayi</div>
+            <div class="content-container">
+                <h1>Current Deployments & Market</h1>
+                <div class="grid-2">
+                    <div>
+                        <h3>Commercial Zones</h3>
+                        <ul>
+                            <li>Phoenix (Waymo One)</li>
+                            <li>San Francisco</li>
+                            <li>Los Angeles</li>
+                            <li>Austin</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Market Position</h3>
+                        <p>Waymo is currently the clear market leader in the US robotaxi sector, scaling commercial operations while competitors face regulatory setbacks.</p>
+                        <p class="highlight">Status: Transitioning from R&D to scaled public utility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: UX Critiques -->
+        <div class="slide">
+            <div class="tag">Part 1: Existing Context — Jiayi</div>
+            <div class="content-container">
+                <h1>User Experience & Critiques</h1>
+                <p>While safety records are strong, the human-machine interaction introduces new friction points.</p>
+                <div class="card" style="margin-top: 30px;">
+                    <h3>The "Empty Driver's Seat" Dilemma</h3>
+                    <p>Users report feeling awkward or anxious without a human presence.</p>
+                    <ul>
+                        <li><span class="teal-text">Proposal:</span> Implement a chatbot agent/avatar in the driver's seat screen to humanize the experience.</li>
+                        <li><span class="teal-text">Edge Case Challenge:</span> Passenger capacity limits (e.g., 5 people in a 4-person ride trying to use the driver's seat). Requires better warning systems and UI guidance during emergencies.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Impacts Intro -->
+        <div class="slide">
+            <div class="tag">Part 2: Impact Analysis — Daniel</div>
+            <div class="content-container">
+                <h1>Analysis of Impacts</h1>
+                <p>Assessing Waymo's broader footprint across three key urban domains:</p>
+                <div class="grid-3">
+                    <div class="card">
+                        <h3 class="teal-text">Physical Planning</h3>
+                        <p>Infrastructure, equity, safety, and energy.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="teal-text">Workforce Dev</h3>
+                        <p>Job creation vs. labor displacement.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="teal-text">Data & Privacy</h3>
+                        <p>Surveillance, transparency, and data sharing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Physical Planning -->
+        <div class="slide">
+            <div class="tag">Part 2: Impact Analysis — Daniel</div>
+            <div class="content-container">
+                <h1>Physical Planning</h1>
+                <div class="grid-2">
+                    <div>
+                        <h3>Equity & Infrastructure</h3>
+                        <p>(UC Berkeley, 2025): Waymo service zones often mirror historical disparities. Better roads get AVs first, risking a "two-tiered" mobility system.</p>
+                        
+                        <h3 style="margin-top: 20px;">Energy Paradox</h3>
+                        <p>(MIT, 2025): "Data centers on wheels." Electric fleet avoids tailpipe emissions, but the compute power for autonomy requires massive grid energy.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Safety & Transit</h3>
+                        <div class="stat-large">92%</div>
+                        <p>Fewer pedestrian injuries compared to human drivers (Waymo, 2026).</p>
+                        <hr style="border: 1px solid var(--card-border); margin: 20px 0;">
+                        <p>Potential to fill "transit mobility gaps" for seniors (Valley Metro pilot).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Workforce -->
+        <div class="slide">
+            <div class="tag">Part 2: Impact Analysis — Daniel</div>
+            <div class="content-container">
+                <h1>Workforce Development</h1>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3 class="teal-text">Job Creation</h3>
+                        <div class="stat-large">+114k</div>
+                        <p>Projected new jobs in AV production, maintenance, and remote operations over 15 years (Chamber of Progress, 2024).</p>
+                    </div>
+                    <div class="card" style="border-color: rgba(255, 179, 71, 0.4);">
+                        <h3 class="highlight">Labor Displacement</h3>
+                        <ul>
+                            <li>85% of surveyed adults fear significant job losses for ride-hailing/delivery drivers (UCSD, 2026).</li>
+                            <li>Direct exposure to AV tech correlates with declines in commercial driver licensing (AEA).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Data & Privacy -->
+        <div class="slide">
+            <div class="tag">Part 2: Impact Analysis — Daniel</div>
+            <div class="content-container">
+                <h1>Data & Privacy</h1>
+                <div class="card">
+                    <h3>Surveillance Concerns</h3>
+                    <p>Vehicles capture vast amounts of "urban spatial data," raising concerns about increased street-level surveillance of neighborhoods (UC).</p>
+                </div>
+                <div class="grid-2" style="margin-top: 20px;">
+                    <div class="card">
+                        <h3>Regulatory Confidentiality</h3>
+                        <p>Waymo requests keeping operational data confidential from regulators, citing trade secrets (SF Examiner).</p>
+                    </div>
+                    <div class="card">
+                        <h3>Data Transparency</h3>
+                        <p>Maintains an Open Dataset to share sensor data with researchers to improve safety perception models.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: Policy Recommendations Intro -->
+        <div class="slide">
+            <div class="tag">Part 3: Recommendations — June</div>
+            <div class="content-container">
+                <h1>Policy & Design Recommendations</h1>
+                <p>Focusing on the <span class="highlight">Physical Planning</span> domain.</p>
+                <div class="card">
+                    <h3>The Core Challenge</h3>
+                    <p>How do we integrate AVs into the urban fabric to maximize safety and accessibility, without exacerbating spatial inequities, stressing the power grid, or cannibalizing existing public transit networks?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Policy 1 -->
+        <div class="slide">
+            <div class="tag">Part 3: Recommendations — June</div>
+            <div class="content-container">
+                <h1>1. Equitable Service Zones</h1>
+                <div class="grid-2">
+                    <div>
+                        <p>Mandate a "Mobility Equity Framework" for autonomous operators.</p>
+                        <ul>
+                            <li>Link expansion in high-income/high-demand areas with proportional service deployment in underserved neighborhoods.</li>
+                            <li>Condition operating permits on serving transit-challenged areas.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Infrastructure Support</h3>
+                        <p>Municipalities should provide targeted infrastructure upgrades (e.g., improved road markings, signage) in lower-income areas to facilitate safe and reliable AV operation where the physical environment is currently lacking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Policy 2 -->
+        <div class="slide">
+            <div class="tag">Part 3: Recommendations — June</div>
+            <div class="content-container">
+                <h1>2. AV-Transit Hubs</h1>
+                <p>Design for First/Last Mile connectivity, not direct transit competition.</p>
+                <div class="card" style="margin-top: 20px;">
+                    <div class="grid-2">
+                        <div>
+                            <h3 class="teal-text">Physical Design</h3>
+                            <p>Redesign infrastructure around major transit stations to include dedicated, geofenced AV pick-up/drop-off zones, repurposing curbside parking.</p>
+                        </div>
+                        <div>
+                            <h3 class="teal-text">Pricing Policy</h3>
+                            <p>Implement geofencing regulations that mandate lower pricing for AV trips that originate or terminate at high-capacity transit stations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 13: Policy 3 -->
+        <div class="slide">
+            <div class="tag">Part 3: Recommendations — June</div>
+            <div class="content-container">
+                <h1>3. Grid Integration & V2I</h1>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Energy Management</h3>
+                        <p>Address the "data center on wheels" demand by zoning AV depots in industrial areas with robust electrical capacity.</p>
+                        <p>Mandate off-peak charging schedules or local renewable energy generation at fleet hubs.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Vehicle-to-Infrastructure (V2I)</h3>
+                        <p>Allocate infrastructure funds to upgrade traffic signals and intersections to communicate directly with the AV fleet.</p>
+                        <p>Standardize data sharing to continuously monitor intersection safety.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 14: Conclusion -->
+        <div class="slide">
+            <div class="tag">Conclusion</div>
+            <div class="content-container" style="align-items: center; text-align: center;">
+                <h1>The Future of Urban Mobility</h1>
+                <p style="max-width: 800px; margin: 0 auto 30px;">If regulated correctly, Waymo isn't just a technology product; it becomes a piece of public-private transit infrastructure that makes cities safer, more connected, and more accessible.</p>
+                
+                <div class="card" style="width: 100%; max-width: 600px; margin-top: 20px;">
+                    <h3>Thank You</h3>
+                    <p>Questions?</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="controls">
+        <button id="prevBtn">← Previous</button>
+        <button id="nextBtn">Next →</button>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const progressBar = document.getElementById('progress');
+        const counter = document.getElementById('counter');
+        let currentSlide = 0;
+
+        function updateDeck() {
+            slides.forEach((slide, index) => {
+                slide.classList.remove('active', 'prev');
+                if (index === currentSlide) {
+                    slide.classList.add('active');
+                } else if (index < currentSlide) {
+                    slide.classList.add('prev');
+                }
+            });
+
+            // Update Progress Bar
+            const progress = ((currentSlide + 1) / slides.length) * 100;
+            progressBar.style.width = `${progress}%`;
+
+            // Update Counter
+            counter.innerText = `${currentSlide + 1} / ${slides.length}`;
+
+            // Update Button States
+            prevBtn.style.opacity = currentSlide === 0 ? '0.5' : '1';
+            prevBtn.style.cursor = currentSlide === 0 ? 'default' : 'pointer';
+            
+            nextBtn.innerText = currentSlide === slides.length - 1 ? 'Finish' : 'Next →';
+        }
+
+        function nextSlide() {
+            if (currentSlide < slides.length - 1) {
+                currentSlide++;
+                updateDeck();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                updateDeck();
+            }
+        }
+
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
+
+        // Initialize
+        updateDeck();
+    </script>
+</body>
+</html>
