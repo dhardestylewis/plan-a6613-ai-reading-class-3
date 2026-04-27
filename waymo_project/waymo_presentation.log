@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  27 APR 2026 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  27 APR 2026 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,68 +1066,69 @@ Overfull \hbox (6.58302pt too wide) in paragraph at lines 83--83
 [3
 
 ]
-<figures/us_wide_map.png, id=46, 1923.185pt x 979.66pt>
+<figures/us_wide_map.png, id=46, 3846.37pt x 1991.44pt>
 File: figures/us_wide_map.png Graphic file (type png)
 <use figures/us_wide_map.png>
 Package pdftex.def Info: figures/us_wide_map.png  used on input line 88.
-(pdftex.def)             Requested size: 398.33449pt x 202.90942pt.
+(pdftex.def)             Requested size: 398.33449pt x 206.23581pt.
  [4
 
  <./figures/us_wide_map.png (PNG copy)>]
-<figures/leaderboard_plot.png, id=52, 964.0818pt x 386.1627pt>
-File: figures/leaderboard_plot.png Graphic file (type png)
-<use figures/leaderboard_plot.png>
-Package pdftex.def Info: figures/leaderboard_plot.png  used on input line 110.
-(pdftex.def)             Requested size: 278.83578pt x 111.68379pt.
+<figures/authentic_leaderboard.png, id=52, 1824.8175pt x 1479.5275pt>
+File: figures/authentic_leaderboard.png Graphic file (type png)
+<use figures/authentic_leaderboard.png>
+Package pdftex.def Info: figures/authentic_leaderboard.png  used on input line 
+93.
+(pdftex.def)             Requested size: 264.2437pt x 214.24379pt.
  [5
 
- <./figures/leaderboard_plot.png>]
-<figures/tesla_vs_waymo.png, id=61, 1084.05pt x 804.00375pt>
+ <./figures/authentic_leaderboard.png (PNG copy)>]
+<figures/tesla_vs_waymo.png, id=58, 1084.05pt x 804.00375pt>
 File: figures/tesla_vs_waymo.png Graphic file (type png)
 <use figures/tesla_vs_waymo.png>
-Package pdftex.def Info: figures/tesla_vs_waymo.png  used on input line 115.
+Package pdftex.def Info: figures/tesla_vs_waymo.png  used on input line 98.
 (pdftex.def)             Requested size: 288.89293pt x 214.26225pt.
  [6
 
  <./figures/tesla_vs_waymo.png (PNG copy)>]
-<figures/official_sf_map.png, id=67, 1927.2pt x 1084.05pt>
+<figures/official_sf_map.png, id=64, 1927.2pt x 1084.05pt>
 File: figures/official_sf_map.png Graphic file (type png)
 <use figures/official_sf_map.png>
-Package pdftex.def Info: figures/official_sf_map.png  used on input line 120.
+Package pdftex.def Info: figures/official_sf_map.png  used on input line 103.
 (pdftex.def)             Requested size: 380.90456pt x 214.2588pt.
  [7
 
  <./figures/official_sf_map.png (PNG copy)>]
-<figures/official_la_map.png, id=74, 1927.2pt x 1084.05pt>
+<figures/official_la_map.png, id=71, 1927.2pt x 1084.05pt>
 File: figures/official_la_map.png Graphic file (type png)
 <use figures/official_la_map.png>
-Package pdftex.def Info: figures/official_la_map.png  used on input line 125.
+Package pdftex.def Info: figures/official_la_map.png  used on input line 108.
 (pdftex.def)             Requested size: 380.90456pt x 214.2588pt.
  [8
 
  <./figures/official_la_map.png (PNG copy)>]
-<figures/actual_coverage_atx.png, id=80, 1925.1925pt x 2137.9875pt>
+<figures/actual_coverage_atx.png, id=77, 1925.1925pt x 2137.9875pt>
 File: figures/actual_coverage_atx.png Graphic file (type png)
 <use figures/actual_coverage_atx.png>
-Package pdftex.def Info: figures/actual_coverage_atx.png  used on input line 13
-0.
+Package pdftex.def Info: figures/actual_coverage_atx.png  used on input line 11
+3.
 (pdftex.def)             Requested size: 192.91241pt x 214.23537pt.
  [9
 
  <./figures/actual_coverage_atx.png (PNG copy)>]
-<figures/waymo_ux_1777314794204.png, id=86, 246.6816pt x 246.6816pt>
+<figures/waymo_ux_1777314794204.png, id=83, 246.6816pt x 246.6816pt>
 File: figures/waymo_ux_1777314794204.png Graphic file (type png)
 <use figures/waymo_ux_1777314794204.png>
 Package pdftex.def Info: figures/waymo_ux_1777314794204.png  used on input line
- 145.
+ 128.
 (pdftex.def)             Requested size: 201.66667pt x 201.66667pt.
  [10
 
  <./figures/waymo_ux_1777314794204.png>]
-<figures/safety_plot.png, id=93, 433.62pt x 289.08pt>
+<figures/safety_plot.png, id=90, 433.62pt x 289.08pt>
 File: figures/safety_plot.png Graphic file (type png)
 <use figures/safety_plot.png>
-Package pdftex.def Info: figures/safety_plot.png  used on input line 163.
+Package pdftex.def Info: figures/safety_plot.png  used on input line 146.
 (pdftex.def)             Requested size: 199.1693pt x 132.7799pt.
  [11
 
@@ -1140,14 +1141,14 @@ Package pdftex.def Info: figures/safety_plot.png  used on input line 163.
 ] [15
 
 ]
-<figures/waymo_hub_1777314805437.png, id=121, 246.6816pt x 246.6816pt>
+<figures/waymo_hub_1777314805437.png, id=119, 246.6816pt x 246.6816pt>
 File: figures/waymo_hub_1777314805437.png Graphic file (type png)
 <use figures/waymo_hub_1777314805437.png>
 Package pdftex.def Info: figures/waymo_hub_1777314805437.png  used on input lin
-e 244.
+e 227.
 (pdftex.def)             Requested size: 239.00558pt x 239.0136pt.
 
-Overfull \vbox (12.6763pt too high) detected at line 244
+Overfull \vbox (12.6763pt too high) detected at line 227
  []
 
 [16
@@ -1175,24 +1176,23 @@ Package rerunfilecheck Info: File `waymo_presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 344F40897999E25E0A07731A486F0E0F;552.
  ) 
 Here is how much of TeX's memory you used:
- 25683 strings out of 467871
- 517415 string characters out of 5419344
+ 25680 strings out of 467871
+ 517404 string characters out of 5419344
  898408 words of memory out of 5000000
- 54021 multiletter control sequences out of 15000+600000
- 643720 words of font info for 96 fonts, out of 8000000 for 9000
+ 54019 multiletter control sequences out of 15000+600000
+ 643375 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,123p,413b,1097s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\dhl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsx10
-95.pk><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmss10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmss12.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmssbx10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/dhl/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on waymo_presentation.pdf (18 pages, 7648648 bytes).
+<C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ss10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmss12.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmssi10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/dhl/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on waymo_presentation.pdf (18 pages, 8461786 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
  117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
