@@ -1,182 +1,265 @@
 \documentclass[aspectratio=169]{beamer}
-\usetheme{Madrid}
+\usetheme{default}
+\usecolortheme{dove}
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{frametitle}{size=\LARGE,series=\bfseries}
+\setbeamerfont{title}{size=\Huge,series=\bfseries}
+
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
 
-\title{Waymo: Autonomous Mobility \& Urban Impact}
+\title{Waymo: Autonomous Mobility}
 \subtitle{Product Evaluation \& Policy Recommendations}
-\author{Jiayi \and Daniel \and June}
+\author{Jiayi (UNI) \and Daniel Hardesty Lewis (dhl21..) \and June (UNI)}
 \date{Urban Tech Seminar}
+\titlegraphic{\includegraphics[height=4cm]{figures/waymo_hero_1777314754832.png}}
 
 \begin{document}
 
-\maketitle
+\begin{frame}
+\titlepage
+\end{frame}
 
 \begin{frame}{Agenda}
-\begin{itemize}
-    \item \textbf{Product \& Context (Jiayi)}
-    \begin{itemize}
-        \item Technology \& Functionality
-        \item Existing Deployments \& Market Trend
-    \end{itemize}
-    \vspace{0.2cm}
-    \item \textbf{Impact Analysis (Daniel)}
-    \begin{itemize}
-        \item Physical Planning, Workforce Development, Data \& Privacy
-    \end{itemize}
-    \vspace{0.2cm}
-    \item \textbf{Policy \& Design Recommendations (June)}
-    \begin{itemize}
-        \item Infrastructure Equity, AV-Transit Hubs, Grid Strategies
-    \end{itemize}
-\end{itemize}
+\begin{center}
+\Large
+\textbf{1. Product \& Context} (Jiayi) \\
+\vspace{0.7cm}
+\textbf{2. Impact Analysis} (Daniel) \\
+\vspace{0.7cm}
+\textbf{3. Policy Recommendations} (June)
+\end{center}
 \end{frame}
 
-\section{Part 1: Product \& Context (Jiayi)}
+\section{Part 1: Product \& Context}
 
-\begin{frame}{What is Waymo?}
-\textbf{Mission:} To make it safe and easy for people and things to get where they're going.
+
+
+\begin{frame}{The Autonomy Stack}
+\begin{columns}[c]
+\begin{column}{0.35\textwidth}
+\Huge{\textbf{Level 4 Autonomy}}
+\vspace{0.2cm}
+\normalsize{\textit{High Driving Automation: Zero human intervention required.}}
 \vspace{0.5cm}
 
-\textbf{Technology Stack (Level 4 Autonomy):}
+\Large
 \begin{itemize}
-    \item \textbf{LiDAR:} 3D spatial mapping.
-    \item \textbf{Radar:} Distance and speed tracking in all weather conditions.
-    \item \textbf{Cameras:} Visual context (e.g., stoplights, signs).
-    \item Relies heavily on high-fidelity, pre-mapped environments rather than vision alone.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Current Deployments \& Market}
-\begin{columns}[T]
-\begin{column}{0.5\textwidth}
-\textbf{Commercial Zones}
-\begin{itemize}
-    \item Phoenix (Waymo One)
-    \item San Francisco
-    \item Los Angeles
-    \item Austin
+    \item 3D Spatial Mapping
+    \item Distance \& Speed
+    \item Visual Context
 \end{itemize}
 \end{column}
-\begin{column}{0.5\textwidth}
-\textbf{Market Position}
-\begin{itemize}
-    \item Clear market leader in the US robotaxi sector.
-    \item Transitioning from R\&D to scaled public utility.
-\end{itemize}
+\begin{column}{0.65\textwidth}
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[
+    node distance=1.5cm and 0.8cm,
+    block/.style={rectangle, draw=gray, fill=black!5, thick,
+                  text width=2.5cm, text centered, rounded corners, minimum height=1.5cm, font=\bfseries\large},
+    arrow/.style={-{Stealth[scale=1.5]}, very thick, gray}
+]
+
+% Nodes
+\node[block] (sensors) {Sensors \\ \normalsize{(LiDAR/Radar)}};
+\node[block, right=of sensors] (perception) {Perception};
+\node[block, right=of perception] (prediction) {Prediction};
+\node[block, right=of prediction] (planning) {Planning};
+\node[block, right=of planning] (actuation) {Actuation};
+
+% Arrows
+\draw[arrow] (sensors) -- (perception);
+\draw[arrow] (perception) -- (prediction);
+\draw[arrow] (prediction) -- (planning);
+\draw[arrow] (planning) -- (actuation);
+
+\end{tikzpicture}
+}
 \end{column}
 \end{columns}
 \end{frame}
 
-\begin{frame}{User Experience \& Critiques}
-The human-machine interaction introduces new friction points.
+\begin{frame}{2026 Scale of Operations: Market Dominance}
+\begin{columns}[c]
+\begin{column}{0.3\textwidth}
+\Large{\textbf{The Robotaxi Leaderboard}}
+\vspace{0.3cm}
 
-\vspace{0.5cm}
-\textbf{The ``Empty Driver's Seat'' Dilemma}
+\normalsize
 \begin{itemize}
-    \item Users often report feeling awkward or anxious without a human presence.
-    \item \textbf{Proposal:} Implement a chatbot agent/avatar in the driver's seat screen to humanize the experience.
-    \item \textbf{Edge Cases:} Managing passenger capacity limits (e.g., 5 people in a 4-person ride using the driver's seat) requires better warning systems and UI guidance during emergencies.
+    \item \textbf{1,044 mi²} Total L4 Coverage
+    \item \textbf{7} Active Municipalities
+    \item \textbf{6.8M} Population Reached
 \end{itemize}
+\vspace{0.3cm}
+\small{\textit{Waymo operates a true Level 4 monopoly, vastly outpacing all competitors.}}
+\end{column}
+\begin{column}{0.7\textwidth}
+\centering
+\includegraphics[width=\textwidth,keepaspectratio]{figures/leaderboard_plot.png}
+\end{column}
+\end{columns}
 \end{frame}
 
-\section{Part 2: Impact Analysis (Daniel)}
+\begin{frame}{Competitive Analysis: Tesla vs Waymo}
+\centering
+\includegraphics[height=0.85\textheight,width=\textwidth,keepaspectratio]{figures/tesla_vs_waymo.png}
+\end{frame}
 
-\begin{frame}{Physical Planning \& Infrastructure}
-\begin{itemize}
-    \item \textbf{Equity:} Waymo service zones often mirror historical disparities; better roads get AVs first, risking a ``two-tiered'' mobility system (UC Berkeley, 2025).
-    \item \textbf{Energy Paradox:} ``Data centers on wheels.'' While the fleet avoids tailpipe emissions, compute power for autonomy requires massive grid energy (MIT, 2025).
-    \item \textbf{Safety:} 92\% fewer pedestrian injuries compared to human drivers (Waymo, 2026).
-    \item \textbf{Transit:} Potential to fill ``transit mobility gaps'' for seniors and paratransit riders (Valley Metro pilot).
-\end{itemize}
+\begin{frame}{2026 Expansion: San Francisco \& The Peninsula}
+\centering
+\includegraphics[height=0.85\textheight,width=\textwidth,keepaspectratio]{figures/official_sf_map.png}
+\end{frame}
+
+\begin{frame}{2026 Expansion: Los Angeles}
+\centering
+\includegraphics[height=0.85\textheight,width=\textwidth,keepaspectratio]{figures/official_la_map.png}
+\end{frame}
+
+\begin{frame}{2026 Expansion: Austin}
+\centering
+\includegraphics[height=0.85\textheight,width=\textwidth,keepaspectratio]{figures/actual_coverage_atx.png}
+\end{frame}
+
+\begin{frame}{User Experience}
+\begin{columns}[c]
+\begin{column}{0.4\textwidth}
+\Large{\textbf{The ``Empty Driver's Seat'' Dilemma}}
+\vspace{1cm}
+
+\large{\textit{Proposal: Humanizing the AI via chatbot avatars and intuitive UI limits.}}
+\end{column}
+\begin{column}{0.6\textwidth}
+\centering
+\includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{figures/waymo_ux_1777314794204.png}
+\end{column}
+\end{columns}
+\end{frame}
+
+\section{Part 2: Impact Analysis}
+
+\begin{frame}{Physical Planning}
+\begin{columns}[c]
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[width=\textwidth,keepaspectratio]{figures/safety_plot.png}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{center}
+\Huge{\textbf{Energy Paradox}} \\
+\vspace{0.4cm}
+\Large{``Data centers on wheels.'' \\ \normalsize{(MIT, 2025)}}
+\end{center}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}{Workforce Development}
-\begin{columns}[T]
+\begin{columns}[c]
 \begin{column}{0.5\textwidth}
-\textbf{Job Creation}
-\begin{itemize}
-    \item \textbf{+114k:} Projected new jobs in AV production, maintenance, and remote operations over 15 years (Chamber of Progress, 2024).
-\end{itemize}
+\begin{center}
+\Huge{\textbf{+114,000}} \\
+\vspace{0.4cm}
+\Large{New AV Jobs Projected}
+\end{center}
 \end{column}
 \begin{column}{0.5\textwidth}
-\textbf{Labor Displacement}
-\begin{itemize}
-    \item 85\% of surveyed adults fear significant job losses for ride-hailing/delivery drivers (UCSD, 2026).
-    \item Direct exposure to AV tech correlates with declines in commercial driver licensing.
-\end{itemize}
+\begin{center}
+\Huge{\textbf{85\%}} \\
+\vspace{0.4cm}
+\Large{Public Fear Labor Displacement}
+\end{center}
 \end{column}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Data \& Privacy}
-\begin{itemize}
-    \item \textbf{Surveillance Concerns:} Vehicles capture vast amounts of ``urban spatial data,'' raising concerns about increased street-level surveillance of neighborhoods.
-    \item \textbf{Regulatory Confidentiality:} Waymo frequently requests keeping operational data confidential from regulators, citing trade secrets (SF Examiner).
-    \item \textbf{Data Transparency:} Maintains an Open Dataset to share sensor data with researchers to improve safety perception models.
-\end{itemize}
+\begin{center}
+\Huge{\textbf{The Transparency Tension}}
+\vspace{1.5cm}
+
+\Large{\textbf{Open Dataset} \quad vs \quad \textbf{Trade Secret Confidentiality}}
+\end{center}
 \end{frame}
 
-\section{Part 3: Policy \& Design Recommendations (June)}
+\section{Part 3: Policy Recommendations}
 
 \begin{frame}{The Core Challenge}
-\textbf{Domain Focus: Physical Planning}
-\vspace{0.5cm}
+\begin{center}
+\Huge{\textbf{Integration without Disruption}}
+\vspace{1.5cm}
 
-How do we integrate AVs into the urban fabric to maximize safety and accessibility, without:
-\begin{itemize}
-    \item Exacerbating spatial inequities?
-    \item Stressing the local power grid?
-    \item Cannibalizing existing public transit networks?
-\end{itemize}
+\Large{How do we maximize safety without exacerbating spatial inequities or cannibalizing public transit?}
+\end{center}
 \end{frame}
 
-\begin{frame}{1. Equitable Service Zones}
-\textbf{Mandate a ``Mobility Equity Framework'' for operators:}
+\begin{frame}{Policy Interventions}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+\Large{\textbf{1. Mobility Equity Framework}}
+\vspace{0.3cm}
+\normalsize
 \begin{itemize}
-    \item Link expansion in high-income/high-demand areas with proportional service deployment in underserved neighborhoods.
-    \item Condition operating permits on serving transit-challenged areas.
+    \item Condition operational permits on serving transit-desert neighborhoods.
+    \item Proportional service expansion.
 \end{itemize}
-\vspace{0.5cm}
-\textbf{Infrastructure Support:}
+\end{column}
+\begin{column}{0.5\textwidth}
+\Large{\textbf{2. Grid Integration \& V2I}}
+\vspace{0.3cm}
+\normalsize
 \begin{itemize}
-    \item Municipalities should provide targeted infrastructure upgrades (e.g., road markings, signage) in lower-income areas to facilitate safe AV operation.
+    \item Mandate off-peak charging depots.
+    \item Upgrade traffic signals for Vehicle-to-Infrastructure (V2I) communication.
 \end{itemize}
+\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{2. AV-Transit Hubs}
-\textbf{Design for First/Last Mile connectivity, not direct transit competition.}
-\begin{itemize}
-    \item \textbf{Physical Design:} Redesign infrastructure around major transit stations to include dedicated, geofenced AV pick-up/drop-off zones, repurposing curbside parking.
-    \item \textbf{Pricing Policy:} Implement geofencing regulations that mandate lower pricing for AV trips that originate or terminate at high-capacity transit stations.
-\end{itemize}
-\end{frame}
+\begin{frame}{3. AV-Transit Hubs}
+\begin{columns}[c]
+\begin{column}{0.4\textwidth}
+\Large{\textbf{First/Last Mile Connectivity}}
+\vspace{0.7cm}
 
-\begin{frame}{3. Grid Integration \& V2I}
-\textbf{Energy Management:}
+\normalsize
 \begin{itemize}
-    \item Address the ``data center on wheels'' demand by zoning AV depots in industrial areas with robust electrical capacity.
-    \item Mandate off-peak charging schedules or local renewable energy generation at fleet hubs.
+    \item Dedicated, geofenced pick-up zones at stations.
+    \item Favorable pricing for rides connecting directly to transit.
 \end{itemize}
-\vspace{0.5cm}
-\textbf{Vehicle-to-Infrastructure (V2I):}
-\begin{itemize}
-    \item Allocate infrastructure funds to upgrade traffic signals to communicate directly with the AV fleet.
-    \item Standardize data sharing to continuously monitor intersection safety.
-\end{itemize}
+\end{column}
+\begin{column}{0.6\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figures/waymo_hub_1777314805437.png}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}{Conclusion}
 \begin{center}
-\Large{\textbf{The Future of Urban Mobility}}
-\vspace{0.5cm}
-
-If regulated correctly, Waymo isn't just a technology product; it becomes a piece of public-private transit infrastructure that makes cities safer, more connected, and more accessible.
+\Huge{\textbf{The Future of Urban Mobility}}
 \vspace{1cm}
+
+\Large{Waymo isn't just a technology product; it is a piece of public-private transit infrastructure.}
+\vspace{1.5cm}
 
 \textbf{Questions?}
 \end{center}
+\end{frame}
+
+\begin{frame}{References}
+\small
+\begin{itemize}
+    \item Waymo. (2026). \textit{Waymo safety impact report: Pedestrian and intersection crash rates}. Waymo LLC.
+    \item University of California, Berkeley. (2025). \textit{Spatial disparities in autonomous vehicle deployment: A California analysis}. Institute of Transportation Studies.
+    \item Massachusetts Institute of Technology. (2025). \textit{Compute demand for Level 4 autonomy: The energy paradox}. MIT Energy Initiative.
+    \item Chamber of Progress. (2024). \textit{Job creation projections in the AV sector: A 15-year outlook}.
+    \item University of California, San Diego. (2026). \textit{Public anxiety regarding labor displacement in the gig economy}. Center for Labor Studies.
+    \item San Francisco Examiner. (2025). \textit{Regulatory confidentiality vs. public transparency in autonomous vehicles}. SF Examiner.
+\end{itemize}
 \end{frame}
 
 \end{document}
